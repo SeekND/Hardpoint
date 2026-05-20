@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Catalog — SC Loadout</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Catalog Configuration</h1>
+    <div class="controls">
+      <div class="tabs">
+        <button class="tab-btn active" data-tab="weapons">Weapons</button>
+        <button class="tab-btn" data-tab="ships">Ships</button>
+      </div>
+      <input type="search" id="search" placeholder="Search name / manufacturer..." />
+      <label class="control tab-only-weapons">
+        <span class="control-label">Size</span>
+        <select id="size-filter">
+          <option value="">All</option>
+          <option value="0">S0</option>
+          <option value="1">S1</option>
+          <option value="2">S2</option>
+          <option value="3">S3</option>
+          <option value="4">S4</option>
+          <option value="5">S5</option>
+          <option value="6">S6</option>
+          <option value="7">S7</option>
+          <option value="8">S8</option>
+          <option value="9">S9</option>
+          <option value="10">S10</option>
+        </select>
+      </label>
+      <label class="control">
+        <span class="control-label">State</span>
+        <select id="state-filter">
+          <option value="">All</option>
+          <option value="normal">Normal only</option>
+          <option value="forced" class="tab-only-weapons">Forced only</option>
+          <option value="disabled">Disabled only</option>
+        </select>
+      </label>
+      <button id="reset-all" class="btn">Reset current tab</button>
+      <button id="export-backup-btn"   class="btn" title="Full backup — all your config in a dated JSON file">Export backup</button>
+      <button id="export-override-btn" class="btn" title="Download only the actionable overrides (smaller, sharable file)">Export overrides</button>
+      <label class="btn" for="import-input" title="Restore from a backup or overrides file">Import…</label>
+      <input type="file" id="import-input" accept="application/json" hidden />
+      <a href="index.html" class="config-link">← Back to loadout</a>
+    </div>
+  </header>
+
+  <main class="config-main">
+    <div id="status" class="muted"></div>
+    <section id="catalog-table"></section>
+  </main>
+
+  <script src="catalog.js"></script>
+</body>
+</html>

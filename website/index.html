@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SC Loadout (v1)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>SC Loadout <span class="muted">v1</span></h1>
+    <div class="controls global-controls">
+      <label class="control vs-toggle">
+        <input type="checkbox" id="vs-toggle" />
+        <span>Compare 2 ships</span>
+      </label>
+      <a href="catalog.html" class="config-link">Catalog config →</a>
+    </div>
+  </header>
+
+  <!-- Per-panel HTML is rendered from this template (left is inserted on load;
+       right is cloned on demand so radio-name suffixes get rewritten per side). -->
+  <template id="panel-template">
+    <article class="panel" data-side="">
+      <div class="panel-controls">
+        <label class="control">
+          <span class="control-label">Search</span>
+          <input type="search" class="ship-search" placeholder="filter ships…" autocomplete="off" />
+        </label>
+        <label class="control">
+          <span class="control-label">Manufacturer</span>
+          <select class="mfg-filter" autocomplete="off">
+            <option value="">All</option>
+          </select>
+        </label>
+        <label class="control">
+          <span class="control-label">Ship</span>
+          <select class="ship-pick" autocomplete="off"></select>
+        </label>
+        <fieldset class="control">
+          <legend class="control-label">Target tier</legend>
+          <label><input type="radio" name="mode" value="base" checked /> Base</label>
+          <label><input type="radio" name="mode" value="same" /> Same class</label>
+          <label><input type="radio" name="mode" value="up"   /> Punch up</label>
+        </fieldset>
+        <fieldset class="control">
+          <legend class="control-label">Preference</legend>
+          <label><input type="radio" name="pref" value="power" checked /> Most power</label>
+          <label><input type="radio" name="pref" value="pips" /> Closest pips</label>
+        </fieldset>
+        <fieldset class="control">
+          <legend class="control-label">Engagement range</legend>
+          <label><input type="radio" name="range" value="200"  /> 200 m</label>
+          <label><input type="radio" name="range" value="1000" checked /> 1 km</label>
+          <label><input type="radio" name="range" value="2000" /> 2 km</label>
+          <label><input type="radio" name="range" value="3000" /> 3 km</label>
+        </fieldset>
+        <fieldset class="control">
+          <legend class="control-label">Damage type</legend>
+          <label><input type="radio" name="dmgtype" value="any" checked /> Any</label>
+          <label><input type="radio" name="dmgtype" value="ballistic" /> Ballistic</label>
+          <label><input type="radio" name="dmgtype" value="energy" /> Energy</label>
+        </fieldset>
+      </div>
+      <aside class="ship-info"></aside>
+      <div class="content-column">
+        <section class="loadout-box"></section>
+        <section class="vulnerability-box"></section>
+      </div>
+    </article>
+  </template>
+
+  <main class="panels"></main>
+
+  <footer>
+    <div id="status" class="muted"></div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local-only tools and data (not for public repo)
+build_jsons.py
+overrides.json
+ships - Armour.csv
+ships - Weapons.csv
+hardpoint-config-*.json
+patchdata/
+
+# Combined payload (not needed by the live site)
+website/hardpoint_data.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
