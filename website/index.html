@@ -15,11 +15,11 @@
         <span class="brand-sub">Ship Loadout Analyser</span>
       </div>
     </div>
-    <div class="controls global-controls">
-      <label class="control vs-toggle">
-        <input type="checkbox" id="vs-toggle" />
-        <span>Compare 2 ships</span>
-      </label>
+    <label class="vs-pill">
+      <input type="checkbox" id="vs-toggle" />
+      <span>Compare 2 ships</span>
+    </label>
+    <div class="header-actions">
       <a href="https://seeknd.github.io/sc-hub/" class="config-link hub-back" title="Back to SC Hub">← SC Hub</a>
       <a href="catalog.html" class="config-link">Catalog config →</a>
     </div>
@@ -46,27 +46,35 @@
         </label>
         <fieldset class="control">
           <legend class="control-label">Target tier</legend>
-          <label><input type="radio" name="mode" value="base" checked /> Base</label>
-          <label><input type="radio" name="mode" value="same" /> Same class</label>
-          <label><input type="radio" name="mode" value="up"   /> Punch up</label>
+          <div class="pills">
+            <label><input type="radio" name="mode" value="base" checked /> Base</label>
+            <label><input type="radio" name="mode" value="same" /> Same class</label>
+            <label><input type="radio" name="mode" value="up"   /> Punch up</label>
+          </div>
         </fieldset>
         <fieldset class="control">
           <legend class="control-label">Preference</legend>
-          <label><input type="radio" name="pref" value="power" checked /> Most power</label>
-          <label><input type="radio" name="pref" value="pips" /> Closest pips</label>
+          <div class="pills">
+            <label><input type="radio" name="pref" value="power" checked /> Most power</label>
+            <label><input type="radio" name="pref" value="pips" /> Closest pips</label>
+          </div>
         </fieldset>
         <fieldset class="control">
           <legend class="control-label">Engagement range</legend>
-          <label><input type="radio" name="range" value="200"  /> 200 m</label>
-          <label><input type="radio" name="range" value="1000" checked /> 1 km</label>
-          <label><input type="radio" name="range" value="2000" /> 2 km</label>
-          <label><input type="radio" name="range" value="3000" /> 3 km</label>
+          <div class="pills">
+            <label><input type="radio" name="range" value="200"  /> 200 m</label>
+            <label><input type="radio" name="range" value="1000" checked /> 1 km</label>
+            <label><input type="radio" name="range" value="2000" /> 2 km</label>
+            <label><input type="radio" name="range" value="3000" /> 3 km</label>
+          </div>
         </fieldset>
         <fieldset class="control">
           <legend class="control-label">Damage type</legend>
-          <label><input type="radio" name="dmgtype" value="any" checked /> Any</label>
-          <label><input type="radio" name="dmgtype" value="ballistic" /> Ballistic</label>
-          <label><input type="radio" name="dmgtype" value="energy" /> Energy</label>
+          <div class="pills">
+            <label><input type="radio" name="dmgtype" value="any" checked /> Any</label>
+            <label><input type="radio" name="dmgtype" value="ballistic" /> Ballistic</label>
+            <label><input type="radio" name="dmgtype" value="energy" /> Energy</label>
+          </div>
         </fieldset>
       </div>
       <aside class="ship-info"></aside>
