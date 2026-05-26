@@ -24,21 +24,57 @@ body {
 
 .muted { color: var(--text-dim); }
 
-header {
-  background: var(--panel);
+/* === BRANDED HEADER ===
+   Soft gradient panel with an accent underline. Logo glyph + stacked title/subtitle. */
+.site-header {
+  background: linear-gradient(180deg, #1a1f29 0%, var(--panel) 100%);
   border-bottom: 1px solid var(--border);
-  padding: 12px 18px;
+  box-shadow: 0 1px 0 rgba(239, 68, 68, 0.18), 0 6px 14px rgba(0, 0, 0, 0.25);
+  padding: 14px 22px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 18px;
+  position: relative;
 }
-header h1 {
-  font-size: 16px;
+.site-header::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: -1px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent) 0%, rgba(239, 68, 68, 0.0) 240px);
+  pointer-events: none;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.brand-logo {
+  font-size: 24px;
+  color: var(--accent);
+  line-height: 1;
+  text-shadow: 0 0 12px rgba(239, 68, 68, 0.35);
+}
+.brand-stack {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+.brand-stack h1 {
+  font-size: 17px;
   margin: 0;
-  font-weight: 600;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--text);
 }
-header h1 .muted { font-weight: 400; margin-left: 6px; }
+.brand-sub {
+  font-size: 10px;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-top: 2px;
+}
 
 .controls { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
 .global-controls .vs-toggle {
@@ -126,7 +162,7 @@ table.cfg-table td select { min-width: 130px; }
 table.cfg-table tr.state-forced   { background: rgba(210,153,34,0.05); }
 table.cfg-table tr.state-disabled { opacity: 0.55; }
 table.cfg-table tr.state-disabled td.weapon-name { text-decoration: line-through; }
-table.cfg-table tr.has-override   { background: rgba(88,166,255,0.04); }
+table.cfg-table tr.has-override   { background: rgba(239,68,68,0.04); }
 
 table.ships-cfg-table .ship-note { width: 100%; min-width: 140px; }
 table.ships-cfg-table .edit-hp-btn.active {
@@ -240,8 +276,25 @@ table.hp-edit-table .hp-del {
 .control-label {
   font-size: 10px;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
   color: var(--text-dim);
+  font-weight: 600;
+}
+fieldset.control > legend.control-label {
+  position: relative;
+  padding-left: 10px;
+}
+fieldset.control > legend.control-label::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--accent);
+  opacity: 0.7;
 }
 .control select {
   background: var(--panel-2);
@@ -285,12 +338,13 @@ body.vs-mode .panel[data-side="right"] { display: grid; }
   grid-column: 1 / -1;
   background: var(--panel);
   border: 1px solid var(--border);
-  border-radius: 6px;
-  padding: 10px 12px;
+  border-radius: 8px;
+  padding: 12px 14px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 12px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.02) inset, 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 .panel-controls .control select,
 .panel-controls .control input[type="search"] { min-width: 160px; }
@@ -300,13 +354,18 @@ body.vs-mode .panel-controls .control input[type="search"] { min-width: 120px; }
 .ship-info {
   background: var(--panel);
   border: 1px solid var(--border);
-  border-radius: 6px;
-  padding: 12px 14px;
+  border-top: 2px solid var(--accent);
+  border-radius: 8px;
+  padding: 14px 16px;
   font-size: 12px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.02) inset, 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 .ship-info h2 {
-  margin: 0 0 8px 0;
-  font-size: 14px;
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: var(--text);
 }
 .ship-info .stat {
   display: flex;
@@ -336,20 +395,23 @@ body.vs-mode .panel-controls .control input[type="search"] { min-width: 120px; }
 .loadout-box, .vulnerability-box {
   background: var(--panel);
   border: 1px solid var(--border);
-  border-radius: 6px;
+  border-radius: 8px;
   overflow: hidden;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.02) inset, 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 .vulnerability-box .header-row {
-  padding: 8px 12px;
-  background: var(--panel-2);
+  padding: 10px 14px;
+  background: linear-gradient(180deg, var(--panel-2) 0%, var(--panel) 100%);
   font-size: 10px;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
   color: var(--text-dim);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid var(--border);
 }
 .vulnerability-box .header-row .count {
   font-weight: 600;
@@ -427,14 +489,15 @@ table.loadout th, table.loadout td {
   white-space: nowrap;
 }
 table.loadout th {
-  background: var(--panel-2);
+  background: linear-gradient(180deg, var(--panel-2) 0%, var(--panel) 100%);
   color: var(--text-dim);
-  font-weight: 500;
+  font-weight: 600;
   font-size: 10px;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
+  border-bottom: 1px solid var(--border);
 }
-table.loadout tbody tr:hover { background: rgba(88,166,255,0.05); }
+table.loadout tbody tr:hover { background: rgba(239,68,68,0.05); }
 table.loadout th.num,
 table.loadout td.num { text-align: right; font-variant-numeric: tabular-nums; }
 table.loadout td.weapon-name { font-weight: 500; min-width: 280px; }
