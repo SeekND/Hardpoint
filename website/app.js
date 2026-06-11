@@ -73,8 +73,29 @@ function loadShipConfig() {
     return JSON.parse(localStorage.getItem(SHIP_CONFIG_STORAGE_KEY)) || {};
   } catch (_) { return {}; }
 }
-function isShipDisabled(shipName) {
-  return SHIP_CONFIG[shipName]?.state === "disabled";
+/** Effective disabled state — personal config wins, else the baked-in tag. */
+function isShipDisabled(ship) {
+  const local = SHIP_CONFIG[ship.name]?.state;
+  if (local) return local === "disabled";
+  return !!ship.disabled;
+}
+
+/** Salvage flag — personal config wins, else the baked-in data value. */
+function isShipSalvage(ship) {
+  const local = SHIP_CONFIG[ship.name]?.salvage;
+  if (local !== undefined) return !!local;
+  return !!ship.salvage;
+}
+
+/** Component accessibility: "yes" | "no" | "" (unknown). Personal config wins. */
+function shipAccessibility(ship) {
+  const local = SHIP_CONFIG[ship.name]?.components_accessible;
+  if (local !== undefined) return local || "";
+  return ship.components_accessible || "";
+}
+
+function isSalvageView() {
+  return !!document.getElementById("salvage-toggle")?.checked;
 }
 
 /** Expand a hardpoint-override group [{parent_port, count, size, type}] into
@@ -85,12 +106,13 @@ function expandHardpointGroups(groups) {
     if (!g?.parent_port || !g.count || !g.size) continue;
     for (let i = 0; i < g.count; i++) {
       out.push({
-        port:          `${g.parent_port}/override_${i}`,
-        parent_port:   g.parent_port,
-        type:          g.type || "weapon",
-        size:          g.size,
-        size_inferred: false,
-        override:      true,
+        port:                `${g.parent_port}/override_${i}`,
+        parent_port:         g.parent_port,
+        type:                g.type || "weapon",
+        size:                g.size,
+        size_inferred:       false,
+        default_weapon_name: g.default_weapon || null,
+        override:            true,
       });
     }
   }
@@ -129,7 +151,8 @@ function isWeaponAllowed(weapon, currentShipName) {
     if (cfg.state === "normal") return true;
   }
 
-  // Layer 2: data-level restriction (weapon belongs only to specific ships).
+  // Layer 2: data-level restrictions (baked into the data files).
+  if (weapon.disabled) return false;
   if (Array.isArray(weapon.force_to_ships) && weapon.force_to_ships.length > 0) {
     return weapon.force_to_ships.includes(currentShipName);
   }
@@ -164,6 +187,7 @@ async function load() {
     fetch("armor.json" + cb).then(r => r.json()),
   ]);
   ARMOR_BY_SHIP = Object.fromEntries(ARMOR.map(a => [a.ship, a]));
+  SHIPS_BY_NAME = Object.fromEntries(SHIPS.map(s => [s.name, s]));
   CLASS_THRESHOLDS = computeClassThresholds(ARMOR);
   WEAPON_CONFIG = loadWeaponConfig();
   SHIP_CONFIG   = loadShipConfig();
@@ -438,6 +462,7 @@ function pickLoadout(side, ship, mode, pref, range, dmgType) {
 
 /** Sort once, then expose helpers that filter on every change. */
 let SHIPS_SORTED = [];
+let SHIPS_BY_NAME = {};
 
 function populateShipPicker(side) {
   // Single alphabetical sort — fixes the "two sections" issue where CSV-matched
@@ -467,8 +492,10 @@ function refreshShipPicker(side) {
   const q    = ($$(side, ".ship-search").value || "").trim().toLowerCase();
   const mfg  = $$(side, ".mfg-filter").value;
 
+  const salvageOnly = isSalvageView();
   const filtered = SHIPS_SORTED.filter(s => {
-    if (isShipDisabled(s.name)) return false;
+    if (isShipDisabled(s)) return false;
+    if (salvageOnly && !isShipSalvage(s)) return false;
     if (mfg && s.manufacturer !== mfg) return false;
     if (q && !s.name.toLowerCase().includes(q)) return false;
     return true;
@@ -514,6 +541,14 @@ function attach() {
     if (e.target.checked) render("right");
     updateStatus();
   });
+
+  // Salvage view — filters every ship picker down to salvage-tagged ships.
+  const salvageToggle = $("#salvage-toggle");
+  if (salvageToggle) salvageToggle.addEventListener("change", () => {
+    for (const side of SIDES) {
+      if (isSideVisible(side)) { refreshShipPicker(side); render(side); }
+    }
+  });
 }
 
 function attachSide(side) {
@@ -542,8 +577,20 @@ function renderShipInfo(side, ship, armor) {
         `<span class="num">${armor.deflection_threshold[label]}</span>` +
         `<span class="num">${armor.durability_multiplier?.[label] ?? "—"}</span></div>`
       : "";
+  // Components & cargo section — what the ship carries (strippable on a wreck).
+  const acc = shipAccessibility(ship);
+  const accBadge =
+    acc === "yes" ? `<span class="tag good">components removable</span>` :
+    acc === "no"  ? `<span class="tag bad">components sealed</span>` :
+                    `<span class="tag">access unverified</span>`;
+  const salvageBadge = isShipSalvage(ship) ? ` <span class="tag warn">salvage</span>` : "";
+  const compRows = (ship.components || []).map(c =>
+    `<div class="stat"><span class="k">${c.type}</span><span>${c.count > 1 ? `${c.count}× ` : ""}${c.full}</span></div>`
+  ).join("");
+  const cargoVal = (ship.cargo_scu || 0) > 0 ? `${ship.cargo_scu} SCU` : "none";
+
   $$(side, ".ship-info").innerHTML = `
-    <h2>${ship.name}</h2>
+    <h2>${ship.name}${salvageBadge}</h2>
     ${tr("Class", armor?.class)}
     ${tr("Manufacturer", armor?.manufacturer)}
     ${tr("Size", ship.size)}
@@ -553,6 +600,9 @@ function renderShipInfo(side, ship, armor) {
     <div class="section-title">Deflection threshold · Durability mult</div>
     <div class="dmg-row"><span class="h">type</span><span class="h num">thresh</span><span class="h num">dur×</span></div>
     ${["physical","energy","distortion","thermal","biochemical","stun"].map(dmg).join("")}
+    <div class="section-title">Components &amp; cargo &nbsp;${accBadge}</div>
+    ${compRows || '<div class="stat"><span class="k muted">no component data</span><span></span></div>'}
+    ${tr("Cargo grid", cargoVal)}
   `;
 }
 
@@ -745,6 +795,8 @@ function renderVulnerability(side, result, ship) {
   const cantHit = [];
   for (const a of ARMOR) {
     if (a.ship === ship.name) continue;            // don't list yourself
+    const target = SHIPS_BY_NAME[a.ship];
+    if (target && isShipDisabled(target)) continue; // hidden ships stay out of the lists
     const ttk = computeArmorTTK(result.picks, a, range);
     if (ttk == null) cantHit.push(a);
     else             canHit.push({ armor: a, ttk });

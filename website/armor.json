@@ -1620,6 +1620,51 @@
     }
   },
   {
+    "ship": "ANVL Lightning F8",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Anvil Aerospace",
+    "class": "Medium",
+    "health": 10890,
+    "deflection_threshold": {
+      "physical": 54.0,
+      "energy": 29.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.15,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
     "ship": "ANVL Paladin",
     "armor_name": "<= PLACEHOLDER =>",
     "manufacturer": "Anvil Aerospace",
@@ -6795,6 +6840,321 @@
     }
   },
   {
+    "ship": "AEGS Hammerhead GS",
+    "armor_name": "Hammerhead Ship Armor",
+    "manufacturer": "Aegis Dynamics",
+    "class": "Medium",
+    "health": 25740,
+    "deflection_threshold": {
+      "physical": 531.0,
+      "energy": 380.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.21,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "AEGS Hammerhead Showdown",
+    "armor_name": "Hammerhead Ship Armor",
+    "manufacturer": "Aegis Dynamics",
+    "class": "Medium",
+    "health": 25740,
+    "deflection_threshold": {
+      "physical": 531.0,
+      "energy": 380.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.21,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "AEGS Idris M PU",
+    "armor_name": "Hammerhead Ship Armor",
+    "manufacturer": "Aegis Dynamics",
+    "class": "Medium",
+    "health": 87516,
+    "deflection_threshold": {
+      "physical": 554.0,
+      "energy": 485.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.21,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "AEGS Idris M PU GameMaster",
+    "armor_name": "Hammerhead Ship Armor",
+    "manufacturer": "Aegis Dynamics",
+    "class": "Medium",
+    "health": 87516,
+    "deflection_threshold": {
+      "physical": 554.0,
+      "energy": 485.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.21,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "AEGS Idris M PU Invictus",
+    "armor_name": "Hammerhead Ship Armor",
+    "manufacturer": "Aegis Dynamics",
+    "class": "Medium",
+    "health": 87516,
+    "deflection_threshold": {
+      "physical": 554.0,
+      "energy": 485.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.21,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "AEGS Idris P Collector Military",
+    "armor_name": "Hammerhead Ship Armor",
+    "manufacturer": "Aegis Dynamics",
+    "class": "Medium",
+    "health": 87516,
+    "deflection_threshold": {
+      "physical": 554.0,
+      "energy": 485.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.21,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "AEGS Reclaimer Showdown",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Aegis Dynamics",
+    "class": "Medium",
+    "health": 32912,
+    "deflection_threshold": {
+      "physical": 495.0,
+      "energy": 418.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.76,
+      "energy": 1.14,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
     "ship": "AEGS Reclaimer Teach",
     "armor_name": "<= PLACEHOLDER =>",
     "manufacturer": "Aegis Dynamics",
@@ -6856,6 +7216,51 @@
     "durability_multiplier": {
       "physical": 0.9,
       "energy": 1.35,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 0.6,
+      "em": 0.6,
+      "ir": 0.6
+    }
+  },
+  {
+    "ship": "AEGS Sabre Firebird Collector Milt",
+    "armor_name": "Sabre Raven Ship Armor",
+    "manufacturer": "Aegis Dynamics",
+    "class": "Medium",
+    "health": 4752,
+    "deflection_threshold": {
+      "physical": 20.0,
+      "energy": 16.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.21,
       "distortion": 1.0,
       "thermal": 1.0,
       "biochemical": 1.0,
@@ -7335,7 +7740,322 @@
     }
   },
   {
+    "ship": "ANVL Hornet F7CM Mk2 Heartseeker",
+    "armor_name": "Hornet F7A Ship Armor",
+    "manufacturer": "Anvil Aerospace",
+    "class": "Medium",
+    "health": 6600,
+    "deflection_threshold": {
+      "physical": 24.0,
+      "energy": 13.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.15,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.13,
+      "em": 1.13,
+      "ir": 1.13
+    }
+  },
+  {
+    "ship": "ANVL Lightning F8 Fleetweek",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Anvil Aerospace",
+    "class": "Medium",
+    "health": 10890,
+    "deflection_threshold": {
+      "physical": 54.0,
+      "energy": 29.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.15,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "ANVL Lightning F8 Fleetweek DarkBlue",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Anvil Aerospace",
+    "class": "Medium",
+    "health": 10890,
+    "deflection_threshold": {
+      "physical": 54.0,
+      "energy": 29.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.15,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "ANVL Lightning F8 Fleetweek Grey",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Anvil Aerospace",
+    "class": "Medium",
+    "health": 10890,
+    "deflection_threshold": {
+      "physical": 54.0,
+      "energy": 29.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.15,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "ANVL Lightning F8 Fleetweek LightBlue",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Anvil Aerospace",
+    "class": "Medium",
+    "health": 10890,
+    "deflection_threshold": {
+      "physical": 54.0,
+      "energy": 29.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.15,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "ANVL Lightning F8 Fleetweek White",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Anvil Aerospace",
+    "class": "Medium",
+    "health": 10890,
+    "deflection_threshold": {
+      "physical": 54.0,
+      "energy": 29.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.15,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
     "ship": "ANVL Lightning F8C",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Anvil Aerospace",
+    "class": "Medium",
+    "health": 10890,
+    "deflection_threshold": {
+      "physical": 54.0,
+      "energy": 29.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.15,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "ANVL Lightning F8C Collector Military",
     "armor_name": "<= PLACEHOLDER =>",
     "manufacturer": "Anvil Aerospace",
     "class": "Medium",
@@ -7515,6 +8235,186 @@
     }
   },
   {
+    "ship": "ANVL Terrapin Medic Collector Medic",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Anvil Aerospace",
+    "class": "Medium",
+    "health": 9900,
+    "deflection_threshold": {
+      "physical": 62.0,
+      "energy": 33.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.86,
+      "energy": 1.22,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "ANVL Valkyrie Advocacy",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Anvil Aerospace",
+    "class": "Medium",
+    "health": 23760,
+    "deflection_threshold": {
+      "physical": 139.0,
+      "energy": 88.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.15,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.07,
+      "em": 1.07,
+      "ir": 1.07
+    }
+  },
+  {
+    "ship": "ANVL Valkyrie CitizenCon",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Anvil Aerospace",
+    "class": "Medium",
+    "health": 23760,
+    "deflection_threshold": {
+      "physical": 139.0,
+      "energy": 88.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.15,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.07,
+      "em": 1.07,
+      "ir": 1.07
+    }
+  },
+  {
+    "ship": "ANVL Valkyrie Indestructible",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Anvil Aerospace",
+    "class": "Medium",
+    "health": 23760,
+    "deflection_threshold": {
+      "physical": 139.0,
+      "energy": 88.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.15,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.07,
+      "em": 1.07,
+      "ir": 1.07
+    }
+  },
+  {
     "ship": "ARGO MOLE Teach",
     "armor_name": "Argo MPUV Ship Armor",
     "manufacturer": "Argo Astronautics",
@@ -7557,6 +8457,51 @@
       "cs": 1.0,
       "em": 1.0,
       "ir": 1.0
+    }
+  },
+  {
+    "ship": "ARGO RAFT Collector Indust",
+    "armor_name": "Argo MPUV Ship Armor",
+    "manufacturer": "Argo Astronautics",
+    "class": "Medium",
+    "health": 6600,
+    "deflection_threshold": {
+      "physical": 45.0,
+      "energy": 40.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.28,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.5,
+      "em": 1.5,
+      "ir": 1.5
     }
   },
   {
@@ -7785,6 +8730,96 @@
     }
   },
   {
+    "ship": "CRUS Spirit C1 Civilian",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Crusader Industries",
+    "class": "Medium",
+    "health": 9600,
+    "deflection_threshold": {
+      "physical": 50.0,
+      "energy": 36.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.22,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.3,
+      "em": 1.3,
+      "ir": 1.3
+    }
+  },
+  {
+    "ship": "CRUS Star Runner Mission PIR Package",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Crusader Industries",
+    "class": "Medium",
+    "health": 14560,
+    "deflection_threshold": {
+      "physical": 127.0,
+      "energy": 110.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.22,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
     "ship": "CRUS Starfighter Inferno Collector Military",
     "armor_name": "<= PLACEHOLDER =>",
     "manufacturer": "Crusader Industries",
@@ -7965,6 +9000,96 @@
     }
   },
   {
+    "ship": "CRUS Starlifter A2 EA PIR",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Crusader Industries",
+    "class": "Medium",
+    "health": 25350,
+    "deflection_threshold": {
+      "physical": 385.0,
+      "energy": 300.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.77,
+      "energy": 1.15,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "CRUS Starlifter A2 S3Bombs",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Crusader Industries",
+    "class": "Medium",
+    "health": 25350,
+    "deflection_threshold": {
+      "physical": 385.0,
+      "energy": 300.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.77,
+      "energy": 1.15,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
     "ship": "CRUS Starlifter C2",
     "armor_name": "<= PLACEHOLDER =>",
     "manufacturer": "Crusader Industries",
@@ -7981,6 +9106,96 @@
     "durability_multiplier": {
       "physical": 0.81,
       "energy": 1.22,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "DRAK Buccaneer EA Outlaws",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Drake Interplanetary",
+    "class": "Medium",
+    "health": 2160,
+    "deflection_threshold": {
+      "physical": 9.0,
+      "energy": 8.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.77,
+      "energy": 1.02,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "DRAK Caterpillar Boarded",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Drake Interplanetary",
+    "class": "Medium",
+    "health": 16830,
+    "deflection_threshold": {
+      "physical": 315.0,
+      "energy": 300.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.72,
+      "energy": 0.96,
       "distortion": 1.0,
       "thermal": 1.0,
       "biochemical": 1.0,
@@ -8043,6 +9258,186 @@
     "hull_damage_multiplier": {
       "physical": 0.7,
       "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "DRAK Caterpillar ShipShowdown",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Drake Interplanetary",
+    "class": "Medium",
+    "health": 16830,
+    "deflection_threshold": {
+      "physical": 315.0,
+      "energy": 300.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.72,
+      "energy": 0.96,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "DRAK Cutlass Black Mission PIR Package",
+    "armor_name": "Cutlass Black Ship Armor",
+    "manufacturer": "Drake Interplanetary",
+    "class": "Medium",
+    "health": 7290,
+    "deflection_threshold": {
+      "physical": 32.0,
+      "energy": 29.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.77,
+      "energy": 1.02,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "DRAK Cutlass Black PU Pirate Crewless",
+    "armor_name": "Cutlass Black Ship Armor",
+    "manufacturer": "Drake Interplanetary",
+    "class": "Medium",
+    "health": 7290,
+    "deflection_threshold": {
+      "physical": 32.0,
+      "energy": 29.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.77,
+      "energy": 1.02,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "DRAK Cutlass Black ShipShowdown",
+    "armor_name": "Cutlass Black Ship Armor",
+    "manufacturer": "Drake Interplanetary",
+    "class": "Medium",
+    "health": 7290,
+    "deflection_threshold": {
+      "physical": 32.0,
+      "energy": 29.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.77,
+      "energy": 1.02,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
       "distortion": 1.0,
       "thermal": 1.0,
       "biochemical": 1.0,
@@ -8145,7 +9540,142 @@
     }
   },
   {
+    "ship": "DRAK Dragonfly Pink",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Drake Interplanetary",
+    "class": "Medium",
+    "health": 1170,
+    "deflection_threshold": {
+      "physical": 5.0,
+      "energy": 4.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.08,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 0.4,
+      "ir": 0.27
+    }
+  },
+  {
+    "ship": "DRAK Dragonfly Yellow",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Drake Interplanetary",
+    "class": "Medium",
+    "health": 1170,
+    "deflection_threshold": {
+      "physical": 5.0,
+      "energy": 4.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.08,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 0.4,
+      "ir": 0.27
+    }
+  },
+  {
     "ship": "DRAK Golem Collector Indust",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Drake Interplanetary",
+    "class": "Medium",
+    "health": 6732,
+    "deflection_threshold": {
+      "physical": 18.0,
+      "energy": 16.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.72,
+      "energy": 0.96,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.1,
+      "ir": 1.1
+    }
+  },
+  {
+    "ship": "DRAK Golem Low Fuel TEMPORARY",
     "armor_name": "<= PLACEHOLDER =>",
     "manufacturer": "Drake Interplanetary",
     "class": "Medium",
@@ -8412,6 +9942,141 @@
       "cs": 0.6,
       "em": 0.6,
       "ir": 0.6
+    }
+  },
+  {
+    "ship": "GLSN Shiv TEMP CosA",
+    "armor_name": "Cutlass Black Ship Armor",
+    "manufacturer": "Gallenson Tactical Systems",
+    "class": "Medium",
+    "health": 8100,
+    "deflection_threshold": {
+      "physical": 29.0,
+      "energy": 23.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.68,
+      "energy": 1.15,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "GLSN Shiv TEMP CosB",
+    "armor_name": "Cutlass Black Ship Armor",
+    "manufacturer": "Gallenson Tactical Systems",
+    "class": "Medium",
+    "health": 8100,
+    "deflection_threshold": {
+      "physical": 29.0,
+      "energy": 23.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.68,
+      "energy": 1.15,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "GLSN Shiv TEMP CosC",
+    "armor_name": "Cutlass Black Ship Armor",
+    "manufacturer": "Gallenson Tactical Systems",
+    "class": "Medium",
+    "health": 8100,
+    "deflection_threshold": {
+      "physical": 29.0,
+      "energy": 23.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.68,
+      "energy": 1.15,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
     }
   },
   {
@@ -8955,6 +10620,141 @@
     }
   },
   {
+    "ship": "MISC Starfarer Wreck",
+    "armor_name": "Starfarer Ship Armor",
+    "manufacturer": "Musashi Industrial & Starflight Concern",
+    "class": "Medium",
+    "health": 12100,
+    "deflection_threshold": {
+      "physical": 315.0,
+      "energy": 360.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.9,
+      "energy": 1.22,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.4,
+      "em": 1.4,
+      "ir": 1.4
+    }
+  },
+  {
+    "ship": "MISC Starfarer Wreck NoDebris A",
+    "armor_name": "Starfarer Ship Armor",
+    "manufacturer": "Musashi Industrial & Starflight Concern",
+    "class": "Medium",
+    "health": 12100,
+    "deflection_threshold": {
+      "physical": 315.0,
+      "energy": 360.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.9,
+      "energy": 1.22,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.4,
+      "em": 1.4,
+      "ir": 1.4
+    }
+  },
+  {
+    "ship": "MISC Starfarer Wreck NoDebris B",
+    "armor_name": "Starfarer Ship Armor",
+    "manufacturer": "Musashi Industrial & Starflight Concern",
+    "class": "Medium",
+    "health": 12100,
+    "deflection_threshold": {
+      "physical": 315.0,
+      "energy": 360.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.9,
+      "energy": 1.22,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.4,
+      "em": 1.4,
+      "ir": 1.4
+    }
+  },
+  {
     "ship": "MISC Starlancer Max",
     "armor_name": "<= PLACEHOLDER =>",
     "manufacturer": "Musashi Industrial & Starflight Concern",
@@ -9450,6 +11250,51 @@
     }
   },
   {
+    "ship": "ORIG 890Jump Drug 01",
+    "armor_name": "350r Ship Armor",
+    "manufacturer": "Origin Jumpworks",
+    "class": "Medium",
+    "health": 32640,
+    "deflection_threshold": {
+      "physical": 405.0,
+      "energy": 342.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.08,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
     "ship": "ORIG X1 Force",
     "armor_name": "M50 Ship Armor",
     "manufacturer": "Origin Jumpworks",
@@ -9492,6 +11337,141 @@
       "cs": 1.0,
       "em": 3.0,
       "ir": 0.3
+    }
+  },
+  {
+    "ship": "RSI Apollo Medivac Tier 1",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Roberts Space Industries",
+    "class": "Medium",
+    "health": 17424,
+    "deflection_threshold": {
+      "physical": 121.0,
+      "energy": 116.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.28,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "RSI Apollo Medivac Tier 2",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Roberts Space Industries",
+    "class": "Medium",
+    "health": 17424,
+    "deflection_threshold": {
+      "physical": 121.0,
+      "energy": 116.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.28,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "RSI Apollo Medivac Tier 3",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Roberts Space Industries",
+    "class": "Medium",
+    "health": 17424,
+    "deflection_threshold": {
+      "physical": 121.0,
+      "energy": 116.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.28,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
     }
   },
   {
@@ -9585,6 +11565,186 @@
     }
   },
   {
+    "ship": "RSI Apollo Triage Tier 1",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Roberts Space Industries",
+    "class": "Medium",
+    "health": 15840,
+    "deflection_threshold": {
+      "physical": 116.0,
+      "energy": 110.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.28,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "RSI Apollo Triage Tier 2",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Roberts Space Industries",
+    "class": "Medium",
+    "health": 15840,
+    "deflection_threshold": {
+      "physical": 116.0,
+      "energy": 110.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.28,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "RSI Apollo Triage Tier 3",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Roberts Space Industries",
+    "class": "Medium",
+    "health": 15840,
+    "deflection_threshold": {
+      "physical": 116.0,
+      "energy": 110.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.28,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "RSI Aurora Mk2 MissileModule TEMP",
+    "armor_name": "Aurora Mk I CL Ship Armor",
+    "manufacturer": "Roberts Space Industries",
+    "class": "Medium",
+    "health": 3840,
+    "deflection_threshold": {
+      "physical": 11.0,
+      "energy": 9.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.86,
+      "energy": 1.35,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
     "ship": "RSI Constellation Aquila",
     "armor_name": "Constellation Andromeda Ship Armor",
     "manufacturer": "Roberts Space Industries",
@@ -9631,6 +11791,51 @@
   },
   {
     "ship": "RSI Constellation Phoenix Emerald",
+    "armor_name": "Constellation Andromeda Ship Armor",
+    "manufacturer": "Roberts Space Industries",
+    "class": "Medium",
+    "health": 13440,
+    "deflection_threshold": {
+      "physical": 116.0,
+      "energy": 110.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.86,
+      "energy": 1.35,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "RSI Constellation Phoenix Piano",
     "armor_name": "Constellation Andromeda Ship Armor",
     "manufacturer": "Roberts Space Industries",
     "class": "Medium",
@@ -9766,6 +11971,51 @@
   },
   {
     "ship": "RSI Meteor Collector Stealth",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Roberts Space Industries",
+    "class": "Medium",
+    "health": 7200,
+    "deflection_threshold": {
+      "physical": 22.0,
+      "energy": 18.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.28,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.95,
+      "distortion": 0.95,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "RSI Meteor TEMP LaserRepeater",
     "armor_name": "<= PLACEHOLDER =>",
     "manufacturer": "Roberts Space Industries",
     "class": "Medium",
@@ -10032,6 +12282,51 @@
       "cs": 1.1,
       "em": 1.1,
       "ir": 1.1
+    }
+  },
+  {
+    "ship": "VNCL Blade Swarm",
+    "armor_name": "Blade Ship Armor",
+    "manufacturer": "Vanduul",
+    "class": "Medium",
+    "health": 3300,
+    "deflection_threshold": {
+      "physical": 11.0,
+      "energy": 7.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.72,
+      "energy": 1.15,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
     }
   },
   {

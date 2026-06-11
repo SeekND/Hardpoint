@@ -38,13 +38,16 @@ function hardpointsToGroups(hps) {
     const key = `${h.parent_port || h.port}|${h.size}|${h.type}`;
     if (!map.has(key)) {
       map.set(key, {
-        parent_port: h.parent_port || h.port,
-        size:        h.size,
-        type:        h.type,
-        count:       0,
+        parent_port:    h.parent_port || h.port,
+        size:           h.size,
+        type:           h.type,
+        count:          0,
+        default_weapon: h.default_weapon_name || "",
       });
     }
-    map.get(key).count += 1;
+    const g = map.get(key);
+    g.count += 1;
+    if (!g.default_weapon && h.default_weapon_name) g.default_weapon = h.default_weapon_name;
   }
   return [...map.values()];
 }
@@ -74,6 +77,16 @@ function ensureShipDatalist() {
     document.body.appendChild(dl);
   }
   dl.innerHTML = SHIPS.map(s => `<option value="${s.name.replace(/"/g, "&quot;")}"></option>`).join("");
+
+  // Weapon-name datalist — used by the hardpoint editor's default-weapon column.
+  let wl = document.getElementById("all-weapons-datalist");
+  if (!wl) {
+    wl = document.createElement("datalist");
+    wl.id = "all-weapons-datalist";
+    document.body.appendChild(wl);
+  }
+  const names = [...new Set(WEAPONS.map(w => w.name))].sort();
+  wl.innerHTML = names.map(n => `<option value="${n.replace(/"/g, "&quot;")}"></option>`).join("");
 }
 
 /** Migrate older { state:'forced', ship:'X' } entries to { state:'forced', ships:['X'] }. */
@@ -110,7 +123,8 @@ function getEffectiveWeaponState(key, weapon) {
   if (cfg?.state === "disabled") return { state: "disabled", ships: [],             source: "local" };
   if (cfg?.state === "forced")   return { state: "forced",   ships: cfg.ships || [], source: "local" };
   if (cfg?.state === "normal")   return { state: "normal",   ships: [],             source: "local" };
-  // No localStorage entry — fall through to JSON-baked restriction.
+  // No localStorage entry — fall through to JSON-baked restrictions.
+  if (weapon.disabled) return { state: "disabled", ships: [], source: "build" };
   if (Array.isArray(weapon.force_to_ships) && weapon.force_to_ships.length) {
     return { state: "forced", ships: weapon.force_to_ships, source: "build" };
   }
@@ -130,7 +144,12 @@ function _seedFromJson(key) {
 
 function setWeaponState(key, state) {
   if (state === "normal") {
-    delete WEAPON_CFG[key];        // falls back to JSON-baked restriction (if any)
+    // Keep an explicit "normal" when the data files bake a restriction in —
+    // that's how a local config re-enables a baked-disabled/forced weapon.
+    const w = WEAPONS.find(x => weaponKey(x) === key);
+    const baked = w && (w.disabled || (w.force_to_ships || []).length);
+    if (baked) WEAPON_CFG[key] = { state: "normal" };
+    else       delete WEAPON_CFG[key];
   } else if (state === "disabled") {
     WEAPON_CFG[key] = { state: "disabled" };
   } else if (state === "forced") {
@@ -171,18 +190,43 @@ function removeForcedShip(key, shipName) {
 
 // --- ship ops ---
 function getShipState(name) { return SHIP_CFG[name]?.state    || "normal"; }
+/** Effective state — localStorage wins, else the baked-in disabled tag. */
+function getEffectiveShipState(s) {
+  const local = SHIP_CFG[s.name]?.state;
+  if (local) return { state: local, source: "local" };
+  if (s.disabled) return { state: "disabled", source: "build" };
+  return { state: "normal", source: "default" };
+}
 function getShipNote(name)  { return SHIP_CFG[name]?.note     || ""; }
 function getShipOverride(name) {
   return SHIP_CFG[name]?.hardpoints_override || null;
 }
+/** Salvage flag: localStorage wins, else baked-in ships.json value. */
+function getShipSalvage(name, ship) {
+  const local = SHIP_CFG[name]?.salvage;
+  if (local !== undefined) return !!local;
+  return !!ship?.salvage;
+}
+/** Component accessibility: "yes" | "no" | "" (unknown). localStorage wins. */
+function getShipAccessible(name, ship) {
+  const local = SHIP_CFG[name]?.components_accessible;
+  if (local !== undefined) return local || "";
+  return ship?.components_accessible || "";
+}
 
-/** Merge-update a ship's config. Removes the entry if all fields end up default. */
+/** Merge-update a ship's config. Removes the entry if all fields end up default.
+ *  An explicit "normal" state is KEPT when the ship is baked-disabled, so the
+ *  local config can re-enable a ship the data files ship as disabled. */
 function updateShip(name, patch) {
   const cur  = SHIP_CFG[name] || {};
   const next = { ...cur, ...patch };
-  if (next.state === "normal" || !next.state) delete next.state;
+  const baked = SHIPS.find(s => s.name === name);
+  const bakedDisabled = !!baked?.disabled;
+  if ((next.state === "normal" && !bakedDisabled) || !next.state) delete next.state;
   if (!next.note)                              delete next.note;
   if (!next.hardpoints_override?.length)       delete next.hardpoints_override;
+  if (!next.salvage)                           delete next.salvage;
+  if (!next.components_accessible)             delete next.components_accessible;
   if (Object.keys(next).length === 0) delete SHIP_CFG[name];
   else                                SHIP_CFG[name] = next;
   saveJSON(SHIP_KEY, SHIP_CFG);
@@ -201,19 +245,51 @@ function downloadJSON(filename, payload) {
   URL.revokeObjectURL(url);
 }
 
-/** Compact overrides file — only the actionable fields per entry. Smaller than
- *  the full backup; suitable for sharing or version-controlling your curation. */
+/** Overrides file — the COMPLETE effective curation (your local edits layered
+ *  over what the data files already bake in). Because it is a full snapshot,
+ *  it is always safe to replace the previous overrides file with this one. */
 function exportOverrides() {
   const ships = {};
+  for (const s of SHIPS) {
+    const o = {};
+    const cfg = SHIP_CFG[s.name] || {};
+    if (getEffectiveShipState(s).state === "disabled") o.disabled = true;
+    const note = cfg.note || s.note;
+    if (note) o.note = note;
+    if (getShipSalvage(s.name, s)) o.salvage = true;
+    const acc = getShipAccessible(s.name, s);
+    if (acc === "yes" || acc === "no") o.components_accessible = acc;
+    // Hardpoint corrections: local override wins; else re-emit a baked one.
+    if (cfg.hardpoints_override?.length) {
+      o.hardpoints = cfg.hardpoints_override;
+    } else if (s._override_hardpoints) {
+      o.hardpoints = hardpointsToGroups(s.hardpoints);
+    }
+    if (Object.keys(o).length) ships[s.name] = o;
+  }
+  // Keep config entries for ships no longer in the data (stale but intentional).
   for (const [name, cfg] of Object.entries(SHIP_CFG)) {
+    if (ships[name] || SHIPS.some(s => s.name === name)) continue;
     const o = {};
     if (cfg.state === "disabled") o.disabled = true;
+    if (cfg.note) o.note = cfg.note;
+    if (cfg.salvage) o.salvage = true;
+    if (cfg.components_accessible) o.components_accessible = cfg.components_accessible;
     if (cfg.hardpoints_override?.length) o.hardpoints = cfg.hardpoints_override;
-    if (cfg.note) o.note = cfg.note;          // optional, but useful for diffs
     if (Object.keys(o).length) ships[name] = o;
   }
+
   const weapons = {};
+  for (const w of WEAPONS) {
+    const key = weaponKey(w);
+    const eff = getEffectiveWeaponState(key, w);
+    const o = {};
+    if (eff.state === "disabled") o.disabled = true;
+    if (eff.state === "forced" && eff.ships.length) o.force_to_ships = eff.ships;
+    if (Object.keys(o).length) weapons[key] = o;
+  }
   for (const [key, cfg] of Object.entries(WEAPON_CFG)) {
+    if (weapons[key] || WEAPONS.some(w => weaponKey(w) === key)) continue;
     const o = {};
     if (cfg.state === "disabled") o.disabled = true;
     if (cfg.state === "forced") {
@@ -222,6 +298,7 @@ function exportOverrides() {
     }
     if (Object.keys(o).length) weapons[key] = o;
   }
+
   const payload = {
     schema:      "sc-loadout-overrides",
     version:     1,
@@ -230,7 +307,7 @@ function exportOverrides() {
     weapons,
   };
   downloadJSON("overrides.json", payload);
-  alert(`Wrote overrides.json — ${Object.keys(ships).length} ship overrides, ${Object.keys(weapons).length} weapon overrides.`);
+  alert(`Wrote overrides.json — ${Object.keys(ships).length} ship overrides, ${Object.keys(weapons).length} weapon overrides.\n\nThis is a complete snapshot — safe to replace the previous file.`);
 }
 
 /** Full backup — every entry as it sits in localStorage, restorable as-is. */
@@ -263,6 +340,10 @@ function importConfig(file) {
           const c = {};
           if (o.disabled)             c.state = "disabled";
           if (o.note)                 c.note = o.note;
+          if (o.salvage)              c.salvage = true;
+          if (o.components_accessible === "yes" || o.components_accessible === "no") {
+            c.components_accessible = o.components_accessible;
+          }
           if (Array.isArray(o.hardpoints) && o.hardpoints.length) c.hardpoints_override = o.hardpoints;
           if (Object.keys(c).length) s[name] = c;
         }
@@ -461,19 +542,26 @@ function renderShips() {
   const f = currentFilters();
   let rows = SHIPS.slice();
   if (f.q)     rows = rows.filter(s => (s.name || "").toLowerCase().includes(f.q) || (s.manufacturer || "").toLowerCase().includes(f.q));
-  if (f.state) rows = rows.filter(s => getShipState(s.name) === f.state);
+  if (f.state) rows = rows.filter(s => getEffectiveShipState(s).state === f.state);
   rows.sort((a, b) =>
     (a.manufacturer || "").localeCompare(b.manufacturer || "") ||
     (a.name || "").localeCompare(b.name || "")
   );
 
   const trs = rows.map(s => {
-    const st       = getShipState(s.name);
+    const effShip  = getEffectiveShipState(s);
+    const st       = effShip.state;
+    const stBadge  = effShip.source === "build"
+      ? ` <span class="tag" style="background:rgba(88,166,255,0.10);border-color:rgba(88,166,255,0.30);color:var(--accent);">built-in</span>`
+      : "";
     const dataName = s.name.replace(/"/g, "&quot;");
-    const note     = getShipNote(s.name);
+    const note     = getShipNote(s.name) || s.note || "";
     const hasOverride = !!getShipOverride(s.name);
     const gunCount = (s.hardpoints || []).filter(h => ["gun","pilot_gun","weapon"].includes(h.type)).length;
     const editorOpen = EDITING_SHIP === s.name;
+
+    const salvage    = getShipSalvage(s.name, s);
+    const accessible = getShipAccessible(s.name, s);
 
     let html = `<tr class="state-${st} ${hasOverride ? "has-override" : ""}">
       <td>${s.size != null ? `<span class="size-pill">S${s.size}</span>` : ""}</td>
@@ -483,6 +571,16 @@ function renderShips() {
         <select class="ship-state-pick" data-name="${dataName}">
           <option value="normal"   ${st === "normal"   ? "selected" : ""}>Normal</option>
           <option value="disabled" ${st === "disabled" ? "selected" : ""}>Disabled</option>
+        </select>${stBadge}
+      </td>
+      <td class="center">
+        <input type="checkbox" class="ship-salvage" data-name="${dataName}" ${salvage ? "checked" : ""} title="Shows up in salvage missions" />
+      </td>
+      <td>
+        <select class="ship-accessible" data-name="${dataName}" title="Can components be physically removed?">
+          <option value=""    ${accessible === ""    ? "selected" : ""}>unknown</option>
+          <option value="yes" ${accessible === "yes" ? "selected" : ""}>removable</option>
+          <option value="no"  ${accessible === "no"  ? "selected" : ""}>sealed</option>
         </select>
       </td>
       <td>
@@ -503,6 +601,7 @@ function renderShips() {
       <thead><tr>
         <th>Size</th><th>Ship</th>
         <th class="num">Guns</th><th>State</th>
+        <th>Salvage</th><th>Components</th>
         <th>Note</th><th>Hardpoints</th>
       </tr></thead>
       <tbody>${trs}</tbody>
@@ -529,6 +628,16 @@ function wireShipEvents() {
     inp.addEventListener("input", e => {
       updateShip(e.target.dataset.name, { note: e.target.value });
       // Note-only edits don't need a re-render
+    });
+  }
+  for (const cb of document.querySelectorAll(".ship-salvage")) {
+    cb.addEventListener("change", e => {
+      updateShip(e.target.dataset.name, { salvage: e.target.checked });
+    });
+  }
+  for (const sel of document.querySelectorAll(".ship-accessible")) {
+    sel.addEventListener("change", e => {
+      updateShip(e.target.dataset.name, { components_accessible: e.target.value });
     });
   }
   for (const btn of document.querySelectorAll(".edit-hp-btn")) {
@@ -572,6 +681,9 @@ function renderHardpointEditor(ship) {
           ${HP_TYPES.map(t => `<option value="${t}" ${g.type === t ? "selected" : ""}>${t}</option>`).join("")}
         </select>
       </td>
+      <td><input type="text" list="all-weapons-datalist" class="hp-default"
+                 value="${(g.default_weapon || "").replace(/"/g,"&quot;")}"
+                 placeholder="default weapon (Base mode)…" autocomplete="off" /></td>
       <td><button class="btn hp-del" title="Remove this row">&times;</button></td>
     </tr>`).join("");
 
@@ -583,7 +695,7 @@ function renderHardpointEditor(ship) {
           <span class="muted">Each row = N guns sharing one parent slot. Override replaces ship.hardpoints entirely.</span>
         </div>
         <table class="hp-edit-table">
-          <thead><tr><th>Parent port</th><th>Count</th><th>Size</th><th>Type</th><th></th></tr></thead>
+          <thead><tr><th>Parent port</th><th>Count</th><th>Size</th><th>Type</th><th>Default weapon</th><th></th></tr></thead>
           <tbody>${rows}</tbody>
         </table>
         <div class="hp-editor-actions">
@@ -607,10 +719,11 @@ function wireEditorEvents() {
   const syncRow = (tr) => {
     const idx = +tr.getAttribute("data-idx");
     if (!EDIT_BUFFER[idx]) return;
-    EDIT_BUFFER[idx].parent_port = tr.querySelector(".hp-port").value;
-    EDIT_BUFFER[idx].count       = Math.max(1, +tr.querySelector(".hp-count").value || 1);
-    EDIT_BUFFER[idx].size        = +tr.querySelector(".hp-size").value;
-    EDIT_BUFFER[idx].type        = tr.querySelector(".hp-type").value;
+    EDIT_BUFFER[idx].parent_port    = tr.querySelector(".hp-port").value;
+    EDIT_BUFFER[idx].count          = Math.max(1, +tr.querySelector(".hp-count").value || 1);
+    EDIT_BUFFER[idx].size           = +tr.querySelector(".hp-size").value;
+    EDIT_BUFFER[idx].type           = tr.querySelector(".hp-type").value;
+    EDIT_BUFFER[idx].default_weapon = (tr.querySelector(".hp-default")?.value || "").trim();
   };
   for (const tr of document.querySelectorAll(".hp-editor-row tr[data-idx]")) {
     for (const inp of tr.querySelectorAll("input,select")) {
@@ -629,12 +742,18 @@ function wireEditorEvents() {
   const reset   = document.querySelector(".hp-reset");
   const cancel  = document.querySelector(".hp-cancel");
   if (addBtn) addBtn.addEventListener("click", () => {
-    EDIT_BUFFER.push({ parent_port: "", count: 1, size: 3, type: "gun" });
+    EDIT_BUFFER.push({ parent_port: "", count: 1, size: 3, type: "gun", default_weapon: "" });
     render();
   });
   if (saveBtn) saveBtn.addEventListener("click", () => {
-    // Filter out rows with no port name.
-    const clean = EDIT_BUFFER.filter(g => (g.parent_port || "").trim().length > 0);
+    // Filter out rows with no port name; drop empty default_weapon fields.
+    const clean = EDIT_BUFFER
+      .filter(g => (g.parent_port || "").trim().length > 0)
+      .map(g => {
+        const out = { ...g };
+        if (!out.default_weapon) delete out.default_weapon;
+        return out;
+      });
     updateShip(EDITING_SHIP, { hardpoints_override: clean });
     EDITING_SHIP = null;
     EDIT_BUFFER  = null;
