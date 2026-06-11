@@ -191,13 +191,14 @@ function renderReqRows() {
   $("#req-rows").innerHTML = REQUIREMENTS.map((r, i) => {
     if (r.kind === "weapon") {
       const wopts = weaponOptionsFor(r.dmg, r.size);
-      const dl = `<datalist id="wdl-${i}">${wopts.map(n => `<option value="${n.replace(/"/g, "&quot;")}"></option>`).join("")}</datalist>`;
+      const options = [`<option value="">— select weapon (${wopts.length}) —</option>`]
+        .concat(wopts.map(n => `<option value="${n.replace(/"/g, "&quot;")}" ${n === r.weapon ? "selected" : ""}>${n}</option>`))
+        .join("");
       return `<div class="req-row weapon-row" data-idx="${i}">
         <span class="req-kind">Weapon</span>
         <select class="req-dmg" title="Filter the weapon list by damage type">${dmgOpts(r.dmg)}</select>
         <select class="req-size" title="Filter the weapon list by size">${sizeOpts(r.size, WEAPON_SIZES)}</select>
-        <input type="text" list="wdl-${i}" class="req-weapon" value="${(r.weapon || "").replace(/"/g, "&quot;")}" placeholder="weapon name (${wopts.length} match)…" autocomplete="off" />
-        ${dl}
+        <select class="req-weapon">${options}</select>
         <button class="btn req-del" title="Remove">&times;</button>
       </div>`;
     }
@@ -220,7 +221,7 @@ function renderReqRows() {
       // may not exist under the new filter, so re-pick from the narrowed list.
       row.querySelector(".req-dmg").addEventListener("change",  e => { REQUIREMENTS[idx].dmg = e.target.value; REQUIREMENTS[idx].weapon = ""; render(); });
       row.querySelector(".req-size").addEventListener("change", e => { REQUIREMENTS[idx].size = e.target.value; REQUIREMENTS[idx].weapon = ""; render(); });
-      row.querySelector(".req-weapon").addEventListener("input", e => { REQUIREMENTS[idx].weapon = e.target.value; renderResults(); });
+      row.querySelector(".req-weapon").addEventListener("change", e => { REQUIREMENTS[idx].weapon = e.target.value; renderResults(); });
     } else {
       row.querySelector(".req-type").addEventListener("change",  e => { REQUIREMENTS[idx].type = e.target.value; render(); });
       row.querySelector(".req-class").addEventListener("change", e => { REQUIREMENTS[idx].cls = e.target.value; render(); });
