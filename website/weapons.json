@@ -109,7 +109,18 @@
     "pellets": 1,
     "health": 850,
     "internal": "BEHR_BallisticGatling_PDC_S1",
-    "disabled": true
+    "force_to_ships": [
+      "RSI Polaris",
+      "RSI Polaris Collector Military",
+      "RSI Perseus",
+      "RSI Constellation Phoenix",
+      "RSI Constellation Phoenix Emerald",
+      "AEGS Reclaimer",
+      "AEGS Reclaimer Showdown",
+      "AEGS Reclaimer Teach",
+      "AEGS Idris P",
+      "AEGS Idris M"
+    ]
   },
   {
     "name": "<= PLACEHOLDER =>",
@@ -529,7 +540,18 @@
     "pellets": 1,
     "health": 800,
     "internal": "BEHR_LaserRepeater_PDC_S1",
-    "disabled": true
+    "force_to_ships": [
+      "RSI Polaris",
+      "RSI Perseus",
+      "RSI Constellation Phoenix",
+      "AEGS Reclaimer",
+      "AEGS Reclaimer Showdown",
+      "AEGS Reclaimer Teach",
+      "RSI Polaris Collector Military",
+      "AEGS Idris M",
+      "AEGS Idris P",
+      "RSI Constellation Phoenix Emerald"
+    ]
   },
   {
     "name": "Yebira I",
@@ -596,7 +618,8 @@
     "cool_rate": 151.0,
     "pellets": 1,
     "health": 500,
-    "internal": "RPOD_S1_THCN_4x_S2"
+    "internal": "RPOD_S1_THCN_4x_S2",
+    "disabled": true
   },
   {
     "name": "Suckerpunch Cannon",
@@ -729,7 +752,13 @@
     "cool_rate": 41.0,
     "pellets": 1,
     "health": 850,
-    "internal": "BEHR_LaserRepeater_VNG_S2"
+    "internal": "BEHR_LaserRepeater_VNG_S2",
+    "force_to_ships": [
+      "AEGS Vanguard",
+      "AEGS Vanguard Harbinger",
+      "AEGS Vanguard Hoplite",
+      "AEGS Vanguard Sentinel"
+    ]
   },
   {
     "name": "Hellion Scattergun",
@@ -773,7 +802,8 @@
     "cool_rate": 0.0,
     "pellets": 8,
     "health": 1550,
-    "internal": "APAR_BallisticScatterGun_S2_Shark"
+    "internal": "APAR_BallisticScatterGun_S2_Shark",
+    "disabled": true
   },
   {
     "name": "Deadbolt II Cannon",
@@ -883,7 +913,13 @@
     "cool_rate": 35.0,
     "pellets": 1,
     "health": 850,
-    "internal": "BEHR_LaserCannon_VNG_S2"
+    "internal": "BEHR_LaserCannon_VNG_S2",
+    "force_to_ships": [
+      "AEGS Vanguard",
+      "AEGS Vanguard Harbinger",
+      "AEGS Vanguard Hoplite",
+      "AEGS Vanguard Sentinel"
+    ]
   },
   {
     "name": "SW16BR2 “Sawbuck” Repeater",
@@ -927,7 +963,13 @@
     "cool_rate": 24.0,
     "pellets": 1,
     "health": 850,
-    "internal": "BEHR_BallisticRepeater_VNG_S2"
+    "internal": "BEHR_BallisticRepeater_VNG_S2",
+    "force_to_ships": [
+      "AEGS Vanguard",
+      "AEGS Vanguard Harbinger",
+      "AEGS Vanguard Hoplite",
+      "AEGS Vanguard Sentinel"
+    ]
   },
   {
     "name": "Tigerstrike T-19P",
@@ -949,7 +991,10 @@
     "cool_rate": 0.0,
     "pellets": 1,
     "health": 850,
-    "internal": "KRIG_BallisticGatling_S2"
+    "internal": "KRIG_BallisticGatling_S2",
+    "force_to_ships": [
+      "KRIG P52 Merlin"
+    ]
   },
   {
     "name": "CVSA Cannon",
@@ -971,7 +1016,13 @@
     "cool_rate": 26.5,
     "pellets": 1,
     "health": 550,
-    "internal": "BEHR_BallisticCannon_VNG_S2"
+    "internal": "BEHR_BallisticCannon_VNG_S2",
+    "force_to_ships": [
+      "AEGS Vanguard",
+      "AEGS Vanguard Harbinger",
+      "AEGS Vanguard Hoplite",
+      "AEGS Vanguard Sentinel"
+    ]
   },
   {
     "name": "NN-14 Cannon",
@@ -1126,7 +1177,9 @@
     "pellets": 1,
     "health": 850,
     "internal": "TOAG_LaserGatling_S2",
-    "disabled": true
+    "force_to_ships": [
+      "MRAI Pulse"
+    ]
   },
   {
     "name": "Lightstrike II Cannon",
@@ -1302,7 +1355,13 @@
     "cool_rate": 45.0,
     "pellets": 1,
     "health": 850,
-    "internal": "BEHR_DistortionRepeater_VNG_S2"
+    "internal": "BEHR_DistortionRepeater_VNG_S2",
+    "force_to_ships": [
+      "AEGS Vanguard",
+      "AEGS Vanguard Harbinger",
+      "AEGS Vanguard Hoplite",
+      "AEGS Vanguard Sentinel"
+    ]
   },
   {
     "name": "EVSD Cannon",
@@ -1324,7 +1383,13 @@
     "cool_rate": 13.0,
     "pellets": 1,
     "health": 550,
-    "internal": "BEHR_DistortionCannon_VNG_S2"
+    "internal": "BEHR_DistortionCannon_VNG_S2",
+    "force_to_ships": [
+      "AEGS Vanguard",
+      "AEGS Vanguard Harbinger",
+      "AEGS Vanguard Hoplite",
+      "AEGS Vanguard Sentinel"
+    ]
   },
   {
     "name": "Suckerpunch-L Cannon",
@@ -2079,7 +2144,9 @@
     "pellets": 1,
     "health": 1000,
     "internal": "RPOD_S3_HRST_18x_S1",
-    "disabled": true
+    "force_to_ships": [
+      "CNOU Mustang Delta"
+    ]
   },
   {
     "name": "Liberator Ultra",
@@ -2446,29 +2513,6 @@
     "internal": "KLWE_LaserRepeater_S5_Idris_M"
   },
   {
-    "name": "Slayer Cannon",
-    "manufacturer": "Roberts Space Industries",
-    "size": 5,
-    "type": "Ballistic Cannon",
-    "alpha": 18500.0,
-    "alpha_physical": 18500.0,
-    "alpha_energy": 0,
-    "alpha_distortion": 0,
-    "dps_burst": 3700.0,
-    "dps_sustained_60s": 3700.0,
-    "rpm": 12.0,
-    "ammo_speed": 1112.0,
-    "ammo_lifetime": 4.5,
-    "ammo_range": 5004.0,
-    "heat_per_shot": 91125.0,
-    "max_heat": 100.0,
-    "cool_rate": 0.0,
-    "pellets": 1,
-    "health": 20000,
-    "internal": "Bengal_Turret_BallisticCannon_S8",
-    "disabled": true
-  },
-  {
     "name": "NV57 Ballistic Gatling",
     "manufacturer": "Behring",
     "size": 5,
@@ -2488,7 +2532,10 @@
     "cool_rate": 118.0,
     "pellets": 1,
     "health": 4224,
-    "internal": "BEHR_Nova_BallisticGatling_S5"
+    "internal": "BEHR_Nova_BallisticGatling_S5",
+    "force_to_ships": [
+      "TMBL Nova"
+    ]
   },
   {
     "name": "Slayer Cannon",
@@ -2511,7 +2558,9 @@
     "pellets": 1,
     "health": 20000,
     "internal": "HRST_Nova_BallisticCannon_S5",
-    "disabled": true
+    "force_to_ships": [
+      "TMBL Nova"
+    ]
   },
   {
     "name": "AD5B Ballistic Gatling",
@@ -2577,7 +2626,12 @@
     "cool_rate": 26.5,
     "pellets": 1,
     "health": 2500,
-    "internal": "RSI_BallisticCannon_S5_Meteor_Bespoke"
+    "internal": "RSI_BallisticCannon_S5_Meteor_Bespoke",
+    "force_to_ships": [
+      "RSI Meteor",
+      "RSI Meteor Collector Military",
+      "RSI Meteor Collector Stealth"
+    ]
   },
   {
     "name": "M7A Cannon",
@@ -2622,7 +2676,11 @@
     "pellets": 1,
     "health": 1550,
     "internal": "RSI_Meteor_LaserRepeater_S5",
-    "disabled": true
+    "force_to_ships": [
+      "RSI Meteor",
+      "RSI Meteor Collector Military",
+      "RSI Meteor Collector Stealth"
+    ]
   },
   {
     "name": "Omnisky XV Cannon",
@@ -2757,28 +2815,6 @@
     "internal": "BEHR_BallisticGatling_S6"
   },
   {
-    "name": "Revenant Gatling",
-    "manufacturer": "Behring",
-    "size": 6,
-    "type": "Ballistic Gatling",
-    "alpha": 189.9,
-    "alpha_physical": 189.9,
-    "alpha_energy": 0,
-    "alpha_distortion": 0,
-    "dps_burst": 2848.5,
-    "dps_sustained_60s": 2848.5,
-    "rpm": 900.0,
-    "ammo_speed": 1215.0,
-    "ammo_lifetime": 4.94,
-    "ammo_range": 6002.0,
-    "heat_per_shot": 2.37,
-    "max_heat": 100.0,
-    "cool_rate": 0.0,
-    "pellets": 1,
-    "health": 16500,
-    "internal": "Bengal_BallisticGatling_S6"
-  },
-  {
     "name": "Draugar Gatling",
     "manufacturer": "Apocalypse Arms",
     "size": 6,
@@ -2821,7 +2857,10 @@
     "pellets": 1,
     "health": 5600,
     "internal": "RSI_Bespoke_BallisticCannon_A",
-    "disabled": true
+    "force_to_ships": [
+      "RSI Polaris",
+      "RSI Polaris Collector Military"
+    ]
   },
   {
     "name": "Deadbolt VI Cannon",
@@ -2997,7 +3036,11 @@
     "cool_rate": 155.0,
     "pellets": 1,
     "health": 6750,
-    "internal": "BEHR_LaserCannon_SF7E_S7"
+    "internal": "BEHR_LaserCannon_SF7E_S7",
+    "force_to_ships": [
+      "CRUS Starfighter Ion Collector Stealth",
+      "CRUS Starfighter Ion"
+    ]
   },
   {
     "name": "SF7B Gatling",
@@ -3019,29 +3062,11 @@
     "cool_rate": 0.0,
     "pellets": 1,
     "health": 6750,
-    "internal": "BEHR_BallisticGatling_S7"
-  },
-  {
-    "name": "Tarantula GT-870 Mark 3 Cannon",
-    "manufacturer": "Gallenson Tactical Systems",
-    "size": 7,
-    "type": "Ballistic Cannon",
-    "alpha": 2562.6,
-    "alpha_physical": 2562.6,
-    "alpha_energy": 0,
-    "alpha_distortion": 0,
-    "dps_burst": 4271.0,
-    "dps_sustained_60s": 4271.0,
-    "rpm": 100.0,
-    "ammo_speed": 1048.0,
-    "ammo_lifetime": 8.68,
-    "ammo_range": 9097.0,
-    "heat_per_shot": 6200.0,
-    "max_heat": 100.0,
-    "cool_rate": 0.0,
-    "pellets": 1,
-    "health": 10240,
-    "internal": "Bengal_BallisticCannon_S7"
+    "internal": "BEHR_BallisticGatling_S7",
+    "force_to_ships": [
+      "CRUS Starfighter Inferno",
+      "CRUS Starfighter Inferno Collector Military"
+    ]
   },
   {
     "name": "Conqueror-7",
@@ -3063,7 +3088,11 @@
     "cool_rate": 10.0,
     "pellets": 1,
     "health": 6750,
-    "internal": "BEHR_BallisticCannon_S7_Idris"
+    "internal": "BEHR_BallisticCannon_S7_Idris",
+    "force_to_ships": [
+      "AEGS Idris M",
+      "AEGS Idris P"
+    ]
   },
   {
     "name": "C-07T Cannon",
@@ -3086,28 +3115,6 @@
     "pellets": 1,
     "health": 6750,
     "internal": "BEHR_BallisticCannon_S7_Tiburon"
-  },
-  {
-    "name": "Tarantula GT-870 Mark 3 Cannon",
-    "manufacturer": "Gallenson Tactical Systems",
-    "size": 8,
-    "type": "Ballistic Cannon",
-    "alpha": 3844.2,
-    "alpha_physical": 3844.2,
-    "alpha_energy": 0,
-    "alpha_distortion": 0,
-    "dps_burst": 6407.0,
-    "dps_sustained_60s": 6407.0,
-    "rpm": 100.0,
-    "ammo_speed": 1016.0,
-    "ammo_lifetime": 9.55,
-    "ammo_range": 9703.0,
-    "heat_per_shot": 6200.0,
-    "max_heat": 100.0,
-    "cool_rate": 0.0,
-    "pellets": 1,
-    "health": 10240,
-    "internal": "Bengal_BallisticCannon_S8"
   },
   {
     "name": "M9A Cannon",
@@ -3151,7 +3158,10 @@
     "cool_rate": 26.5,
     "pellets": 1,
     "health": 30000,
-    "internal": "RSI_Perseus_BallisticCannon_B_S8"
+    "internal": "RSI_Perseus_BallisticCannon_B_S8",
+    "force_to_ships": [
+      "RSI Perseus"
+    ]
   },
   {
     "name": "M9A Cannon",
@@ -3173,7 +3183,10 @@
     "cool_rate": 202.0,
     "pellets": 1,
     "health": 17300,
-    "internal": "BEHR_LaserCannon_S9"
+    "internal": "BEHR_LaserCannon_S9",
+    "force_to_ships": [
+      "AEGS Javelin"
+    ]
   },
   {
     "name": "GVSR Repeater",
@@ -3217,7 +3230,11 @@
     "cool_rate": 185.0,
     "pellets": 1,
     "health": 727680,
-    "internal": "KLWE_MassDriver_S10"
+    "internal": "KLWE_MassDriver_S10",
+    "force_to_ships": [
+      "AEGS Idris M",
+      "AEGS Idris P"
+    ]
   },
   {
     "name": "M9A Cannon",

@@ -26,7 +26,8 @@ let SIZES = [1, 2, 3];
 let GRADES = ["A", "B", "C", "D"];
 let WEAPON_NAMES = [];                  // weapons that appear as a default on some ship
 let WEAPON_SIZES = [1, 2, 3, 4];
-let WEAPON_META = {};                   // name -> { size, type, dmg }
+let WEAPON_META = {};                   // name -> { size, type, dmg } (smallest non-disabled)
+let WEAPON_HP_SIZES = {};               // name -> Set(hardpoint sizes it's a default on)
 
 let REQUIREMENTS = [];                  // starts empty — user adds rows
 
@@ -41,12 +42,18 @@ async function load() {
   SHIPS = ships;
   try { SHIP_CFG = JSON.parse(localStorage.getItem(SHIP_KEY)) || {}; } catch (_) { SHIP_CFG = {}; }
 
-  // Weapon metadata for filtering the picker (size + damage type).
+  // Weapon metadata for the damage-type filter. Many capital weapons reuse a
+  // player weapon's display name at a larger size — prefer the smallest
+  // non-disabled entry so the picker reflects the player-facing weapon.
   for (const w of weapons) {
-    WEAPON_META[w.name] = { size: w.size, type: w.type, dmg: classifyDmg(w) };
+    if (w.disabled) continue;
+    const ex = WEAPON_META[w.name];
+    if (!ex || w.size < ex.size) WEAPON_META[w.name] = { size: w.size, type: w.type, dmg: classifyDmg(w) };
   }
 
-  // Refine dropdowns from the data actually present.
+  // Refine dropdowns from the data actually present. Weapon sizes come from the
+  // HARDPOINTS a weapon is a default on (ground truth) — not the name-keyed meta,
+  // which collides across same-named capital variants.
   const sizeSet = new Set(), gradeSet = new Set(), wNames = new Set(), wSizes = new Set();
   for (const s of SHIPS) {
     for (const c of s.components || []) {
@@ -56,8 +63,8 @@ async function load() {
     for (const h of s.hardpoints || []) {
       if (h.default_weapon_name) {
         wNames.add(h.default_weapon_name);
-        const sz = WEAPON_META[h.default_weapon_name]?.size ?? h.size;
-        if (sz) wSizes.add(sz);
+        (WEAPON_HP_SIZES[h.default_weapon_name] ||= new Set()).add(h.size);
+        if (h.size) wSizes.add(h.size);
       }
     }
   }
@@ -109,9 +116,10 @@ function matchInfo(ship, req) {
     if (!req.weapon) return { count: 0, lines: [] };
     for (const h of ship.hardpoints || []) {
       if (h.default_weapon_name !== req.weapon) continue;
+      if (req.size !== "" && h.size !== +req.size) continue;
       count += 1;
-      const sz = WEAPON_META[req.weapon]?.size;
-      const desc = sz ? `${req.weapon} (S${sz})` : req.weapon;
+      // Use the HARDPOINT's size — ground truth for what this ship actually carries.
+      const desc = h.size ? `${req.weapon} (S${h.size})` : req.weapon;
       groups.set(desc, (groups.get(desc) || 0) + 1);
     }
   } else {
@@ -165,13 +173,12 @@ function gradeOpts(sel) { return [opt("", sel, "Any grade")].concat(GRADES.map(g
 function dmgOpts(sel)   { return Object.entries(DMG_LABELS).map(([c, l]) => opt(c, sel, l)).join(""); }
 function sizeOpts(sel, sizes)  { return [opt("", sel, "Any size")].concat(sizes.map(n => opt(n, sel, `S${n}`))).join(""); }
 
-/** Weapons matching a row's damage-type + size filter (narrows the picker). */
+/** Weapons matching a row's damage-type + size filter (narrows the picker).
+ *  Size is checked against the hardpoint sizes the weapon is a default on. */
 function weaponOptionsFor(dmg, size) {
   return WEAPON_NAMES.filter(n => {
-    const m = WEAPON_META[n];
-    if (!m) return !dmg && size === "";
-    if (dmg && m.dmg !== dmg) return false;
-    if (size !== "" && m.size !== +size) return false;
+    if (dmg) { const m = WEAPON_META[n]; if (!m || m.dmg !== dmg) return false; }
+    if (size !== "") { const sizes = WEAPON_HP_SIZES[n]; if (!sizes || !sizes.has(+size)) return false; }
     return true;
   });
 }
@@ -209,9 +216,10 @@ function renderReqRows() {
     const r = REQUIREMENTS[idx];
     row.querySelector(".req-del").addEventListener("click", () => { REQUIREMENTS.splice(idx, 1); render(); });
     if (r.kind === "weapon") {
-      // dmg/size re-render to refilter the weapon list; weapon input re-renders results
-      row.querySelector(".req-dmg").addEventListener("change",  e => { REQUIREMENTS[idx].dmg = e.target.value; render(); });
-      row.querySelector(".req-size").addEventListener("change", e => { REQUIREMENTS[idx].size = e.target.value; render(); });
+      // Changing the dmg/size filter clears the typed weapon — the previous pick
+      // may not exist under the new filter, so re-pick from the narrowed list.
+      row.querySelector(".req-dmg").addEventListener("change",  e => { REQUIREMENTS[idx].dmg = e.target.value; REQUIREMENTS[idx].weapon = ""; render(); });
+      row.querySelector(".req-size").addEventListener("change", e => { REQUIREMENTS[idx].size = e.target.value; REQUIREMENTS[idx].weapon = ""; render(); });
       row.querySelector(".req-weapon").addEventListener("input", e => { REQUIREMENTS[idx].weapon = e.target.value; renderResults(); });
     } else {
       row.querySelector(".req-type").addEventListener("change",  e => { REQUIREMENTS[idx].type = e.target.value; render(); });

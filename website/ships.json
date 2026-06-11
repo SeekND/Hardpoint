@@ -6238,7 +6238,9 @@
         "count": 1
       }
     ],
-    "cargo_scu": 0
+    "cargo_scu": 0,
+    "salvage": true,
+    "components_accessible": "yes"
   },
   {
     "id": "ARGO_MOTH",
@@ -7294,7 +7296,9 @@
         "count": 1
       }
     ],
-    "cargo_scu": 0
+    "cargo_scu": 0,
+    "salvage": true,
+    "components_accessible": "yes"
   },
   {
     "id": "CRUS_Starfighter_Inferno",
@@ -7582,7 +7586,8 @@
       }
     ],
     "components": [],
-    "cargo_scu": 0
+    "cargo_scu": 0,
+    "disabled": true
   },
   {
     "id": "CRUS_Starlifter_A2",
@@ -10286,7 +10291,8 @@
       }
     ],
     "cargo_scu": 0,
-    "salvage": true
+    "salvage": true,
+    "components_accessible": "yes"
   },
   {
     "id": "ESPR_Prowler_Utility",
@@ -12842,7 +12848,8 @@
         "count": 1
       }
     ],
-    "cargo_scu": 291
+    "cargo_scu": 291,
+    "disabled": true
   },
   {
     "id": "misc_starlancer",
@@ -12910,7 +12917,8 @@
       }
     ],
     "components": [],
-    "cargo_scu": 0
+    "cargo_scu": 0,
+    "disabled": true
   },
   {
     "id": "MISC_Starlancer_TAC",
@@ -14074,7 +14082,9 @@
         "count": 1
       }
     ],
-    "cargo_scu": 0
+    "cargo_scu": 0,
+    "salvage": true,
+    "components_accessible": "yes"
   },
   {
     "id": "ORIG_600i",
@@ -28562,7 +28572,9 @@
         "count": 1
       }
     ],
-    "cargo_scu": 0
+    "cargo_scu": 0,
+    "salvage": true,
+    "components_accessible": "yes"
   },
   {
     "id": "CRUS_Starfighter_Ion_Collector_Stealth",
@@ -28621,7 +28633,9 @@
         "count": 1
       }
     ],
-    "cargo_scu": 0
+    "cargo_scu": 0,
+    "salvage": true,
+    "components_accessible": "yes"
   },
   {
     "id": "CRUS_Starlifter_A2_Bombless",
@@ -28864,7 +28878,8 @@
         "count": 1
       }
     ],
-    "cargo_scu": 0
+    "cargo_scu": 0,
+    "disabled": true
   },
   {
     "id": "CRUS_Starlifter_A2_Collector_Military",
@@ -30002,7 +30017,8 @@
         "count": 1
       }
     ],
-    "cargo_scu": 576
+    "cargo_scu": 576,
+    "disabled": true
   },
   {
     "id": "DRAK_Caterpillar_ShipShowdown",
@@ -32563,7 +32579,8 @@
         "count": 1
       }
     ],
-    "cargo_scu": 291
+    "cargo_scu": 291,
+    "disabled": true
   },
   {
     "id": "MISC_Starfarer_Teach",
