@@ -25,12 +25,13 @@
   <main class="salvage-main">
     <section class="card req-card">
       <div class="card-head">
-        <h2>Mission objectives</h2>
-        <span class="muted">Add each component the mission asks for — find the ships that carry it by default.</span>
+        <h2>Components &amp; weapons</h2>
+        <span class="muted">Add the items you're after — find the ships that carry them by default.</span>
       </div>
       <div id="req-rows"></div>
       <div class="req-actions">
-        <button id="add-req" class="btn">+ Add objective</button>
+        <button id="add-component" class="btn">+ Add component</button>
+        <button id="add-weapon" class="btn">+ Add weapon</button>
         <button id="clear-req" class="btn">Clear all</button>
       </div>
     </section>
@@ -39,7 +40,7 @@
       <div class="card-head">
         <h2>Ships to hunt</h2>
         <span class="muted" id="results-summary"></span>
-        <label class="salvage-only-toggle" title="Show only ships you've tagged as appearing in salvage missions">
+        <label class="salvage-only-toggle" title="Show only ships you've flagged as salvageable">
           <input type="checkbox" id="salvage-only" />
           <span>Salvage-tagged only</span>
         </label>
@@ -48,7 +49,7 @@
     </section>
 
     <section class="card" id="breakdown-card">
-      <div class="card-head"><h2>Per-objective breakdown</h2></div>
+      <div class="card-head"><h2>Per-item breakdown</h2></div>
       <div id="breakdown"></div>
     </section>
   </main>

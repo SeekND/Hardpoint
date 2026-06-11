@@ -37,9 +37,13 @@ body {
   gap: 18px;
   position: relative;
 }
-.site-header .brand     { justify-self: start; }
-.site-header .vs-pill   { justify-self: center; }
+/* Pin to explicit columns so header-actions stays right even on pages with no
+   center pill (salvage/catalog have only brand + actions, otherwise the actions
+   would fall into the middle `auto` column). */
+.site-header .brand     { grid-column: 1; justify-self: start; }
+.site-header .vs-pill   { grid-column: 2; justify-self: center; }
 .site-header .header-actions {
+  grid-column: 3;
   justify-self: end;
   display: inline-flex;
   align-items: center;
@@ -187,7 +191,10 @@ body {
 
 a.config-link {
   color: var(--accent);
-  font-size: 12px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 600;
   text-decoration: none;
   margin-left: auto;
   align-self: center;
@@ -814,3 +821,32 @@ table.salvage-table .cover-no  { color: var(--text-dim); }
 }
 /* The rendered table already carries its own card border via .cfg-table. */
 #catalog-table .cfg-table { box-shadow: 0 2px 6px rgba(0,0,0,0.2); }
+
+/* Salvage finder — requirement-row kind label + weapon input */
+.req-kind {
+  display: inline-flex;
+  align-items: center;
+  min-width: 84px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 4px 8px;
+  background: var(--panel-2);
+}
+.req-row.weapon-row .req-kind { color: var(--accent); border-color: rgba(239,68,68,0.30); }
+.req-row .req-weapon {
+  flex: 1;
+  min-width: 240px;
+  background: var(--panel-2);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 5px 8px;
+  font: inherit;
+  font-size: 12px;
+}
+.req-row .req-weapon:focus { border-color: var(--accent); outline: none; }
+.req-row .req-grade { min-width: 110px; }
