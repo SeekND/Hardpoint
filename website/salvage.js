@@ -1,11 +1,11 @@
 /* Salvage Finder — given the items you want, find the ships that carry them by
- * default, ranked so you hunt the fewest targets. Two kinds of item:
+ * default. Two kinds of item:
  *
  *   Component → matched against ship.components[]   (type · class · grade · size)
- *   Weapon    → matched against ship.hardpoints[].default_weapon_name (name · size)
+ *   Weapon    → matched against ship.hardpoints[].default_weapon_name
  *
- * Wording is kept generic — works for salvage missions, sourcing a component to
- * buy a ship for, or just "which ship comes with X".
+ * Results show the ACTUAL item each ship carries (name, class, grade, size),
+ * not just a count — so you know exactly what you'd pull off the wreck.
  */
 
 const SHIP_KEY = "sc-loadout-ship-config-v1";
@@ -19,20 +19,32 @@ const CLASS_LABELS = {
   Sth:   "Stealth",
 };
 const COMP_TYPES = ["Power Plant", "Cooler", "Shield Generator", "Quantum Drive"];
+const DMG_LABELS = { "": "Any type", ballistic: "Ballistic", energy: "Energy" };
 
 let SHIPS = [], SHIP_CFG = {};
-let SIZES = [1, 2, 3];                  // component sizes, refined from data
-let GRADES = ["A", "B", "C", "D"];      // refined from data
+let SIZES = [1, 2, 3];
+let GRADES = ["A", "B", "C", "D"];
 let WEAPON_NAMES = [];                  // weapons that appear as a default on some ship
-let WEAPON_SIZES = [1, 2, 3, 4];        // hardpoint sizes that carry a default weapon
+let WEAPON_SIZES = [1, 2, 3, 4];
+let WEAPON_META = {};                   // name -> { size, type, dmg }
 
-let REQUIREMENTS = [{ kind: "component", type: "Power Plant", cls: "", grade: "", size: "" }];
+let REQUIREMENTS = [];                  // starts empty — user adds rows
 
 const $ = sel => document.querySelector(sel);
 
 async function load() {
-  SHIPS = await fetch("ships.json?v=" + Date.now()).then(r => r.json());
+  const cb = "?v=" + Date.now();
+  const [ships, weapons] = await Promise.all([
+    fetch("ships.json" + cb).then(r => r.json()),
+    fetch("weapons.json" + cb).then(r => r.json()),
+  ]);
+  SHIPS = ships;
   try { SHIP_CFG = JSON.parse(localStorage.getItem(SHIP_KEY)) || {}; } catch (_) { SHIP_CFG = {}; }
+
+  // Weapon metadata for filtering the picker (size + damage type).
+  for (const w of weapons) {
+    WEAPON_META[w.name] = { size: w.size, type: w.type, dmg: classifyDmg(w) };
+  }
 
   // Refine dropdowns from the data actually present.
   const sizeSet = new Set(), gradeSet = new Set(), wNames = new Set(), wSizes = new Set();
@@ -44,7 +56,8 @@ async function load() {
     for (const h of s.hardpoints || []) {
       if (h.default_weapon_name) {
         wNames.add(h.default_weapon_name);
-        if (h.size) wSizes.add(h.size);
+        const sz = WEAPON_META[h.default_weapon_name]?.size ?? h.size;
+        if (sz) wSizes.add(sz);
       }
     }
   }
@@ -53,16 +66,19 @@ async function load() {
   WEAPON_NAMES = [...wNames].sort();
   WEAPON_SIZES = [...wSizes].sort((a, b) => a - b);
 
-  // Shared datalist for weapon-name typeahead.
-  const dl = document.createElement("datalist");
-  dl.id = "weapon-datalist";
-  dl.innerHTML = WEAPON_NAMES.map(n => `<option value="${n.replace(/"/g, "&quot;")}"></option>`).join("");
-  document.body.appendChild(dl);
-
   attach();
   render();
   $("#status").textContent =
     `${SHIPS.length} ships · ${SHIPS.reduce((n, s) => n + (s.components || []).length, 0)} components · ${WEAPON_NAMES.length} default weapons`;
+}
+
+function classifyDmg(w) {
+  if ((w.alpha_physical || 0) > 0) return "ballistic";
+  if ((w.alpha_energy || 0) > 0)   return "energy";
+  if ((w.alpha_distortion || 0) > 0) return "distortion";
+  if (/Ballistic|MassDriver|Gatling/i.test(w.type || "")) return "ballistic";
+  if (/Laser|Beam/i.test(w.type || "")) return "energy";
+  return "";
 }
 
 // --- effective ship flags (localStorage override wins, else baked-in) ---
@@ -83,33 +99,39 @@ function shipDisabled(s) {
 }
 
 // --- matching ---
-/** Total count of matching items on `ship` for requirement `req`. */
-function matchCount(ship, req) {
-  let n = 0;
+/** Returns { count, lines } where lines describe the actual matched items
+ *  on the ship (e.g. "2× PowerBolt Mil/A S1 Power Plant"). */
+function matchInfo(ship, req) {
+  const groups = new Map();   // descriptor -> count
+  let count = 0;
+
   if (req.kind === "weapon") {
-    if (!req.weapon) return 0;
+    if (!req.weapon) return { count: 0, lines: [] };
     for (const h of ship.hardpoints || []) {
       if (h.default_weapon_name !== req.weapon) continue;
-      if (req.size !== "" && h.size !== +req.size) continue;
-      n += 1;
+      count += 1;
+      const sz = WEAPON_META[req.weapon]?.size;
+      const desc = sz ? `${req.weapon} (S${sz})` : req.weapon;
+      groups.set(desc, (groups.get(desc) || 0) + 1);
     }
-    return n;
+  } else {
+    for (const c of ship.components || []) {
+      if (c.type !== req.type) continue;
+      if (req.cls && c.class !== req.cls) continue;
+      if (req.grade && c.grade !== req.grade) continue;
+      if (req.size !== "" && c.size !== +req.size) continue;
+      const k = c.count || 1;
+      count += k;
+      groups.set(c.full, (groups.get(c.full) || 0) + k);
+    }
   }
-  // component
-  for (const c of ship.components || []) {
-    if (c.type !== req.type) continue;
-    if (req.cls && c.class !== req.cls) continue;
-    if (req.grade && c.grade !== req.grade) continue;
-    if (req.size !== "" && c.size !== +req.size) continue;
-    n += c.count || 1;
-  }
-  return n;
+  const lines = [...groups.entries()].map(([desc, n]) => (n > 1 ? `${n}× ${desc}` : desc));
+  return { count, lines };
 }
 
 function activeReqs() {
   return REQUIREMENTS.filter(r => (r.kind === "weapon" ? r.weapon : r.type));
 }
-
 function salvageOnly() {
   return !!document.getElementById("salvage-only")?.checked;
 }
@@ -121,8 +143,8 @@ function computeResults() {
   for (const s of SHIPS) {
     if (shipDisabled(s)) continue;
     if (onlySalvage && !shipSalvage(s)) continue;
-    const per = reqs.map(r => matchCount(s, r));
-    const covered = per.filter(n => n > 0).length;
+    const per = reqs.map(r => matchInfo(s, r));
+    const covered = per.filter(m => m.count > 0).length;
     if (covered > 0) rows.push({ ship: s, per, covered });
   }
   const accRank = s => (shipAccessible(s) === "yes" ? 0 : shipAccessible(s) === "no" ? 2 : 1);
@@ -140,15 +162,35 @@ const opt = (v, sel, label) => `<option value="${v}" ${String(v) === String(sel)
 function typeOpts(sel)  { return COMP_TYPES.map(t => opt(t, sel, t)).join(""); }
 function classOpts(sel) { return Object.entries(CLASS_LABELS).map(([c, l]) => opt(c, sel, l)).join(""); }
 function gradeOpts(sel) { return [opt("", sel, "Any grade")].concat(GRADES.map(g => opt(g, sel, `Grade ${g}`))).join(""); }
+function dmgOpts(sel)   { return Object.entries(DMG_LABELS).map(([c, l]) => opt(c, sel, l)).join(""); }
 function sizeOpts(sel, sizes)  { return [opt("", sel, "Any size")].concat(sizes.map(n => opt(n, sel, `S${n}`))).join(""); }
 
+/** Weapons matching a row's damage-type + size filter (narrows the picker). */
+function weaponOptionsFor(dmg, size) {
+  return WEAPON_NAMES.filter(n => {
+    const m = WEAPON_META[n];
+    if (!m) return !dmg && size === "";
+    if (dmg && m.dmg !== dmg) return false;
+    if (size !== "" && m.size !== +size) return false;
+    return true;
+  });
+}
+
 function renderReqRows() {
+  if (!REQUIREMENTS.length) {
+    $("#req-rows").innerHTML = `<div class="empty-list">no items yet — click “Add component” or “Add weapon”.</div>`;
+    return;
+  }
   $("#req-rows").innerHTML = REQUIREMENTS.map((r, i) => {
     if (r.kind === "weapon") {
+      const wopts = weaponOptionsFor(r.dmg, r.size);
+      const dl = `<datalist id="wdl-${i}">${wopts.map(n => `<option value="${n.replace(/"/g, "&quot;")}"></option>`).join("")}</datalist>`;
       return `<div class="req-row weapon-row" data-idx="${i}">
         <span class="req-kind">Weapon</span>
-        <input type="text" list="weapon-datalist" class="req-weapon" value="${(r.weapon || "").replace(/"/g, "&quot;")}" placeholder="weapon name (type to filter)…" autocomplete="off" />
-        <select class="req-size">${sizeOpts(r.size, WEAPON_SIZES)}</select>
+        <select class="req-dmg" title="Filter the weapon list by damage type">${dmgOpts(r.dmg)}</select>
+        <select class="req-size" title="Filter the weapon list by size">${sizeOpts(r.size, WEAPON_SIZES)}</select>
+        <input type="text" list="wdl-${i}" class="req-weapon" value="${(r.weapon || "").replace(/"/g, "&quot;")}" placeholder="weapon name (${wopts.length} match)…" autocomplete="off" />
+        ${dl}
         <button class="btn req-del" title="Remove">&times;</button>
       </div>`;
     }
@@ -167,13 +209,15 @@ function renderReqRows() {
     const r = REQUIREMENTS[idx];
     row.querySelector(".req-del").addEventListener("click", () => { REQUIREMENTS.splice(idx, 1); render(); });
     if (r.kind === "weapon") {
-      row.querySelector(".req-weapon").addEventListener("input",  e => { REQUIREMENTS[idx].weapon = e.target.value; render(); });
-      row.querySelector(".req-size").addEventListener("change",   e => { REQUIREMENTS[idx].size = e.target.value; render(); });
+      // dmg/size re-render to refilter the weapon list; weapon input re-renders results
+      row.querySelector(".req-dmg").addEventListener("change",  e => { REQUIREMENTS[idx].dmg = e.target.value; render(); });
+      row.querySelector(".req-size").addEventListener("change", e => { REQUIREMENTS[idx].size = e.target.value; render(); });
+      row.querySelector(".req-weapon").addEventListener("input", e => { REQUIREMENTS[idx].weapon = e.target.value; renderResults(); });
     } else {
-      row.querySelector(".req-type").addEventListener("change",   e => { REQUIREMENTS[idx].type = e.target.value; render(); });
-      row.querySelector(".req-class").addEventListener("change",  e => { REQUIREMENTS[idx].cls = e.target.value; render(); });
-      row.querySelector(".req-grade").addEventListener("change",  e => { REQUIREMENTS[idx].grade = e.target.value; render(); });
-      row.querySelector(".req-size").addEventListener("change",   e => { REQUIREMENTS[idx].size = e.target.value; render(); });
+      row.querySelector(".req-type").addEventListener("change",  e => { REQUIREMENTS[idx].type = e.target.value; render(); });
+      row.querySelector(".req-class").addEventListener("change", e => { REQUIREMENTS[idx].cls = e.target.value; render(); });
+      row.querySelector(".req-grade").addEventListener("change", e => { REQUIREMENTS[idx].grade = e.target.value; render(); });
+      row.querySelector(".req-size").addEventListener("change",  e => { REQUIREMENTS[idx].size = e.target.value; render(); });
     }
   }
 }
@@ -192,9 +236,9 @@ function reqLabel(r) {
     return parts.join(" · ");
   }
   const parts = [r.type];
-  if (r.cls)          parts.push(CLASS_LABELS[r.cls]);
-  if (r.grade)        parts.push(`Grade ${r.grade}`);
-  if (r.size !== "")  parts.push(`S${r.size}`);
+  if (r.cls)         parts.push(CLASS_LABELS[r.cls]);
+  if (r.grade)       parts.push(`Grade ${r.grade}`);
+  if (r.size !== "") parts.push(`S${r.size}`);
   return parts.join(" · ");
 }
 
@@ -213,13 +257,14 @@ function renderResults() {
       ? `${rows.length} ships carry ≥1 of your ${reqs.length} items · ${full} carry all ${reqs.length}`
       : `${rows.length} ships carry this`;
 
+  // --- coverage overview table (compact) ---
   if (!rows.length) {
     $("#results").innerHTML = `<div class="empty-list">no ship carries a match by default</div>`;
   } else {
     const tableRows = rows.slice(0, 60).map(({ ship, per, covered }) => {
-      const cells = per.map((n, i) =>
-        n > 0
-          ? `<td class="num cover-yes" title="${reqLabel(reqs[i])}">${n}×</td>`
+      const cells = per.map((m, i) =>
+        m.count > 0
+          ? `<td class="num cover-yes" title="${m.lines.join(", ")}">${m.count}×</td>`
           : `<td class="num cover-no">—</td>`
       ).join("");
       const cargo = (ship.cargo_scu || 0) > 0 ? `${ship.cargo_scu} SCU` : "—";
@@ -231,7 +276,6 @@ function renderResults() {
         <td class="num">${cargo}</td>
       </tr>`;
     }).join("");
-
     const headCells = reqs.map((r, i) => `<th class="num" title="${reqLabel(r)}">#${i + 1}</th>`).join("");
     $("#results").innerHTML = `
       <table class="loadout salvage-table">
@@ -245,21 +289,32 @@ function renderResults() {
     `;
   }
 
-  // Per-item breakdown
+  // --- per-item breakdown: a table per requirement showing the ACTUAL item on each ship ---
   const onlySalvage = salvageOnly();
   $("#breakdown").innerHTML = reqs.map((r, i) => {
     const hits = SHIPS
       .filter(s => !shipDisabled(s) && (!onlySalvage || shipSalvage(s)))
-      .map(s => ({ s, n: matchCount(s, r) }))
-      .filter(x => x.n > 0)
+      .map(s => ({ s, m: matchInfo(s, r) }))
+      .filter(x => x.m.count > 0)
       .sort((a, b) => a.s.name.localeCompare(b.s.name));
-    const chips = hits.map(({ s, n }) =>
-      `<span class="chip ${shipAccessible(s) === "yes" ? "good" : ""}" title="${s.name}">
-        ${n > 1 ? `${n}× ` : ""}${s.name}
-      </span>`).join("");
+
+    const isWeapon = r.kind === "weapon";
+    const itemHead = isWeapon ? "Weapon on ship" : "Component on ship";
+    const body = hits.map(({ s, m }) => `
+      <tr>
+        <td class="ship-cell">${s.name}${shipSalvage(s) ? ' <span class="tag warn">salvage</span>' : ""}<span class="mfg">${s.manufacturer || ""}</span></td>
+        <td class="item-cell">${m.lines.join("<br>")}</td>
+        <td>${accBadge(s)}</td>
+        <td class="num">${(s.cargo_scu || 0) > 0 ? `${s.cargo_scu} SCU` : "—"}</td>
+      </tr>`).join("");
+
     return `<div class="obj-block">
       <div class="obj-title">#${i + 1} — ${reqLabel(r)} <span class="count">${hits.length} ship${hits.length === 1 ? "" : "s"}</span></div>
-      ${hits.length ? `<div class="list">${chips}</div>` : `<div class="empty-list">no ship carries this by default</div>`}
+      ${hits.length ? `
+        <table class="loadout breakdown-table">
+          <thead><tr><th>Ship</th><th>${itemHead}</th><th>Access</th><th class="num">Cargo</th></tr></thead>
+          <tbody>${body}</tbody>
+        </table>` : `<div class="empty-list">no ship carries this by default</div>`}
     </div>`;
   }).join("");
 }
@@ -275,11 +330,11 @@ function attach() {
     render();
   });
   $("#add-weapon").addEventListener("click", () => {
-    REQUIREMENTS.push({ kind: "weapon", weapon: "", size: "" });
+    REQUIREMENTS.push({ kind: "weapon", weapon: "", dmg: "", size: "" });
     render();
   });
   $("#clear-req").addEventListener("click", () => {
-    REQUIREMENTS = [{ kind: "component", type: "Power Plant", cls: "", grade: "", size: "" }];
+    REQUIREMENTS = [];
     render();
   });
   $("#salvage-only").addEventListener("change", render);

@@ -850,3 +850,32 @@ table.salvage-table .cover-no  { color: var(--text-dim); }
 }
 .req-row .req-weapon:focus { border-color: var(--accent); outline: none; }
 .req-row .req-grade { min-width: 110px; }
+
+/* Salvage finder — weapon damage-type filter + per-item breakdown table */
+.req-row .req-dmg { min-width: 120px; }
+
+table.breakdown-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  margin-top: 4px;
+}
+table.breakdown-table th, table.breakdown-table td {
+  padding: 6px 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.breakdown-table th {
+  background: var(--panel-2);
+  color: var(--text-dim);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+table.breakdown-table th.num, table.breakdown-table td.num { text-align: right; font-variant-numeric: tabular-nums; }
+table.breakdown-table tbody tr:last-child td { border-bottom: 0; }
+table.breakdown-table .ship-cell { font-weight: 500; white-space: nowrap; }
+table.breakdown-table .ship-cell .mfg { color: var(--text-dim); font-size: 10px; font-weight: 400; margin-left: 6px; }
+table.breakdown-table .item-cell { color: var(--text); }
