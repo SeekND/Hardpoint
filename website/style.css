@@ -696,3 +696,121 @@ footer {
   border-top: 1px solid var(--border);
   font-size: 11px;
 }
+
+/* ============================================================
+   Salvage Finder page
+   ============================================================ */
+.salvage-main { padding: 16px 18px; display: flex; flex-direction: column; gap: 14px; }
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.card-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+  background: var(--panel-2);
+}
+.card-head h2 { margin: 0; font-size: 14px; font-weight: 600; }
+.card-head .muted { font-size: 12px; }
+
+.req-card #req-rows { padding: 12px 16px 4px; display: flex; flex-direction: column; gap: 8px; }
+.req-row { display: flex; gap: 8px; align-items: center; }
+.req-row select {
+  background: var(--panel-2);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 5px 8px;
+  font: inherit;
+  font-size: 12px;
+}
+.req-row .req-type  { min-width: 180px; }
+.req-row .req-class { min-width: 150px; }
+.req-row .req-size  { min-width: 110px; }
+.req-row .req-del {
+  padding: 3px 9px;
+  background: rgba(248,81,73,0.08);
+  border-color: rgba(248,81,73,0.25);
+  color: var(--bad);
+}
+.req-actions { padding: 10px 16px 14px; display: flex; gap: 8px; }
+
+table.salvage-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+table.salvage-table th, table.salvage-table td {
+  padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); white-space: nowrap;
+}
+table.salvage-table th {
+  background: var(--panel-2); color: var(--text-dim);
+  font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 500;
+}
+table.salvage-table th.num, table.salvage-table td.num { text-align: right; font-variant-numeric: tabular-nums; }
+table.salvage-table tbody tr:hover { background: rgba(239,68,68,0.04); }
+table.salvage-table .ship-cell { font-weight: 500; }
+table.salvage-table .ship-cell .mfg { color: var(--text-dim); font-size: 10px; font-weight: 400; margin-left: 6px; }
+table.salvage-table .cover-yes { color: var(--good); font-weight: 600; }
+table.salvage-table .cover-no  { color: var(--text-dim); }
+
+.obj-legend { padding: 8px 12px; font-size: 11px; border-top: 1px solid var(--border); }
+
+.obj-block { padding: 10px 16px; border-bottom: 1px solid var(--border); }
+.obj-block:last-child { border-bottom: 0; }
+.obj-title { font-size: 12px; margin-bottom: 6px; }
+.obj-title .count { color: var(--text-dim); font-size: 11px; margin-left: 6px; }
+.obj-block .list { display: flex; flex-wrap: wrap; gap: 6px; }
+.obj-block .chip {
+  display: inline-flex; align-items: center; gap: 4px;
+  background: var(--panel-2); border: 1px solid var(--border);
+  border-radius: 3px; padding: 3px 8px; font-size: 11px;
+}
+.obj-block .chip.good { background: rgba(63,185,80,0.08); border-color: rgba(63,185,80,0.30); }
+
+.site-footer { padding: 10px 18px; border-top: 1px solid var(--border); font-size: 11px; }
+
+.salvage-only-toggle {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--text-dim);
+  cursor: pointer;
+  user-select: none;
+}
+.salvage-only-toggle input { margin: 0; }
+.salvage-only-toggle:hover { color: var(--text); }
+
+/* ============================================================
+   Catalog page — toolbar card (matches salvage/main card style)
+   ============================================================ */
+.config-main { display: flex; flex-direction: column; gap: 14px; }
+.toolbar-card { overflow: visible; }
+.card-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 10px 14px;
+  padding: 12px 16px;
+}
+.card-toolbar .tabs { align-self: center; }
+.card-toolbar input[type="search"] { min-width: 220px; }
+.card-toolbar .control { gap: 3px; }
+.toolbar-actions {
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+.toolbar-status {
+  padding: 8px 16px;
+  border-top: 1px solid var(--border);
+  font-size: 11px;
+}
+/* The rendered table already carries its own card border via .cfg-table. */
+#catalog-table .cfg-table { box-shadow: 0 2px 6px rgba(0,0,0,0.2); }

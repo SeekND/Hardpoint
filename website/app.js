@@ -94,9 +94,6 @@ function shipAccessibility(ship) {
   return ship.components_accessible || "";
 }
 
-function isSalvageView() {
-  return !!document.getElementById("salvage-toggle")?.checked;
-}
 
 /** Expand a hardpoint-override group [{parent_port, count, size, type}] into
  *  the flat hardpoints[] shape app.js expects. */
@@ -492,10 +489,8 @@ function refreshShipPicker(side) {
   const q    = ($$(side, ".ship-search").value || "").trim().toLowerCase();
   const mfg  = $$(side, ".mfg-filter").value;
 
-  const salvageOnly = isSalvageView();
   const filtered = SHIPS_SORTED.filter(s => {
     if (isShipDisabled(s)) return false;
-    if (salvageOnly && !isShipSalvage(s)) return false;
     if (mfg && s.manufacturer !== mfg) return false;
     if (q && !s.name.toLowerCase().includes(q)) return false;
     return true;
@@ -540,14 +535,6 @@ function attach() {
     // When enabling, render right side fresh so it picks up latest state.
     if (e.target.checked) render("right");
     updateStatus();
-  });
-
-  // Salvage view — filters every ship picker down to salvage-tagged ships.
-  const salvageToggle = $("#salvage-toggle");
-  if (salvageToggle) salvageToggle.addEventListener("change", () => {
-    for (const side of SIDES) {
-      if (isSideVisible(side)) { refreshShipPicker(side); render(side); }
-    }
   });
 }
 

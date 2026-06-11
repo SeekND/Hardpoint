@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Salvage Finder — Hardpoint</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-logo">⌖</span>
+      <div class="brand-stack">
+        <h1>HARDPOINT</h1>
+        <span class="brand-sub">Salvage Finder</span>
+      </div>
+    </div>
+    <div class="header-actions">
+      <a href="https://seeknd.github.io/sc-hub/" class="config-link hub-back" title="Back to SC Hub">← SC Hub</a>
+      <a href="index.html" class="config-link">Loadout →</a>
+      <a href="catalog.html" class="config-link">Catalog config →</a>
+    </div>
+  </header>
+
+  <main class="salvage-main">
+    <section class="card req-card">
+      <div class="card-head">
+        <h2>Mission objectives</h2>
+        <span class="muted">Add each component the mission asks for — find the ships that carry it by default.</span>
+      </div>
+      <div id="req-rows"></div>
+      <div class="req-actions">
+        <button id="add-req" class="btn">+ Add objective</button>
+        <button id="clear-req" class="btn">Clear all</button>
+      </div>
+    </section>
+
+    <section class="card" id="results-card">
+      <div class="card-head">
+        <h2>Ships to hunt</h2>
+        <span class="muted" id="results-summary"></span>
+        <label class="salvage-only-toggle" title="Show only ships you've tagged as appearing in salvage missions">
+          <input type="checkbox" id="salvage-only" />
+          <span>Salvage-tagged only</span>
+        </label>
+      </div>
+      <div id="results"></div>
+    </section>
+
+    <section class="card" id="breakdown-card">
+      <div class="card-head"><h2>Per-objective breakdown</h2></div>
+      <div id="breakdown"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span class="muted" id="status"></span>
+  </footer>
+
+  <script src="salvage.js"></script>
+</body>
+</html>

@@ -7,51 +7,65 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Catalog Configuration</h1>
-    <div class="controls">
-      <div class="tabs">
-        <button class="tab-btn active" data-tab="weapons">Weapons</button>
-        <button class="tab-btn" data-tab="ships">Ships</button>
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-logo">⌖</span>
+      <div class="brand-stack">
+        <h1>HARDPOINT</h1>
+        <span class="brand-sub">Catalog Config</span>
       </div>
-      <input type="search" id="search" placeholder="Search name / manufacturer..." />
-      <label class="control tab-only-weapons">
-        <span class="control-label">Size</span>
-        <select id="size-filter">
-          <option value="">All</option>
-          <option value="0">S0</option>
-          <option value="1">S1</option>
-          <option value="2">S2</option>
-          <option value="3">S3</option>
-          <option value="4">S4</option>
-          <option value="5">S5</option>
-          <option value="6">S6</option>
-          <option value="7">S7</option>
-          <option value="8">S8</option>
-          <option value="9">S9</option>
-          <option value="10">S10</option>
-        </select>
-      </label>
-      <label class="control">
-        <span class="control-label">State</span>
-        <select id="state-filter">
-          <option value="">All</option>
-          <option value="normal">Normal only</option>
-          <option value="forced" class="tab-only-weapons">Forced only</option>
-          <option value="disabled">Disabled only</option>
-        </select>
-      </label>
-      <button id="reset-all" class="btn">Reset current tab</button>
-      <button id="export-backup-btn"   class="btn" title="Full backup — all your config in a dated JSON file">Export backup</button>
-      <button id="export-override-btn" class="btn" title="Download only the actionable overrides (smaller, sharable file)">Export overrides</button>
-      <label class="btn" for="import-input" title="Restore from a backup or overrides file">Import…</label>
-      <input type="file" id="import-input" accept="application/json" hidden />
-      <a href="index.html" class="config-link">← Back to loadout</a>
+    </div>
+    <div class="header-actions">
+      <a href="https://seeknd.github.io/sc-hub/" class="config-link hub-back" title="Back to SC Hub">← SC Hub</a>
+      <a href="index.html" class="config-link">Loadout →</a>
+      <a href="salvage.html" class="config-link">Salvage finder →</a>
     </div>
   </header>
 
   <main class="config-main">
-    <div id="status" class="muted"></div>
+    <section class="card toolbar-card">
+      <div class="card-toolbar">
+        <div class="tabs">
+          <button class="tab-btn active" data-tab="weapons">Weapons</button>
+          <button class="tab-btn" data-tab="ships">Ships</button>
+        </div>
+        <input type="search" id="search" placeholder="Search name / manufacturer..." />
+        <label class="control tab-only-weapons">
+          <span class="control-label">Size</span>
+          <select id="size-filter">
+            <option value="">All</option>
+            <option value="0">S0</option>
+            <option value="1">S1</option>
+            <option value="2">S2</option>
+            <option value="3">S3</option>
+            <option value="4">S4</option>
+            <option value="5">S5</option>
+            <option value="6">S6</option>
+            <option value="7">S7</option>
+            <option value="8">S8</option>
+            <option value="9">S9</option>
+            <option value="10">S10</option>
+          </select>
+        </label>
+        <label class="control">
+          <span class="control-label">State</span>
+          <select id="state-filter">
+            <option value="">All</option>
+            <option value="normal">Normal only</option>
+            <option value="forced" class="tab-only-weapons">Forced only</option>
+            <option value="disabled">Disabled only</option>
+          </select>
+        </label>
+        <div class="toolbar-actions">
+          <button id="reset-all" class="btn">Reset current tab</button>
+          <button id="export-backup-btn"   class="btn" title="Full backup — all your config in a dated JSON file">Export backup</button>
+          <button id="export-override-btn" class="btn" title="Download only the actionable overrides (smaller, sharable file)">Export overrides</button>
+          <label class="btn" for="import-input" title="Restore from a backup or overrides file">Import…</label>
+          <input type="file" id="import-input" accept="application/json" hidden />
+        </div>
+      </div>
+      <div id="status" class="muted toolbar-status"></div>
+    </section>
     <section id="catalog-table"></section>
   </main>
 
