@@ -1980,51 +1980,6 @@
     }
   },
   {
-    "ship": "ARGO SRV",
-    "armor_name": "Argo MPUV Ship Armor",
-    "manufacturer": "Argo Astronautics",
-    "class": "Medium",
-    "health": 3740,
-    "deflection_threshold": {
-      "physical": 10.0,
-      "energy": 9.0,
-      "distortion": 0.0,
-      "thermal": 0.0,
-      "biochemical": 0.0,
-      "stun": 0.0
-    },
-    "durability_multiplier": {
-      "physical": 0.72,
-      "energy": 1.14,
-      "distortion": 1.0,
-      "thermal": 1.0,
-      "biochemical": 1.0,
-      "stun": 1.0
-    },
-    "penetration_reduction": 1.0,
-    "penetration_absorption_multiplier": {
-      "physical": 1.0,
-      "energy": 1.0,
-      "distortion": 0.0,
-      "thermal": 1.0,
-      "biochemical": 1.0,
-      "stun": 1.0
-    },
-    "hull_damage_multiplier": {
-      "physical": 0.7,
-      "energy": 0.5,
-      "distortion": 1.0,
-      "thermal": 1.0,
-      "biochemical": 1.0,
-      "stun": 1.0
-    },
-    "hull_signal_multiplier": {
-      "cs": 1.0,
-      "em": 1.0,
-      "ir": 1.0
-    }
-  },
-  {
     "ship": "BANU Defender",
     "armor_name": "<= PLACEHOLDER =>",
     "manufacturer": "Banu",
@@ -7377,51 +7332,6 @@
       "cs": 1.09,
       "em": 1.09,
       "ir": 1.09
-    }
-  },
-  {
-    "ship": "ANVL C8 Pisces Tutorial",
-    "armor_name": "Gladiator Ship Armor",
-    "manufacturer": "Anvil Aerospace",
-    "class": "Medium",
-    "health": 2420,
-    "deflection_threshold": {
-      "physical": 12.0,
-      "energy": 6.0,
-      "distortion": 0.0,
-      "thermal": 0.0,
-      "biochemical": 0.0,
-      "stun": 0.0
-    },
-    "durability_multiplier": {
-      "physical": 0.86,
-      "energy": 1.22,
-      "distortion": 1.0,
-      "thermal": 1.0,
-      "biochemical": 1.0,
-      "stun": 1.0
-    },
-    "penetration_reduction": 1.0,
-    "penetration_absorption_multiplier": {
-      "physical": 1.0,
-      "energy": 1.0,
-      "distortion": 0.0,
-      "thermal": 1.0,
-      "biochemical": 1.0,
-      "stun": 1.0
-    },
-    "hull_damage_multiplier": {
-      "physical": 0.7,
-      "energy": 0.5,
-      "distortion": 1.0,
-      "thermal": 1.0,
-      "biochemical": 1.0,
-      "stun": 1.0
-    },
-    "hull_signal_multiplier": {
-      "cs": 1.0,
-      "em": 1.0,
-      "ir": 1.0
     }
   },
   {

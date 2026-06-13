@@ -1749,9 +1749,9 @@
         "port": "hardpoint_turret_centre_left_upper/hardpoint_weapon_left",
         "parent_port": "hardpoint_turret_centre_left_upper",
         "type": "gun",
-        "size": 5,
+        "size": 7,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M9A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -1759,9 +1759,9 @@
         "port": "hardpoint_turret_centre_left_upper/hardpoint_weapon_right",
         "parent_port": "hardpoint_turret_centre_left_upper",
         "type": "gun",
-        "size": 5,
+        "size": 7,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M9A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -1769,9 +1769,9 @@
         "port": "hardpoint_turret_centre_lower/hardpoint_weapon_left",
         "parent_port": "hardpoint_turret_centre_lower",
         "type": "gun",
-        "size": 5,
+        "size": 7,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M9A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -1779,9 +1779,9 @@
         "port": "hardpoint_turret_centre_lower/hardpoint_weapon_right",
         "parent_port": "hardpoint_turret_centre_lower",
         "type": "gun",
-        "size": 5,
+        "size": 7,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M9A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -1789,9 +1789,9 @@
         "port": "hardpoint_turret_centre_right_upper/hardpoint_weapon_left",
         "parent_port": "hardpoint_turret_centre_right_upper",
         "type": "gun",
-        "size": 5,
+        "size": 7,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M9A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -1799,9 +1799,9 @@
         "port": "hardpoint_turret_centre_right_upper/hardpoint_weapon_right",
         "parent_port": "hardpoint_turret_centre_right_upper",
         "type": "gun",
-        "size": 5,
+        "size": 7,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M9A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -1809,9 +1809,9 @@
         "port": "hardpoint_turret_front_left_upper/hardpoint_weapon_left",
         "parent_port": "hardpoint_turret_front_left_upper",
         "type": "gun",
-        "size": 5,
+        "size": 7,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M9A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -1819,9 +1819,9 @@
         "port": "hardpoint_turret_front_left_upper/hardpoint_weapon_right",
         "parent_port": "hardpoint_turret_front_left_upper",
         "type": "gun",
-        "size": 5,
+        "size": 7,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M9A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -1829,9 +1829,9 @@
         "port": "hardpoint_turret_front_lower/hardpoint_weapon_left",
         "parent_port": "hardpoint_turret_front_lower",
         "type": "gun",
-        "size": 5,
+        "size": 7,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M9A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -1839,9 +1839,9 @@
         "port": "hardpoint_turret_front_lower/hardpoint_weapon_right",
         "parent_port": "hardpoint_turret_front_lower",
         "type": "gun",
-        "size": 5,
+        "size": 7,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M9A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -1849,9 +1849,9 @@
         "port": "hardpoint_turret_front_right_upper/hardpoint_weapon_left",
         "parent_port": "hardpoint_turret_front_right_upper",
         "type": "gun",
-        "size": 5,
+        "size": 7,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M9A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -1859,9 +1859,9 @@
         "port": "hardpoint_turret_front_right_upper/hardpoint_weapon_right",
         "parent_port": "hardpoint_turret_front_right_upper",
         "type": "gun",
-        "size": 5,
+        "size": 7,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M9A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -1869,9 +1869,9 @@
         "port": "hardpoint_turret_nose_left_lower/hardpoint_weapon_left",
         "parent_port": "hardpoint_turret_nose_left_lower",
         "type": "gun",
-        "size": 5,
+        "size": 7,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M9A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -1879,9 +1879,9 @@
         "port": "hardpoint_turret_nose_left_lower/hardpoint_weapon_right",
         "parent_port": "hardpoint_turret_nose_left_lower",
         "type": "gun",
-        "size": 5,
+        "size": 7,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M9A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -1889,9 +1889,9 @@
         "port": "hardpoint_turret_nose_left_upper/hardpoint_weapon_left",
         "parent_port": "hardpoint_turret_nose_left_upper",
         "type": "gun",
-        "size": 5,
+        "size": 7,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M9A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -1899,9 +1899,9 @@
         "port": "hardpoint_turret_nose_left_upper/hardpoint_weapon_right",
         "parent_port": "hardpoint_turret_nose_left_upper",
         "type": "gun",
-        "size": 5,
+        "size": 7,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M9A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -1909,9 +1909,9 @@
         "port": "hardpoint_turret_nose_right_lower/hardpoint_weapon_left",
         "parent_port": "hardpoint_turret_nose_right_lower",
         "type": "gun",
-        "size": 5,
+        "size": 7,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M9A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -1919,9 +1919,9 @@
         "port": "hardpoint_turret_nose_right_lower/hardpoint_weapon_right",
         "parent_port": "hardpoint_turret_nose_right_lower",
         "type": "gun",
-        "size": 5,
+        "size": 7,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M9A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -1929,9 +1929,9 @@
         "port": "hardpoint_turret_nose_right_upper/hardpoint_weapon_left",
         "parent_port": "hardpoint_turret_nose_right_upper",
         "type": "gun",
-        "size": 5,
+        "size": 7,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M9A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -1939,9 +1939,9 @@
         "port": "hardpoint_turret_nose_right_upper/hardpoint_weapon_right",
         "parent_port": "hardpoint_turret_nose_right_upper",
         "type": "gun",
-        "size": 5,
+        "size": 7,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M9A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -1949,9 +1949,9 @@
         "port": "hardpoint_turret_rear_left_upper/hardpoint_weapon_left",
         "parent_port": "hardpoint_turret_rear_left_upper",
         "type": "gun",
-        "size": 5,
+        "size": 7,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M9A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -1959,9 +1959,9 @@
         "port": "hardpoint_turret_rear_left_upper/hardpoint_weapon_right",
         "parent_port": "hardpoint_turret_rear_left_upper",
         "type": "gun",
-        "size": 5,
+        "size": 7,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M9A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -1969,9 +1969,9 @@
         "port": "hardpoint_turret_rear_lower/hardpoint_weapon_left",
         "parent_port": "hardpoint_turret_rear_lower",
         "type": "gun",
-        "size": 5,
+        "size": 7,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M9A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -1979,9 +1979,9 @@
         "port": "hardpoint_turret_rear_lower/hardpoint_weapon_right",
         "parent_port": "hardpoint_turret_rear_lower",
         "type": "gun",
-        "size": 5,
+        "size": 7,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M9A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -1989,9 +1989,9 @@
         "port": "hardpoint_turret_rear_right_upper/hardpoint_weapon_left",
         "parent_port": "hardpoint_turret_rear_right_upper",
         "type": "gun",
-        "size": 5,
+        "size": 7,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M9A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -1999,9 +1999,9 @@
         "port": "hardpoint_turret_rear_right_upper/hardpoint_weapon_right",
         "parent_port": "hardpoint_turret_rear_right_upper",
         "type": "gun",
-        "size": 5,
+        "size": 7,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M9A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       }
@@ -2264,8 +2264,8 @@
         "size": 4,
         "size_min": 4,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "AD4B Ballistic Gatling",
+        "default_weapon_guid": "behr_ballisticgatling_s4",
         "source_detail": "mount"
       },
       {
@@ -2275,8 +2275,8 @@
         "size": 4,
         "size_min": 4,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "AD4B Ballistic Gatling",
+        "default_weapon_guid": "behr_ballisticgatling_s4",
         "source_detail": "mount"
       },
       {
@@ -2366,16 +2366,6 @@
         "default_weapon_name": "M5A Cannon",
         "default_weapon_guid": "f72ca643-b48c-4f6e-abb7-d5bc8eb261aa",
         "source_detail": "mount-nested"
-      },
-      {
-        "port": "hardpoint_weaponlocker",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -2434,7 +2424,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -2444,7 +2434,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -2454,7 +2444,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -2464,7 +2454,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -2474,7 +2464,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -2484,7 +2474,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -2494,7 +2484,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -2504,7 +2494,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -2514,7 +2504,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -2524,7 +2514,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       }
@@ -2846,6 +2836,16 @@
     "manufacturer": "Aegis Dynamics",
     "hardpoints": [
       {
+        "port": "hardpoint_weapon",
+        "parent_port": null,
+        "type": "gun",
+        "size": 10,
+        "size_inferred": true,
+        "default_weapon_name": "Supremacy-10T Laser Beam",
+        "default_weapon_guid": "35e1362f-a28d-4db5-b514-569c62f56a45",
+        "source_detail": "inline-leaf"
+      },
+      {
         "port": "hardpoint_turret_front_left/hardpoint_weapon_b",
         "parent_port": "hardpoint_turret_front_left",
         "type": "gun",
@@ -2932,16 +2932,6 @@
         "default_weapon_name": "CF-447 Rhino Repeater",
         "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weapon",
-        "parent_port": null,
-        "type": "gun",
-        "size": 0,
-        "size_inferred": true,
-        "default_weapon_name": "Supremacy-10T Laser Beam",
-        "default_weapon_guid": "35e1362f-a28d-4db5-b514-569c62f56a45",
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -3032,8 +3022,8 @@
         "size": 2,
         "size_min": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "MVSA Cannon ",
+        "default_weapon_guid": "behr_lasercannon_vng_s2",
         "source_detail": "mount"
       },
       {
@@ -3043,8 +3033,8 @@
         "size": 2,
         "size_min": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "MVSA Cannon ",
+        "default_weapon_guid": "behr_lasercannon_vng_s2",
         "source_detail": "mount"
       },
       {
@@ -3054,8 +3044,8 @@
         "size": 2,
         "size_min": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "MVSA Cannon ",
+        "default_weapon_guid": "behr_lasercannon_vng_s2",
         "source_detail": "mount"
       },
       {
@@ -3065,8 +3055,8 @@
         "size": 2,
         "size_min": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "MVSA Cannon ",
+        "default_weapon_guid": "behr_lasercannon_vng_s2",
         "source_detail": "mount"
       }
     ],
@@ -3778,26 +3768,6 @@
         "default_weapon_name": "CF-117 Bulldog Repeater",
         "default_weapon_guid": "c9c2bb19-3298-448e-a117-043e082a1c74",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weapon_regen_pool",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_regen_pool_turrets",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -3869,26 +3839,6 @@
         "default_weapon_name": "CF-117 Bulldog Repeater",
         "default_weapon_guid": "c9c2bb19-3298-448e-a117-043e082a1c74",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weapon_regen_pool",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_regen_pool_turrets",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -3982,26 +3932,6 @@
         "default_weapon_name": "FL-11 Cannon",
         "default_weapon_guid": "3d562dad-88f9-43aa-8ed5-616bf6634ff9",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weapon_regen_pool",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_regen_pool_turrets",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -4257,7 +4187,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-447 Rhino Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -4267,7 +4197,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-447 Rhino Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       }
@@ -4878,7 +4808,7 @@
         "size": 4,
         "size_inferred": false,
         "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_guid": "umnt_anvl_s5_rotodome",
         "source_detail": "inline-leaf"
       },
       {
@@ -4991,7 +4921,7 @@
         "size": 5,
         "size_inferred": true,
         "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_guid": "umnt_anvl_s5_rotodome_mk2",
         "source_detail": "inline-leaf"
       },
       {
@@ -5060,7 +4990,7 @@
         "size": 4,
         "size_inferred": false,
         "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_guid": "umnt_anvl_s5_cap",
         "source_detail": "inline-leaf"
       },
       {
@@ -5817,8 +5747,8 @@
         "size": 4,
         "size_min": 4,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-447 Rhino Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s4",
         "source_detail": "mount"
       },
       {
@@ -5828,8 +5758,8 @@
         "size": 4,
         "size_min": 4,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-447 Rhino Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s4",
         "source_detail": "mount"
       },
       {
@@ -5897,206 +5827,6 @@
         "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_01",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_02",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_03",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_04",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_05",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_06",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_07",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_08",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_09",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_10",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_11",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_12",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_13",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_14",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_15",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_16",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_17",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_18",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_19",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_20",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -6168,36 +5898,6 @@
         "default_weapon_name": "CF-227 Badger Repeater",
         "default_weapon_guid": "5453a817-dfd4-4143-aa11-840ca428540c",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_mining_cab_front/hardpoint_weapon_mining",
-        "parent_port": "hardpoint_mining_cab_front",
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": "Arbor MH2 Mining Laser",
-        "default_weapon_guid": "4435898e-a6cc-4f51-ab2a-805d0cf1a44a",
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_mining_cab_left/hardpoint_weapon_mining",
-        "parent_port": "hardpoint_mining_cab_left",
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": "Arbor MH2 Mining Laser",
-        "default_weapon_guid": "4435898e-a6cc-4f51-ab2a-805d0cf1a44a",
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_mining_cab_right/hardpoint_weapon_mining",
-        "parent_port": "hardpoint_mining_cab_right",
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": "Arbor MH2 Mining Laser",
-        "default_weapon_guid": "4435898e-a6cc-4f51-ab2a-805d0cf1a44a",
-        "source_detail": "inline-fallback"
       }
     ],
     "components": [
@@ -6383,16 +6083,6 @@
         "default_weapon_name": null,
         "default_weapon_guid": null,
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_remote_tractor_turret/turret_left",
-        "parent_port": "hardpoint_remote_tractor_turret",
-        "type": "gun",
-        "size": 4,
-        "size_inferred": true,
-        "default_weapon_name": "SureGrip S2 Tractor Beam",
-        "default_weapon_guid": "8c16ee3d-78fb-4fef-a369-b3d42952ec33",
-        "source_detail": "inline-fallback"
       }
     ],
     "components": [
@@ -6436,65 +6126,6 @@
     "cargo_scu": 192,
     "salvage": true,
     "components_accessible": "yes"
-  },
-  {
-    "id": "ARGO_SRV",
-    "name": "ARGO SRV",
-    "source": "rec",
-    "match": "exact",
-    "size": null,
-    "manufacturer": "Argo Astronautics",
-    "hardpoints": [
-      {
-        "port": "hardpoint_MainTractorBeamArm/turret_left",
-        "parent_port": "hardpoint_MainTractorBeamArm",
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
-      }
-    ],
-    "components": [
-      {
-        "type": "Power Plant",
-        "name": "Diligence",
-        "full": "Diligence Ind/C S2 Power Plant",
-        "size": 2,
-        "grade": "C",
-        "class": "Ind",
-        "count": 1
-      },
-      {
-        "type": "Cooler",
-        "name": "CoolCore",
-        "full": "CoolCore Ind/C S2 Cooler",
-        "size": 2,
-        "grade": "C",
-        "class": "Ind",
-        "count": 1
-      },
-      {
-        "type": "Shield Generator",
-        "name": "5MA 'Chimalli'",
-        "full": "5MA 'Chimalli' Civ/C S2 Shield Generator",
-        "size": 2,
-        "grade": "C",
-        "class": "Civ",
-        "count": 1
-      },
-      {
-        "type": "Quantum Drive",
-        "name": "Huracan",
-        "full": "Huracan Ind/B S2 Quantum Drive",
-        "size": 2,
-        "grade": "B",
-        "class": "Ind",
-        "count": 1
-      }
-    ],
-    "cargo_scu": 0
   },
   {
     "id": "BANU_Defender",
@@ -6899,7 +6530,7 @@
         "size": 3,
         "size_inferred": true,
         "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_guid": "cnou_mustang_gamma_scoop_front",
         "source_detail": "inline-leaf"
       }
     ],
@@ -6980,7 +6611,7 @@
         "size": 3,
         "size_inferred": true,
         "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_guid": "cnou_mustang_gamma_scoop_front",
         "source_detail": "inline-leaf"
       }
     ],
@@ -7064,26 +6695,6 @@
         "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weapon_rack_01",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_02",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -7750,46 +7361,6 @@
         "default_weapon_name": "CF-447 Rhino Repeater",
         "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weapon_rack_rifle_1",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_rifle_2",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_special_1",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_special_2",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -7927,46 +7498,6 @@
         "default_weapon_name": "CF-447 Rhino Repeater",
         "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weapon_rack_rifle_1",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_rifle_2",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_special_1",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_special_2",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -8531,46 +8062,6 @@
         "default_weapon_name": "CF-227 Badger Repeater",
         "default_weapon_guid": "5453a817-dfd4-4143-aa11-840ca428540c",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weapon_rack_01",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": "a75b1551-0879-4d2f-96f4-771d28f3374c",
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_02",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": "a75b1551-0879-4d2f-96f4-771d28f3374c",
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_03",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": "a75b1551-0879-4d2f-96f4-771d28f3374c",
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_special",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": "f6f5df72-e8ed-4daa-8787-a22d4f85f1eb",
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -9160,7 +8651,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Havoc Scattergun",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -9170,7 +8661,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Havoc Scattergun",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       }
@@ -9226,26 +8717,6 @@
         "default_weapon_name": "CF-117 Bulldog Repeater",
         "default_weapon_guid": "c9c2bb19-3298-448e-a117-043e082a1c74",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weapon_rack_left",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": "0ca64cf3-eb53-41ca-932f-13896441180c",
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_right",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": "791cb2a7-afc2-4cc9-82b9-8900fda396e8",
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -10090,166 +9561,6 @@
         "default_weapon_name": "Lightstrike III Cannon",
         "default_weapon_guid": "4e2b431e-916b-479b-9617-86e7e53a431a",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weapon_rack_01",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_02",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_03",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_04",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_05",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_06",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_07",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_08",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_09",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_10",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_11",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_12",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_13",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_14",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_15",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_16",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -10345,46 +9656,6 @@
         "default_weapon_name": "Deadbolt III Cannon",
         "default_weapon_guid": "370e4728-924a-4791-9297-a71b25ff08e9",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weapon_rack_01",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_02",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_03",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_04",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -10914,8 +10185,8 @@
         "size": 3,
         "size_min": 3,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s3",
         "source_detail": "mount"
       },
       {
@@ -10925,8 +10196,8 @@
         "size": 3,
         "size_min": 3,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s3",
         "source_detail": "mount"
       },
       {
@@ -11029,8 +10300,8 @@
         "size": 3,
         "size_min": 3,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s3",
         "source_detail": "mount"
       },
       {
@@ -11040,8 +10311,8 @@
         "size": 3,
         "size_min": 3,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s3",
         "source_detail": "mount"
       },
       {
@@ -11144,8 +10415,8 @@
         "size": 3,
         "size_min": 3,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s3",
         "source_detail": "mount"
       },
       {
@@ -11155,8 +10426,8 @@
         "size": 3,
         "size_min": 3,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s3",
         "source_detail": "mount"
       },
       {
@@ -11534,16 +10805,6 @@
         "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weapon_regen_pool",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -11659,46 +10920,6 @@
         "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
         "source_detail": "mount-nested"
-      },
-      {
-        "port": "hardpoint_turret_tractor_beam_bottom_front/turret_left",
-        "parent_port": "hardpoint_turret_tractor_beam_bottom_front",
-        "type": "gun",
-        "size": 4,
-        "size_inferred": true,
-        "default_weapon_name": "SureGrip S2 Tractor Beam",
-        "default_weapon_guid": "8c16ee3d-78fb-4fef-a369-b3d42952ec33",
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_turret_tractor_beam_bottom_rear/turret_left",
-        "parent_port": "hardpoint_turret_tractor_beam_bottom_rear",
-        "type": "gun",
-        "size": 4,
-        "size_inferred": true,
-        "default_weapon_name": "SureGrip S2 Tractor Beam",
-        "default_weapon_guid": "8c16ee3d-78fb-4fef-a369-b3d42952ec33",
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_turret_tractor_beam_top_front/turret_left",
-        "parent_port": "hardpoint_turret_tractor_beam_top_front",
-        "type": "gun",
-        "size": 4,
-        "size_inferred": true,
-        "default_weapon_name": "SureGrip S2 Tractor Beam",
-        "default_weapon_guid": "8c16ee3d-78fb-4fef-a369-b3d42952ec33",
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_turret_tractor_beam_top_rear/turret_left",
-        "parent_port": "hardpoint_turret_tractor_beam_top_rear",
-        "type": "gun",
-        "size": 4,
-        "size_inferred": true,
-        "default_weapon_name": "SureGrip S2 Tractor Beam",
-        "default_weapon_guid": "8c16ee3d-78fb-4fef-a369-b3d42952ec33",
-        "source_detail": "inline-fallback"
       }
     ],
     "components": [
@@ -12012,7 +11233,7 @@
         "type": "gun",
         "size": 3,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-227 Badger Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -12022,7 +11243,7 @@
         "type": "gun",
         "size": 3,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-227 Badger Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -12032,7 +11253,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-227 Badger Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -12042,7 +11263,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-227 Badger Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -12052,7 +11273,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "SureGrip S2 Tractor Beam",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       }
@@ -12112,7 +11333,7 @@
         "size": 3,
         "size_inferred": false,
         "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_guid": "umnt_misc_s03_pl01",
         "source_detail": "inline-leaf"
       },
       {
@@ -12122,7 +11343,7 @@
         "size": 3,
         "size_inferred": false,
         "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_guid": "misc_reliant_mako_camera_mount",
         "source_detail": "inline-leaf"
       },
       {
@@ -12131,7 +11352,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-227 Badger Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -12141,7 +11362,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-227 Badger Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       }
@@ -12201,7 +11422,7 @@
         "size": 3,
         "size_inferred": false,
         "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_guid": "umnt_misc_s03_pl01",
         "source_detail": "inline-leaf"
       },
       {
@@ -12211,7 +11432,7 @@
         "size": 3,
         "size_inferred": false,
         "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_guid": "misc_reliant_sen_sensor_mount",
         "source_detail": "inline-leaf"
       },
       {
@@ -12220,7 +11441,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-227 Badger Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -12230,7 +11451,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-227 Badger Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       }
@@ -12289,7 +11510,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-227 Badger Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -12299,7 +11520,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-227 Badger Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -12309,7 +11530,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -12319,7 +11540,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       }
@@ -12929,92 +12150,12 @@
     "manufacturer": "Musashi Industrial & Starflight Concern",
     "hardpoints": [
       {
-        "port": "hardpoint_turret_front/hardpoint_class_2",
-        "parent_port": "hardpoint_turret_front",
-        "type": "gun",
-        "size": 2,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_turret_front/hardpoint_class_2",
-        "parent_port": "hardpoint_turret_front",
-        "type": "gun",
-        "size": 2,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_turret_left/hardpoint_class_2",
-        "parent_port": "hardpoint_turret_left",
-        "type": "gun",
-        "size": 2,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_turret_left/hardpoint_class_2",
-        "parent_port": "hardpoint_turret_left",
-        "type": "gun",
-        "size": 2,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_turret_rear/hardpoint_class_2",
-        "parent_port": "hardpoint_turret_rear",
-        "type": "gun",
-        "size": 2,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_turret_rear/hardpoint_class_2",
-        "parent_port": "hardpoint_turret_rear",
-        "type": "gun",
-        "size": 2,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_turret_right/hardpoint_class_2",
-        "parent_port": "hardpoint_turret_right",
-        "type": "gun",
-        "size": 2,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_turret_right/hardpoint_class_2",
-        "parent_port": "hardpoint_turret_right",
-        "type": "gun",
-        "size": 2,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
-      },
-      {
         "port": "hardpoint_weapon_left/hardpoint_weapon_01",
         "parent_port": "hardpoint_weapon_left",
         "type": "gun",
-        "size": 6,
+        "size": 4,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M6A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -13022,9 +12163,9 @@
         "port": "hardpoint_weapon_left/hardpoint_weapon_02",
         "parent_port": "hardpoint_weapon_left",
         "type": "gun",
-        "size": 6,
+        "size": 4,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M6A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -13032,9 +12173,9 @@
         "port": "hardpoint_weapon_right/hardpoint_weapon_01",
         "parent_port": "hardpoint_weapon_right",
         "type": "gun",
-        "size": 6,
+        "size": 4,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M6A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -13042,9 +12183,89 @@
         "port": "hardpoint_weapon_right/hardpoint_weapon_02",
         "parent_port": "hardpoint_weapon_right",
         "type": "gun",
-        "size": 6,
+        "size": 4,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "M6A Cannon",
+        "default_weapon_guid": null,
+        "source_detail": "inline-fallback"
+      },
+      {
+        "port": "hardpoint_turret_front/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_front",
+        "type": "gun",
+        "size": 2,
+        "size_inferred": false,
+        "default_weapon_name": "CF-447 Rhino Repeater",
+        "default_weapon_guid": null,
+        "source_detail": "inline-fallback"
+      },
+      {
+        "port": "hardpoint_turret_front/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_front",
+        "type": "gun",
+        "size": 2,
+        "size_inferred": false,
+        "default_weapon_name": "CF-447 Rhino Repeater",
+        "default_weapon_guid": null,
+        "source_detail": "inline-fallback"
+      },
+      {
+        "port": "hardpoint_turret_left/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_left",
+        "type": "gun",
+        "size": 2,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": null,
+        "source_detail": "inline-fallback"
+      },
+      {
+        "port": "hardpoint_turret_left/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_left",
+        "type": "gun",
+        "size": 2,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": null,
+        "source_detail": "inline-fallback"
+      },
+      {
+        "port": "hardpoint_turret_rear/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_rear",
+        "type": "gun",
+        "size": 2,
+        "size_inferred": false,
+        "default_weapon_name": "CF-447 Rhino Repeater",
+        "default_weapon_guid": null,
+        "source_detail": "inline-fallback"
+      },
+      {
+        "port": "hardpoint_turret_rear/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_rear",
+        "type": "gun",
+        "size": 2,
+        "size_inferred": false,
+        "default_weapon_name": "CF-447 Rhino Repeater",
+        "default_weapon_guid": null,
+        "source_detail": "inline-fallback"
+      },
+      {
+        "port": "hardpoint_turret_right/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_right",
+        "type": "gun",
+        "size": 2,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": null,
+        "source_detail": "inline-fallback"
+      },
+      {
+        "port": "hardpoint_turret_right/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_right",
+        "type": "gun",
+        "size": 2,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       }
@@ -13360,7 +12581,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": true,
-        "default_weapon_name": null,
+        "default_weapon_name": "Thlilye Laser Gatling",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       }
@@ -13402,7 +12623,7 @@
         "size": null,
         "size_inferred": false,
         "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_guid": "intk_mrai_pulse_lx",
         "source_detail": "inline-leaf"
       }
     ],
@@ -14032,16 +13253,6 @@
         "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_gunrack",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": "5b6c04a4-4a7d-424d-8a78-54b7c2db3040",
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -14170,26 +13381,6 @@
         "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weapon_rack_1",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": "0fa32f29-e03c-478f-a1d1-ed64a601fabf",
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_2",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": "0fa32f29-e03c-478f-a1d1-ed64a601fabf",
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -14247,8 +13438,8 @@
         "size": 2,
         "size_min": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-227 Badger Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s2",
         "source_detail": "mount"
       },
       {
@@ -14258,8 +13449,8 @@
         "size": 2,
         "size_min": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-227 Badger Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s2",
         "source_detail": "mount"
       },
       {
@@ -14337,10 +13528,10 @@
         "port": "hardpoint_weapon",
         "parent_port": null,
         "type": "gun",
-        "size": 0,
+        "size": 1,
         "size_inferred": true,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "M3A Cannon",
+        "default_weapon_guid": "behr_lasercannon_s1",
         "source_detail": "inline-leaf"
       }
     ],
@@ -17812,8 +17003,8 @@
         "size": 3,
         "size_min": 3,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s3",
         "source_detail": "mount"
       },
       {
@@ -17823,8 +17014,8 @@
         "size": 3,
         "size_min": 3,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s3",
         "source_detail": "mount"
       },
       {
@@ -17833,7 +17024,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -17843,7 +17034,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       }
@@ -17947,8 +17138,8 @@
         "size": 3,
         "size_min": 3,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s3",
         "source_detail": "mount"
       },
       {
@@ -17958,8 +17149,8 @@
         "size": 3,
         "size_min": 3,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s3",
         "source_detail": "mount"
       },
       {
@@ -17969,8 +17160,8 @@
         "size": 3,
         "size_min": 3,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s3",
         "source_detail": "mount"
       },
       {
@@ -17980,8 +17171,8 @@
         "size": 3,
         "size_min": 3,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s3",
         "source_detail": "mount"
       },
       {
@@ -18095,8 +17286,8 @@
         "size": 3,
         "size_min": 3,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s3",
         "source_detail": "mount"
       },
       {
@@ -18106,15 +17297,15 @@
         "size": 3,
         "size_min": 3,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s3",
         "source_detail": "mount"
       },
       {
         "port": "hardpoint_turret_base_lower/hardpoint_weapon_left",
         "parent_port": "hardpoint_turret_base_lower",
         "type": "gun",
-        "size": 6,
+        "size": 2,
         "size_inferred": true,
         "default_weapon_name": "SureGrip S2 Tractor Beam",
         "default_weapon_guid": "8c16ee3d-78fb-4fef-a369-b3d42952ec33",
@@ -18222,16 +17413,6 @@
         "default_weapon_name": "CF-447 Rhino Repeater",
         "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_remote_tractor_turret/hardpoint_weapon",
-        "parent_port": "hardpoint_remote_tractor_turret",
-        "type": "gun",
-        "size": 2,
-        "size_inferred": true,
-        "default_weapon_name": "SureGrip S2 Tractor Beam",
-        "default_weapon_guid": "8c16ee3d-78fb-4fef-a369-b3d42952ec33",
-        "source_detail": "inline-fallback"
       }
     ],
     "components": [
@@ -18696,7 +17877,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Maris Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -18706,7 +17887,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Maris Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -18716,7 +17897,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -18726,7 +17907,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -18736,7 +17917,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -18746,7 +17927,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -18756,7 +17937,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -18766,7 +17947,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -18776,7 +17957,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -18786,7 +17967,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -18796,7 +17977,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -18806,7 +17987,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -18816,7 +17997,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -18826,7 +18007,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -18836,7 +18017,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Omnisky XII Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -18846,7 +18027,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Omnisky XII Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -18856,7 +18037,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Omnisky XII Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -18866,7 +18047,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Omnisky XII Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -18876,7 +18057,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Omnisky XII Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -18886,7 +18067,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Omnisky XII Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -18896,7 +18077,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Omnisky XII Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -18906,18 +18087,8 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Omnisky XII Cannon",
         "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_remote_turret_interior_tractor/turret_left",
-        "parent_port": "hardpoint_remote_turret_interior_tractor",
-        "type": "gun",
-        "size": 4,
-        "size_inferred": true,
-        "default_weapon_name": "SureGrip S2 Tractor Beam",
-        "default_weapon_guid": "8c16ee3d-78fb-4fef-a369-b3d42952ec33",
         "source_detail": "inline-fallback"
       }
     ],
@@ -19127,16 +18298,6 @@
         "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weaponlocker",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -19532,26 +18693,6 @@
     "manufacturer": "Vanduul",
     "hardpoints": [
       {
-        "port": "hardpoint_gun_nose_left",
-        "parent_port": null,
-        "type": "gun",
-        "size": 1,
-        "size_inferred": true,
-        "default_weapon_name": "'WEAK' Repeater",
-        "default_weapon_guid": "00ab31a0-7de2-44f7-a567-7ff88fdbad49",
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_gun_nose_right",
-        "parent_port": null,
-        "type": "gun",
-        "size": 1,
-        "size_inferred": true,
-        "default_weapon_name": "'WEAK' Repeater",
-        "default_weapon_guid": "00ab31a0-7de2-44f7-a567-7ff88fdbad49",
-        "source_detail": "inline-leaf"
-      },
-      {
         "port": "hardpoint_gun_wing_left",
         "parent_port": null,
         "type": "gun",
@@ -19569,6 +18710,26 @@
         "size_inferred": true,
         "default_weapon_name": "'WRATH' Cannon",
         "default_weapon_guid": "fde9335b-a9b7-4d7d-a4a4-69b1158de320",
+        "source_detail": "inline-leaf"
+      },
+      {
+        "port": "hardpoint_gun_nose_left",
+        "parent_port": null,
+        "type": "gun",
+        "size": 1,
+        "size_inferred": true,
+        "default_weapon_name": "'WEAK' Repeater",
+        "default_weapon_guid": "00ab31a0-7de2-44f7-a567-7ff88fdbad49",
+        "source_detail": "inline-leaf"
+      },
+      {
+        "port": "hardpoint_gun_nose_right",
+        "parent_port": null,
+        "type": "gun",
+        "size": 1,
+        "size_inferred": true,
+        "default_weapon_name": "'WEAK' Repeater",
+        "default_weapon_guid": "00ab31a0-7de2-44f7-a567-7ff88fdbad49",
         "source_detail": "inline-leaf"
       }
     ],
@@ -19622,12 +18783,22 @@
     "manufacturer": "Vanduul",
     "hardpoints": [
       {
+        "port": "hardpoint_weapon_nose",
+        "parent_port": null,
+        "type": "gun",
+        "size": 10,
+        "size_inferred": true,
+        "default_weapon_name": "Vanduul Mauler 'ANNIHILATOR' Cannon",
+        "default_weapon_guid": "0d58aa05-4235-40a5-b6bf-9fa31c59f749",
+        "source_detail": "inline-leaf"
+      },
+      {
         "port": "hardpoint_turret_bottom_front_left/hardpoint_class_2",
         "parent_port": "hardpoint_turret_bottom_front_left",
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Vanduul Mauler 'STRIKER' Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -19637,7 +18808,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Vanduul Mauler 'STRIKER' Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -19647,7 +18818,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Vanduul Mauler 'STRIKER' Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -19657,7 +18828,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Vanduul Mauler 'STRIKER' Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -19667,7 +18838,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Vanduul Mauler 'STRIKER' Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -19677,7 +18848,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Vanduul Mauler 'STRIKER' Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -19687,7 +18858,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Vanduul Mauler 'RAGE' Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -19697,7 +18868,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Vanduul Mauler 'RAGE' Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -19707,7 +18878,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Vanduul Mauler 'RAGE' Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -19717,7 +18888,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Vanduul Mauler 'RAGE' Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -19727,7 +18898,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Vanduul Mauler 'RAGE' Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -19737,7 +18908,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Vanduul Mauler 'RAGE' Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -19747,7 +18918,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Vanduul Mauler 'STRIKER' Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -19757,7 +18928,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Vanduul Mauler 'STRIKER' Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -19767,7 +18938,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Vanduul Mauler 'ERADICATOR' Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -19777,7 +18948,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Vanduul Mauler 'ERADICATOR' Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -19787,7 +18958,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Vanduul Mauler 'IGNITER' Beam",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -19797,7 +18968,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Vanduul Mauler 'STRIKER' Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -19807,19 +18978,9 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Vanduul Mauler 'STRIKER' Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_weapon_nose",
-        "parent_port": null,
-        "type": "gun",
-        "size": 10,
-        "size_inferred": true,
-        "default_weapon_name": "Vanduul Mauler 'ANNIHILATOR' Cannon",
-        "default_weapon_guid": "0d58aa05-4235-40a5-b6bf-9fa31c59f749",
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -19872,26 +19033,6 @@
     "manufacturer": "Vanduul",
     "hardpoints": [
       {
-        "port": "hardpoint_gun_nose_left",
-        "parent_port": null,
-        "type": "gun",
-        "size": 1,
-        "size_inferred": true,
-        "default_weapon_name": "'WEAK' Repeater",
-        "default_weapon_guid": "00ab31a0-7de2-44f7-a567-7ff88fdbad49",
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_gun_nose_right",
-        "parent_port": null,
-        "type": "gun",
-        "size": 1,
-        "size_inferred": true,
-        "default_weapon_name": "'WEAK' Repeater",
-        "default_weapon_guid": "00ab31a0-7de2-44f7-a567-7ff88fdbad49",
-        "source_detail": "inline-leaf"
-      },
-      {
         "port": "hardpoint_gun_wing_left",
         "parent_port": null,
         "type": "gun",
@@ -19909,6 +19050,26 @@
         "size_inferred": true,
         "default_weapon_name": "'WRATH' Cannon",
         "default_weapon_guid": "fde9335b-a9b7-4d7d-a4a4-69b1158de320",
+        "source_detail": "inline-leaf"
+      },
+      {
+        "port": "hardpoint_gun_nose_left",
+        "parent_port": null,
+        "type": "gun",
+        "size": 1,
+        "size_inferred": true,
+        "default_weapon_name": "'WEAK' Repeater",
+        "default_weapon_guid": "00ab31a0-7de2-44f7-a567-7ff88fdbad49",
+        "source_detail": "inline-leaf"
+      },
+      {
+        "port": "hardpoint_gun_nose_right",
+        "parent_port": null,
+        "type": "gun",
+        "size": 1,
+        "size_inferred": true,
+        "default_weapon_name": "'WEAK' Repeater",
+        "default_weapon_guid": "00ab31a0-7de2-44f7-a567-7ff88fdbad49",
         "source_detail": "inline-leaf"
       }
     ],
@@ -20255,26 +19416,6 @@
         "default_weapon_name": "Yeng’tu Repeater",
         "default_weapon_guid": "a9780953-9488-4644-9b56-61464e9dd6b9",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weapon_rack_01",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": "cfc27314-3771-4b09-8ffc-d31103293091",
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_02",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": "cfc27314-3771-4b09-8ffc-d31103293091",
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -24249,76 +23390,6 @@
     "cargo_scu": 180
   },
   {
-    "id": "ANVL_C8_Pisces_Tutorial",
-    "name": "ANVL C8 Pisces Tutorial",
-    "source": "rec-auto",
-    "match": "auto-discovered",
-    "size": null,
-    "manufacturer": "Anvil Aerospace",
-    "hardpoints": [
-      {
-        "port": "hardpoint_weapon_regen_pool",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_regen_pool_turrets",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      }
-    ],
-    "components": [
-      {
-        "type": "Power Plant",
-        "name": "Regulus",
-        "full": "Regulus Mil/C S1 Power Plant",
-        "size": 1,
-        "grade": "C",
-        "class": "Mil",
-        "count": 1
-      },
-      {
-        "type": "Cooler",
-        "name": "Bracer",
-        "full": "Bracer Mil/C S1 Cooler",
-        "size": 1,
-        "grade": "C",
-        "class": "Mil",
-        "count": 1
-      },
-      {
-        "type": "Shield Generator",
-        "name": "Shimmer",
-        "full": "Shimmer Sth/C S1 Shield Generator",
-        "size": 1,
-        "grade": "C",
-        "class": "Sth",
-        "count": 1
-      },
-      {
-        "type": "Quantum Drive",
-        "name": "Expedition",
-        "full": "Expedition Civ/C S1 Quantum Drive",
-        "size": 1,
-        "grade": "C",
-        "class": "Civ",
-        "count": 1
-      }
-    ],
-    "cargo_scu": 4,
-    "disabled": true
-  },
-  {
     "id": "ANVL_C8R_Pisces_FW22NFZ",
     "name": "ANVL C8R Pisces FW22NFZ",
     "source": "rec-auto",
@@ -24347,26 +23418,6 @@
         "default_weapon_name": "CF-117 Bulldog Repeater",
         "default_weapon_guid": "c9c2bb19-3298-448e-a117-043e082a1c74",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weapon_regen_pool",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_regen_pool_turrets",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -26662,8 +25713,8 @@
         "size": 4,
         "size_min": 4,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-447 Rhino Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s4",
         "source_detail": "mount"
       },
       {
@@ -26673,8 +25724,8 @@
         "size": 4,
         "size_min": 4,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-447 Rhino Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s4",
         "source_detail": "mount"
       },
       {
@@ -26742,206 +25793,6 @@
         "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_01",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_02",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_03",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_04",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_05",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_06",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_07",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_08",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_09",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_10",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_11",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_12",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_13",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_14",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_15",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_16",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_17",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_18",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_19",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_20",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -27000,8 +25851,8 @@
         "size": 4,
         "size_min": 4,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-447 Rhino Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s4",
         "source_detail": "mount"
       },
       {
@@ -27011,8 +25862,8 @@
         "size": 4,
         "size_min": 4,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-447 Rhino Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s4",
         "source_detail": "mount"
       },
       {
@@ -27080,206 +25931,6 @@
         "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_01",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_02",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_03",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_04",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_05",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_06",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_07",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_08",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_09",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_10",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_11",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_12",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_13",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_14",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_15",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_16",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_17",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_18",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_19",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_20",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -27338,8 +25989,8 @@
         "size": 4,
         "size_min": 4,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-447 Rhino Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s4",
         "source_detail": "mount"
       },
       {
@@ -27349,8 +26000,8 @@
         "size": 4,
         "size_min": 4,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-447 Rhino Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s4",
         "source_detail": "mount"
       },
       {
@@ -27418,206 +26069,6 @@
         "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_01",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_02",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_03",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_04",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_05",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_06",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_07",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_08",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_09",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_10",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_11",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_12",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_13",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_14",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_15",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_16",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_17",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_18",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_19",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_Weapon_Cabinet_20",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -27690,36 +26141,6 @@
         "default_weapon_name": "CF-227 Badger Repeater",
         "default_weapon_guid": "5453a817-dfd4-4143-aa11-840ca428540c",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_mining_cab_front/hardpoint_weapon_mining",
-        "parent_port": "hardpoint_mining_cab_front",
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": "Helix II Mining Laser",
-        "default_weapon_guid": "3bcde69d-3e3a-4f78-b2cb-8189b349e4d2",
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_mining_cab_left/hardpoint_weapon_mining",
-        "parent_port": "hardpoint_mining_cab_left",
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": "Klein-S2 Mining Laser",
-        "default_weapon_guid": "41850766-d4a8-4255-be75-0d24af7280b0",
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_mining_cab_right/hardpoint_weapon_mining",
-        "parent_port": "hardpoint_mining_cab_right",
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": "Klein-S2 Mining Laser",
-        "default_weapon_guid": "41850766-d4a8-4255-be75-0d24af7280b0",
-        "source_detail": "inline-fallback"
       }
     ],
     "components": [
@@ -27813,16 +26234,6 @@
         "default_weapon_name": null,
         "default_weapon_guid": null,
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_remote_tractor_turret/turret_left",
-        "parent_port": "hardpoint_remote_tractor_turret",
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": "SureGrip S2 Tractor Beam",
-        "default_weapon_guid": "8c16ee3d-78fb-4fef-a369-b3d42952ec33",
-        "source_detail": "inline-fallback"
       }
     ],
     "components": [
@@ -27997,26 +26408,6 @@
         "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weapon_rack_01",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_02",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -28290,7 +26681,7 @@
         "port": "hardpoint_turret_rear/turret_left",
         "parent_port": "hardpoint_turret_rear",
         "type": "gun",
-        "size": 1,
+        "size": 2,
         "size_inferred": true,
         "default_weapon_name": "SureGrip S2 Tractor Beam",
         "default_weapon_guid": "8c16ee3d-78fb-4fef-a369-b3d42952ec33",
@@ -28395,8 +26786,8 @@
         "port": "hardpoint_turret_rear/turret_left",
         "parent_port": "hardpoint_turret_rear",
         "type": "gun",
-        "size": null,
-        "size_inferred": false,
+        "size": 2,
+        "size_inferred": true,
         "default_weapon_name": "SureGrip S2 Tractor Beam",
         "default_weapon_guid": "8c16ee3d-78fb-4fef-a369-b3d42952ec33",
         "source_detail": "inline-fallback"
@@ -28798,46 +27189,6 @@
         "default_weapon_name": "CF-447 Rhino Repeater",
         "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weapon_rack_rifle_1",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_rifle_2",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_special_1",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_special_2",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -29042,46 +27393,6 @@
         "default_weapon_name": "Attrition-4 Repeater",
         "default_weapon_guid": "8d868b78-eccd-4ba5-a4a5-57e2f20bdc35",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weapon_rack_rifle_1",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_rifle_2",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_special_1",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_special_2",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -29285,46 +27596,6 @@
         "default_weapon_name": "CF-447 Rhino Repeater",
         "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weapon_rack_rifle_1",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_rifle_2",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_special_1",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_special_2",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -29529,46 +27800,6 @@
         "default_weapon_name": "CF-447 Rhino Repeater",
         "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weapon_rack_rifle_1",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_rifle_2",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_special_1",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_special_2",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -30563,7 +28794,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Havoc Scattergun",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -30573,7 +28804,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Havoc Scattergun",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       }
@@ -30615,7 +28846,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Havoc Scattergun",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -30625,7 +28856,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Havoc Scattergun",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       }
@@ -30682,26 +28913,6 @@
         "default_weapon_name": "NN-13 Cannon",
         "default_weapon_guid": "3fc83638-fbe5-4d75-8e18-678736fefbc4",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weapon_rack_left",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": "0ca64cf3-eb53-41ca-932f-13896441180c",
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_right",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": "791cb2a7-afc2-4cc9-82b9-8900fda396e8",
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -30773,26 +28984,6 @@
         "default_weapon_name": "CF-117 Bulldog Repeater",
         "default_weapon_guid": "c9c2bb19-3298-448e-a117-043e082a1c74",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weapon_rack_left",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": "0ca64cf3-eb53-41ca-932f-13896441180c",
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_right",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": "791cb2a7-afc2-4cc9-82b9-8900fda396e8",
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -30865,26 +29056,6 @@
         "default_weapon_name": "CF-117 Bulldog Repeater",
         "default_weapon_guid": "c9c2bb19-3298-448e-a117-043e082a1c74",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weapon_rack_left",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": "0ca64cf3-eb53-41ca-932f-13896441180c",
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_right",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": "791cb2a7-afc2-4cc9-82b9-8900fda396e8",
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -30956,26 +29127,6 @@
         "default_weapon_name": "CF-117 Bulldog Repeater",
         "default_weapon_guid": "c9c2bb19-3298-448e-a117-043e082a1c74",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weapon_rack_left",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": "0ca64cf3-eb53-41ca-932f-13896441180c",
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_right",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": "791cb2a7-afc2-4cc9-82b9-8900fda396e8",
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -31140,46 +29291,6 @@
         "default_weapon_name": "Deadbolt III Cannon",
         "default_weapon_guid": "370e4728-924a-4791-9297-a71b25ff08e9",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weapon_rack_01",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_02",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_03",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_04",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -31854,6 +29965,16 @@
     "manufacturer": "Kruger Intergalactic",
     "hardpoints": [
       {
+        "port": "hardpoint_weapon_gun_centermount",
+        "parent_port": null,
+        "type": "gun",
+        "size": 2,
+        "size_inferred": true,
+        "default_weapon_name": "Tigerstrike T-19P",
+        "default_weapon_guid": "d018aa87-d395-4935-8660-af9bda648b03",
+        "source_detail": "inline-leaf"
+      },
+      {
         "port": "hardpoint_wing_left/hardpoint_class_2",
         "parent_port": "hardpoint_wing_left",
         "type": "gun",
@@ -31874,16 +29995,6 @@
         "default_weapon_name": "CF-117 Bulldog Repeater",
         "default_weapon_guid": "c9c2bb19-3298-448e-a117-043e082a1c74",
         "source_detail": "mount-nested"
-      },
-      {
-        "port": "hardpoint_weapon_gun_centermount",
-        "parent_port": null,
-        "type": "gun",
-        "size": 2,
-        "size_inferred": true,
-        "default_weapon_name": "Tigerstrike T-19P",
-        "default_weapon_guid": "d018aa87-d395-4935-8660-af9bda648b03",
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -32242,8 +30353,8 @@
         "size": 3,
         "size_min": 3,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s3",
         "source_detail": "mount"
       },
       {
@@ -32253,8 +30364,8 @@
         "size": 3,
         "size_min": 3,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s3",
         "source_detail": "mount"
       },
       {
@@ -33053,52 +31164,12 @@
     "manufacturer": "Musashi Industrial & Starflight Concern",
     "hardpoints": [
       {
-        "port": "hardpoint_turret_front/hardpoint_class_2",
-        "parent_port": "hardpoint_turret_front",
-        "type": "gun",
-        "size": 2,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_turret_front/hardpoint_class_2",
-        "parent_port": "hardpoint_turret_front",
-        "type": "gun",
-        "size": 2,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_turret_rear/hardpoint_class_2",
-        "parent_port": "hardpoint_turret_rear",
-        "type": "gun",
-        "size": 2,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_turret_rear/hardpoint_class_2",
-        "parent_port": "hardpoint_turret_rear",
-        "type": "gun",
-        "size": 2,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
-      },
-      {
         "port": "hardpoint_weapon_left/hardpoint_weapon_01",
         "parent_port": "hardpoint_weapon_left",
         "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
+        "size": 4,
+        "size_inferred": true,
+        "default_weapon_name": "M6A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -33106,9 +31177,9 @@
         "port": "hardpoint_weapon_left/hardpoint_weapon_02",
         "parent_port": "hardpoint_weapon_left",
         "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
+        "size": 4,
+        "size_inferred": true,
+        "default_weapon_name": "M6A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -33116,9 +31187,9 @@
         "port": "hardpoint_weapon_right/hardpoint_weapon_01",
         "parent_port": "hardpoint_weapon_right",
         "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
+        "size": 4,
+        "size_inferred": true,
+        "default_weapon_name": "M6A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -33126,9 +31197,49 @@
         "port": "hardpoint_weapon_right/hardpoint_weapon_02",
         "parent_port": "hardpoint_weapon_right",
         "type": "gun",
-        "size": null,
+        "size": 4,
+        "size_inferred": true,
+        "default_weapon_name": "M6A Cannon",
+        "default_weapon_guid": null,
+        "source_detail": "inline-fallback"
+      },
+      {
+        "port": "hardpoint_turret_front/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_front",
+        "type": "gun",
+        "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-447 Rhino Repeater",
+        "default_weapon_guid": null,
+        "source_detail": "inline-fallback"
+      },
+      {
+        "port": "hardpoint_turret_front/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_front",
+        "type": "gun",
+        "size": 2,
+        "size_inferred": false,
+        "default_weapon_name": "CF-447 Rhino Repeater",
+        "default_weapon_guid": null,
+        "source_detail": "inline-fallback"
+      },
+      {
+        "port": "hardpoint_turret_rear/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_rear",
+        "type": "gun",
+        "size": 2,
+        "size_inferred": false,
+        "default_weapon_name": "CF-447 Rhino Repeater",
+        "default_weapon_guid": null,
+        "source_detail": "inline-fallback"
+      },
+      {
+        "port": "hardpoint_turret_rear/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_rear",
+        "type": "gun",
+        "size": 2,
+        "size_inferred": false,
+        "default_weapon_name": "CF-447 Rhino Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       }
@@ -33182,52 +31293,12 @@
     "manufacturer": "Musashi Industrial & Starflight Concern",
     "hardpoints": [
       {
-        "port": "hardpoint_turret_front/hardpoint_class_2",
-        "parent_port": "hardpoint_turret_front",
-        "type": "gun",
-        "size": 2,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_turret_front/hardpoint_class_2",
-        "parent_port": "hardpoint_turret_front",
-        "type": "gun",
-        "size": 2,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_turret_rear/hardpoint_class_2",
-        "parent_port": "hardpoint_turret_rear",
-        "type": "gun",
-        "size": 2,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_turret_rear/hardpoint_class_2",
-        "parent_port": "hardpoint_turret_rear",
-        "type": "gun",
-        "size": 2,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
-      },
-      {
         "port": "hardpoint_weapon_left/hardpoint_weapon_01",
         "parent_port": "hardpoint_weapon_left",
         "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
+        "size": 4,
+        "size_inferred": true,
+        "default_weapon_name": "M6A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -33235,9 +31306,9 @@
         "port": "hardpoint_weapon_left/hardpoint_weapon_02",
         "parent_port": "hardpoint_weapon_left",
         "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
+        "size": 4,
+        "size_inferred": true,
+        "default_weapon_name": "M6A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -33245,9 +31316,9 @@
         "port": "hardpoint_weapon_right/hardpoint_weapon_01",
         "parent_port": "hardpoint_weapon_right",
         "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
+        "size": 4,
+        "size_inferred": true,
+        "default_weapon_name": "M6A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -33255,9 +31326,49 @@
         "port": "hardpoint_weapon_right/hardpoint_weapon_02",
         "parent_port": "hardpoint_weapon_right",
         "type": "gun",
-        "size": null,
+        "size": 4,
+        "size_inferred": true,
+        "default_weapon_name": "M6A Cannon",
+        "default_weapon_guid": null,
+        "source_detail": "inline-fallback"
+      },
+      {
+        "port": "hardpoint_turret_front/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_front",
+        "type": "gun",
+        "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-447 Rhino Repeater",
+        "default_weapon_guid": null,
+        "source_detail": "inline-fallback"
+      },
+      {
+        "port": "hardpoint_turret_front/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_front",
+        "type": "gun",
+        "size": 2,
+        "size_inferred": false,
+        "default_weapon_name": "CF-447 Rhino Repeater",
+        "default_weapon_guid": null,
+        "source_detail": "inline-fallback"
+      },
+      {
+        "port": "hardpoint_turret_rear/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_rear",
+        "type": "gun",
+        "size": 2,
+        "size_inferred": false,
+        "default_weapon_name": "CF-447 Rhino Repeater",
+        "default_weapon_guid": null,
+        "source_detail": "inline-fallback"
+      },
+      {
+        "port": "hardpoint_turret_rear/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_rear",
+        "type": "gun",
+        "size": 2,
+        "size_inferred": false,
+        "default_weapon_name": "CF-447 Rhino Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       }
@@ -33311,92 +31422,12 @@
     "manufacturer": "Musashi Industrial & Starflight Concern",
     "hardpoints": [
       {
-        "port": "hardpoint_turret_front/hardpoint_class_2",
-        "parent_port": "hardpoint_turret_front",
-        "type": "gun",
-        "size": 2,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_turret_front/hardpoint_class_2",
-        "parent_port": "hardpoint_turret_front",
-        "type": "gun",
-        "size": 2,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_turret_left/hardpoint_class_2",
-        "parent_port": "hardpoint_turret_left",
-        "type": "gun",
-        "size": 2,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_turret_left/hardpoint_class_2",
-        "parent_port": "hardpoint_turret_left",
-        "type": "gun",
-        "size": 2,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_turret_rear/hardpoint_class_2",
-        "parent_port": "hardpoint_turret_rear",
-        "type": "gun",
-        "size": 2,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_turret_rear/hardpoint_class_2",
-        "parent_port": "hardpoint_turret_rear",
-        "type": "gun",
-        "size": 2,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_turret_right/hardpoint_class_2",
-        "parent_port": "hardpoint_turret_right",
-        "type": "gun",
-        "size": 2,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_turret_right/hardpoint_class_2",
-        "parent_port": "hardpoint_turret_right",
-        "type": "gun",
-        "size": 2,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
-      },
-      {
         "port": "hardpoint_weapon_left/hardpoint_weapon_01",
         "parent_port": "hardpoint_weapon_left",
         "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
+        "size": 4,
+        "size_inferred": true,
+        "default_weapon_name": "Attrition-4 Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -33404,9 +31435,9 @@
         "port": "hardpoint_weapon_left/hardpoint_weapon_02",
         "parent_port": "hardpoint_weapon_left",
         "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
+        "size": 4,
+        "size_inferred": true,
+        "default_weapon_name": "Attrition-4 Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -33414,9 +31445,9 @@
         "port": "hardpoint_weapon_right/hardpoint_weapon_01",
         "parent_port": "hardpoint_weapon_right",
         "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
+        "size": 4,
+        "size_inferred": true,
+        "default_weapon_name": "Attrition-4 Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -33424,9 +31455,89 @@
         "port": "hardpoint_weapon_right/hardpoint_weapon_02",
         "parent_port": "hardpoint_weapon_right",
         "type": "gun",
-        "size": null,
+        "size": 4,
+        "size_inferred": true,
+        "default_weapon_name": "Attrition-4 Repeater",
+        "default_weapon_guid": null,
+        "source_detail": "inline-fallback"
+      },
+      {
+        "port": "hardpoint_turret_front/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_front",
+        "type": "gun",
+        "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Omnisky XII Cannon",
+        "default_weapon_guid": null,
+        "source_detail": "inline-fallback"
+      },
+      {
+        "port": "hardpoint_turret_front/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_front",
+        "type": "gun",
+        "size": 2,
+        "size_inferred": false,
+        "default_weapon_name": "Omnisky XII Cannon",
+        "default_weapon_guid": null,
+        "source_detail": "inline-fallback"
+      },
+      {
+        "port": "hardpoint_turret_left/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_left",
+        "type": "gun",
+        "size": 2,
+        "size_inferred": false,
+        "default_weapon_name": "M7A Cannon",
+        "default_weapon_guid": null,
+        "source_detail": "inline-fallback"
+      },
+      {
+        "port": "hardpoint_turret_left/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_left",
+        "type": "gun",
+        "size": 2,
+        "size_inferred": false,
+        "default_weapon_name": "M7A Cannon",
+        "default_weapon_guid": null,
+        "source_detail": "inline-fallback"
+      },
+      {
+        "port": "hardpoint_turret_rear/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_rear",
+        "type": "gun",
+        "size": 2,
+        "size_inferred": false,
+        "default_weapon_name": "Omnisky XII Cannon",
+        "default_weapon_guid": null,
+        "source_detail": "inline-fallback"
+      },
+      {
+        "port": "hardpoint_turret_rear/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_rear",
+        "type": "gun",
+        "size": 2,
+        "size_inferred": false,
+        "default_weapon_name": "Omnisky XII Cannon",
+        "default_weapon_guid": null,
+        "source_detail": "inline-fallback"
+      },
+      {
+        "port": "hardpoint_turret_right/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_right",
+        "type": "gun",
+        "size": 2,
+        "size_inferred": false,
+        "default_weapon_name": "M7A Cannon",
+        "default_weapon_guid": null,
+        "source_detail": "inline-fallback"
+      },
+      {
+        "port": "hardpoint_turret_right/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_right",
+        "type": "gun",
+        "size": 2,
+        "size_inferred": false,
+        "default_weapon_name": "M7A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       }
@@ -33798,9 +31909,9 @@
         "port": "hardpoint_weapon/hardpoint_weapon_mount_pos",
         "parent_port": "hardpoint_weapon",
         "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
+        "size": 2,
+        "size_inferred": true,
+        "default_weapon_name": "Thlilye Laser Gatling",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       }
@@ -33839,9 +31950,9 @@
         "port": "hardpoint_turret/turret_left",
         "parent_port": "hardpoint_turret",
         "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
+        "size": 6,
+        "size_inferred": true,
+        "default_weapon_name": "M8A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -33849,9 +31960,9 @@
         "port": "hardpoint_turret/turret_right",
         "parent_port": "hardpoint_turret",
         "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
+        "size": 6,
+        "size_inferred": true,
+        "default_weapon_name": "M8A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       }
@@ -33900,9 +32011,9 @@
         "port": "hardpoint_turret/turret_left",
         "parent_port": "hardpoint_turret",
         "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
+        "size": 2,
+        "size_inferred": true,
+        "default_weapon_name": "M4A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -33910,9 +32021,9 @@
         "port": "hardpoint_turret/turret_right",
         "parent_port": "hardpoint_turret",
         "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
+        "size": 2,
+        "size_inferred": true,
+        "default_weapon_name": "M4A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       }
@@ -33961,9 +32072,9 @@
         "port": "hardpoint_turret/turret_left",
         "parent_port": "hardpoint_turret",
         "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
+        "size": 6,
+        "size_inferred": true,
+        "default_weapon_name": "M8A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -33971,9 +32082,9 @@
         "port": "hardpoint_turret/turret_right",
         "parent_port": "hardpoint_turret",
         "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
+        "size": 6,
+        "size_inferred": true,
+        "default_weapon_name": "M8A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       }
@@ -34022,9 +32133,9 @@
         "port": "hardpoint_turret/turret_left",
         "parent_port": "hardpoint_turret",
         "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
+        "size": 2,
+        "size_inferred": true,
+        "default_weapon_name": "M4A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -34032,9 +32143,9 @@
         "port": "hardpoint_turret/turret_right",
         "parent_port": "hardpoint_turret",
         "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
+        "size": 2,
+        "size_inferred": true,
+        "default_weapon_name": "M4A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       }
@@ -34083,9 +32194,9 @@
         "port": "hardpoint_turret/turret_left",
         "parent_port": "hardpoint_turret",
         "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
+        "size": 6,
+        "size_inferred": true,
+        "default_weapon_name": "M8A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -34093,9 +32204,9 @@
         "port": "hardpoint_turret/turret_right",
         "parent_port": "hardpoint_turret",
         "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
+        "size": 6,
+        "size_inferred": true,
+        "default_weapon_name": "M8A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       }
@@ -34144,9 +32255,9 @@
         "port": "hardpoint_turret/turret_left",
         "parent_port": "hardpoint_turret",
         "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
+        "size": 6,
+        "size_inferred": true,
+        "default_weapon_name": "M8A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -34154,9 +32265,9 @@
         "port": "hardpoint_turret/turret_right",
         "parent_port": "hardpoint_turret",
         "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
+        "size": 6,
+        "size_inferred": true,
+        "default_weapon_name": "M8A Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       }
@@ -34277,26 +32388,6 @@
         "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weapon_rack_1",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": "0fa32f29-e03c-478f-a1d1-ed64a601fabf",
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_2",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": "0fa32f29-e03c-478f-a1d1-ed64a601fabf",
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -34423,26 +32514,6 @@
         "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weapon_rack_1",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": "0fa32f29-e03c-478f-a1d1-ed64a601fabf",
-        "source_detail": "inline-leaf"
-      },
-      {
-        "port": "hardpoint_weapon_rack_2",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": "0fa32f29-e03c-478f-a1d1-ed64a601fabf",
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -34926,10 +32997,10 @@
         "port": "hardpoint_weapon",
         "parent_port": null,
         "type": "gun",
-        "size": 0,
+        "size": 1,
         "size_inferred": true,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-117 Bulldog Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s1",
         "source_detail": "inline-leaf"
       }
     ],
@@ -36425,8 +34496,8 @@
         "size": 3,
         "size_min": 3,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s3",
         "source_detail": "mount"
       },
       {
@@ -36436,8 +34507,8 @@
         "size": 3,
         "size_min": 3,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s3",
         "source_detail": "mount"
       }
     ],
@@ -36540,8 +34611,8 @@
         "size": 3,
         "size_min": 3,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s3",
         "source_detail": "mount"
       },
       {
@@ -36551,8 +34622,8 @@
         "size": 3,
         "size_min": 3,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s3",
         "source_detail": "mount"
       },
       {
@@ -36562,8 +34633,8 @@
         "size": 3,
         "size_min": 3,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s3",
         "source_detail": "mount"
       },
       {
@@ -36573,8 +34644,8 @@
         "size": 3,
         "size_min": 3,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s3",
         "source_detail": "mount"
       },
       {
@@ -36688,8 +34759,8 @@
         "size": 3,
         "size_min": 3,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s3",
         "source_detail": "mount"
       },
       {
@@ -36699,8 +34770,8 @@
         "size": 3,
         "size_min": 3,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s3",
         "source_detail": "mount"
       },
       {
@@ -36710,8 +34781,8 @@
         "size": 3,
         "size_min": 3,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s3",
         "source_detail": "mount"
       },
       {
@@ -36721,8 +34792,8 @@
         "size": 3,
         "size_min": 3,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s3",
         "source_detail": "mount"
       },
       {
@@ -36837,8 +34908,8 @@
         "size": 3,
         "size_min": 3,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s3",
         "source_detail": "mount"
       },
       {
@@ -36848,16 +34919,16 @@
         "size": 3,
         "size_min": 3,
         "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "klwe_laserrepeater_s3",
         "source_detail": "mount"
       },
       {
         "port": "hardpoint_turret_base_lower/hardpoint_weapon_left",
         "parent_port": "hardpoint_turret_base_lower",
         "type": "gun",
-        "size": null,
-        "size_inferred": false,
+        "size": 2,
+        "size_inferred": true,
         "default_weapon_name": "SureGrip S2 Tractor Beam",
         "default_weapon_guid": "8c16ee3d-78fb-4fef-a369-b3d42952ec33",
         "source_detail": "inline-fallback"
@@ -37273,7 +35344,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Maris Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -37283,7 +35354,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Maris Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -37293,7 +35364,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -37303,7 +35374,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -37313,7 +35384,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -37323,7 +35394,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -37333,7 +35404,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -37343,7 +35414,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -37353,7 +35424,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -37363,7 +35434,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -37373,7 +35444,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -37383,7 +35454,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -37393,7 +35464,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -37403,7 +35474,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -37413,7 +35484,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Omnisky XII Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -37423,7 +35494,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Omnisky XII Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -37433,7 +35504,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Omnisky XII Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -37443,7 +35514,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Omnisky XII Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -37453,7 +35524,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Omnisky XII Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -37463,7 +35534,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Omnisky XII Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -37473,7 +35544,7 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Omnisky XII Cannon",
         "default_weapon_guid": null,
         "source_detail": "inline-fallback"
       },
@@ -37483,18 +35554,8 @@
         "type": "gun",
         "size": 2,
         "size_inferred": false,
-        "default_weapon_name": null,
+        "default_weapon_name": "Omnisky XII Cannon",
         "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
-      },
-      {
-        "port": "hardpoint_remote_turret_interior_tractor/turret_left",
-        "parent_port": "hardpoint_remote_turret_interior_tractor",
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": "SureGrip S2 Tractor Beam",
-        "default_weapon_guid": "8c16ee3d-78fb-4fef-a369-b3d42952ec33",
         "source_detail": "inline-fallback"
       }
     ],
@@ -37589,16 +35650,6 @@
         "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weaponlocker",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
@@ -37736,16 +35787,6 @@
         "default_weapon_name": "CF-337 Panther Repeater",
         "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
         "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weaponlocker",
-        "parent_port": null,
-        "type": "gun",
-        "size": null,
-        "size_inferred": false,
-        "default_weapon_name": null,
-        "default_weapon_guid": null,
-        "source_detail": "inline-leaf"
       }
     ],
     "components": [
