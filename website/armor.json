@@ -8325,6 +8325,51 @@
     }
   },
   {
+    "ship": "ARGO MOLE BTALA",
+    "armor_name": "Argo MPUV Ship Armor",
+    "manufacturer": "Argo Astronautics",
+    "class": "Medium",
+    "health": 11220,
+    "deflection_threshold": {
+      "physical": 45.0,
+      "energy": 40.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.72,
+      "energy": 1.14,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
     "ship": "ARGO MOLE Teach",
     "armor_name": "Argo MPUV Ship Armor",
     "manufacturer": "Argo Astronautics",
@@ -9225,7 +9270,97 @@
     }
   },
   {
+    "ship": "DRAK Clipper Collector Military",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Drake Interplanetary",
+    "class": "Medium",
+    "health": 2880,
+    "deflection_threshold": {
+      "physical": 9.0,
+      "energy": 8.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.08,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.1,
+      "ir": 1.1
+    }
+  },
+  {
     "ship": "DRAK Cutlass Black Mission PIR Package",
+    "armor_name": "Cutlass Black Ship Armor",
+    "manufacturer": "Drake Interplanetary",
+    "class": "Medium",
+    "health": 7290,
+    "deflection_threshold": {
+      "physical": 32.0,
+      "energy": 29.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.77,
+      "energy": 1.02,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "DRAK Cutlass Black PU Boarding",
     "armor_name": "Cutlass Black Ship Armor",
     "manufacturer": "Drake Interplanetary",
     "class": "Medium",
@@ -9537,6 +9672,51 @@
       "cs": 1.0,
       "em": 0.4,
       "ir": 0.27
+    }
+  },
+  {
+    "ship": "DRAK Golem BTALA",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Drake Interplanetary",
+    "class": "Medium",
+    "health": 6732,
+    "deflection_threshold": {
+      "physical": 18.0,
+      "energy": 16.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.72,
+      "energy": 0.96,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.1,
+      "ir": 1.1
     }
   },
   {
@@ -9852,6 +10032,141 @@
       "cs": 0.6,
       "em": 0.6,
       "ir": 0.6
+    }
+  },
+  {
+    "ship": "GAMA Railen",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Gama",
+    "class": "Medium",
+    "health": 11968,
+    "deflection_threshold": {
+      "physical": 116.0,
+      "energy": 110.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.72,
+      "energy": 1.08,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "GAMA Tyilui",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Gama",
+    "class": "Medium",
+    "health": 10560,
+    "deflection_threshold": {
+      "physical": 116.0,
+      "energy": 110.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.77,
+      "energy": 1.15,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "GLSN Basher",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Gallenson Tactical Systems",
+    "class": "Medium",
+    "health": 1600,
+    "deflection_threshold": {
+      "physical": 8.0,
+      "energy": 6.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.72,
+      "energy": 1.22,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
     }
   },
   {
@@ -10392,6 +10707,51 @@
       "cs": 1.0,
       "em": 1.0,
       "ir": 1.0
+    }
+  },
+  {
+    "ship": "MISC Prospector BTALA",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Musashi Industrial & Starflight Concern",
+    "class": "Medium",
+    "health": 8228,
+    "deflection_threshold": {
+      "physical": 18.0,
+      "energy": 19.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.8,
+      "energy": 1.08,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.5,
+      "em": 1.5,
+      "ir": 1.5
     }
   },
   {
