@@ -178,11 +178,18 @@ async function load() {
   // Cache-busting: append timestamp so each load gets fresh JSON.
   // Without this, browsers happily serve stale ships.json between rebuilds.
   const cb = `?v=${Date.now()}`;
-  [SHIPS, WEAPONS, ARMOR] = await Promise.all([
+  const [ships, weapons, armor, meta] = await Promise.all([
     fetch("ships.json" + cb).then(r => r.json()),
     fetch("weapons.json" + cb).then(r => r.json()),
     fetch("armor.json" + cb).then(r => r.json()),
+    fetch("meta.json" + cb).then(r => r.json()).catch(() => ({})),
   ]);
+  SHIPS = ships; WEAPONS = weapons; ARMOR = armor;
+
+  // Patch tag in the header (blank -> hidden by CSS :empty). Tolerant of a
+  // missing meta.json so older deploys don't error.
+  const patchEl = document.getElementById("currentPatch");
+  if (patchEl) patchEl.textContent = meta && meta.current_patch ? `Patch ${meta.current_patch}` : "";
   ARMOR_BY_SHIP = Object.fromEntries(ARMOR.map(a => [a.ship, a]));
   SHIPS_BY_NAME = Object.fromEntries(SHIPS.map(s => [s.name, s]));
   CLASS_THRESHOLDS = computeClassThresholds(ARMOR);
