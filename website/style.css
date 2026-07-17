@@ -113,6 +113,20 @@ body {
   border-radius: 10px;
 }
 .patch-badge:empty { display: none; }
+/* Shopping-list button in the loadout footer. */
+.shop-btn {
+  background: transparent;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.12s, color 0.12s;
+}
+.shop-btn:hover { background: var(--accent); color: #fff; }
 
 .controls { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
 
