@@ -98,6 +98,21 @@ body {
   letter-spacing: 0.12em;
   margin-top: 2px;
 }
+/* Game-data patch tag under the wordmark. Fed from meta.json by app.js;
+   the :empty rule hides it cleanly if meta.json is absent (older deploys). */
+.patch-badge {
+  align-self: flex-start;
+  margin-top: 4px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  padding: 1px 8px;
+  border-radius: 10px;
+}
+.patch-badge:empty { display: none; }
 
 .controls { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
 
