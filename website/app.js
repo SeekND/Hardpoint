@@ -742,10 +742,13 @@ function renderLoadout(side, result, ship, armor, range) {
       </tr></thead>
       <tbody>${rows.join("")}</tbody>
     </table>
-    <div class="muted" style="padding:6px 12px;font-size:11px;border-top:1px solid var(--border)">
-      <strong>Total: ${totalGuns} gun${totalGuns === 1 ? "" : "s"} · ${fmt(totalDps)} DPS${range > 0 ? ` @ ${range >= 1000 ? `${range/1000} km` : `${range} m`}` : ""}</strong>
-      ${result.anchorSpeed != null ? ` &nbsp;·&nbsp; pip anchor ${result.anchorSpeed} m/s (±${PIP_TOLERANCE})` : ""}
-      ${range > 0 ? ` &nbsp;·&nbsp; ref ToF ${REFERENCE_TOF}s` : ""}
+    <div class="muted" style="padding:6px 12px;font-size:11px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap">
+      <div>
+        <strong>Total: ${totalGuns} gun${totalGuns === 1 ? "" : "s"} · ${fmt(totalDps)} DPS${range > 0 ? ` @ ${range >= 1000 ? `${range/1000} km` : `${range} m`}` : ""}</strong>
+        ${result.anchorSpeed != null ? ` &nbsp;·&nbsp; pip anchor ${result.anchorSpeed} m/s (±${PIP_TOLERANCE})` : ""}
+        ${range > 0 ? ` &nbsp;·&nbsp; ref ToF ${REFERENCE_TOF}s` : ""}
+      </div>
+      <button type="button" class="shop-btn" onclick="openWeaponShopping('${side}')" title="Shopping list — where to buy this loadout">🛒 Shopping list</button>
     </div>
   ` : `<div class="empty">no weapon hardpoints on this ship</div>`;
 }
