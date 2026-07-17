@@ -263,13 +263,17 @@ function targetThresholds(ship, mode) {
   return CLASS_THRESHOLDS[upClass] || {};
 }
 
-/** Weapons that fit a given slot: size match, gun-like type. */
-const GUN_TYPES = /Cannon|Repeater|Gatling|ScatterGun|Distortion|Beam|MassDriver|Laser/i;
+/** Weapons that fit a given slot: size match, gun-like type.
+ *  weapons.json is built from ship gun entities, so we EXCLUDE the handful of
+ *  utility/non-gun families rather than whitelisting class names — a whitelist
+ *  silently dropped valid guns whose type didn't match (mass drivers, rocket
+ *  pods, and anything that fell back to the generic "Gun" label). */
+const NON_GUN_TYPES = /Mining|Salvage|Tractor|Tow|Quantum|QED|Missile|Torpedo|Bomb/i;
 function candidatesForSlot(slot, opts = {}) {
   const { currentShipName = null, dmgType = "any" } = opts;
   return WEAPONS.filter(w =>
     w.size === slot.size &&
-    GUN_TYPES.test(w.type || "") &&
+    !NON_GUN_TYPES.test(w.type || "") &&
     typeof w.dps_sustained_60s === "number" &&
     w.dps_sustained_60s > 0 &&
     matchesDmgType(w, dmgType) &&
@@ -280,7 +284,7 @@ function candidatesForSlot(slot, opts = {}) {
 function matchesDmgType(w, dmgType) {
   if (!dmgType || dmgType === "any") return true;
   if (dmgType === "ballistic") {
-    return (w.alpha_physical ?? 0) > 0 || /Ballistic|MassDriver/i.test(w.type || "");
+    return (w.alpha_physical ?? 0) > 0 || /Ballistic|Mass ?Driver/i.test(w.type || "");
   }
   if (dmgType === "energy") {
     return (w.alpha_energy ?? 0) > 0 || /Laser|Beam/i.test(w.type || "");
