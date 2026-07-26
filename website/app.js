@@ -157,6 +157,21 @@ function isWeaponAllowed(weapon, currentShipName) {
   return true;
 }
 
+/** Is this weapon *specifically forced* to the given ship (localStorage OR
+ *  data-level)? Used so a bespoke weapon you've pinned to a ship becomes that
+ *  ship's Base-mode default when the game data ships the slot empty. */
+function isWeaponForcedTo(weapon, currentShipName) {
+  const cfg = WEAPON_CONFIG[weaponKey(weapon)];
+  if (cfg) {
+    if (cfg.state === "forced") {
+      const allow = cfg.ships || (cfg.ship ? [cfg.ship] : []);
+      return allow.includes(currentShipName);
+    }
+    return false;   // local disabled/normal overrides any baked force
+  }
+  return Array.isArray(weapon.force_to_ships) && weapon.force_to_ships.includes(currentShipName);
+}
+
 const $ = sel => document.querySelector(sel);
 /** Side-scoped query — finds an element inside .panel[data-side="left|right"]. */
 const $$ = (side, sel) => document.querySelector(`.panel[data-side="${side}"] ${sel}`);
@@ -419,6 +434,15 @@ function pickLoadout(side, ship, mode, pref, range, dmgType) {
            || null)
         : null;
       if (candidate && !isWeaponAllowed(candidate, ship.name)) candidate = null;
+      // No factory default (game ships the slot empty)? Fall back to a weapon
+      // you've *forced* to this ship that fits the slot — e.g. a bespoke turret
+      // gun pinned to its ship. Highest-DPS wins if several qualify.
+      if (!candidate) {
+        const forced = candidatesForSlot({ size: g.size }, filterOpts)
+          .filter(w => isWeaponForcedTo(w, ship.name))
+          .sort((a, b) => (b.dps_sustained_60s || 0) - (a.dps_sustained_60s || 0));
+        if (forced.length) candidate = forced[0];
+      }
       autoChosen = candidate;
       poolSize = candidatesForSlot({ size: g.size }, filterOpts).length;
     } else {
