@@ -4712,7 +4712,7 @@
     },
     "hull_damage_multiplier": {
       "physical": 0.75,
-      "energy": 1.1,
+      "energy": 0.6,
       "distortion": 1.0,
       "thermal": 1.0,
       "biochemical": 1.0,
@@ -9315,6 +9315,51 @@
     }
   },
   {
+    "ship": "DRAK Command Module Boarded",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Drake Interplanetary",
+    "class": "Medium",
+    "health": 3366,
+    "deflection_threshold": {
+      "physical": 9.0,
+      "energy": 8.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.72,
+      "energy": 0.96,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
     "ship": "DRAK Cutlass Black Mission PIR Package",
     "armor_name": "Cutlass Black Ship Armor",
     "manufacturer": "Drake Interplanetary",
@@ -9721,51 +9766,6 @@
   },
   {
     "ship": "DRAK Golem Collector Indust",
-    "armor_name": "<= PLACEHOLDER =>",
-    "manufacturer": "Drake Interplanetary",
-    "class": "Medium",
-    "health": 6732,
-    "deflection_threshold": {
-      "physical": 18.0,
-      "energy": 16.0,
-      "distortion": 0.0,
-      "thermal": 0.0,
-      "biochemical": 0.0,
-      "stun": 0.0
-    },
-    "durability_multiplier": {
-      "physical": 0.72,
-      "energy": 0.96,
-      "distortion": 1.0,
-      "thermal": 1.0,
-      "biochemical": 1.0,
-      "stun": 1.0
-    },
-    "penetration_reduction": 1.0,
-    "penetration_absorption_multiplier": {
-      "physical": 1.0,
-      "energy": 1.0,
-      "distortion": 0.0,
-      "thermal": 1.0,
-      "biochemical": 1.0,
-      "stun": 1.0
-    },
-    "hull_damage_multiplier": {
-      "physical": 0.7,
-      "energy": 0.5,
-      "distortion": 1.0,
-      "thermal": 1.0,
-      "biochemical": 1.0,
-      "stun": 1.0
-    },
-    "hull_signal_multiplier": {
-      "cs": 1.0,
-      "em": 1.1,
-      "ir": 1.1
-    }
-  },
-  {
-    "ship": "DRAK Golem Low Fuel TEMPORARY",
     "armor_name": "<= PLACEHOLDER =>",
     "manufacturer": "Drake Interplanetary",
     "class": "Medium",
@@ -10575,6 +10575,96 @@
     }
   },
   {
+    "ship": "KRIG S65 Stingray",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Kruger Intergalactic",
+    "class": "Medium",
+    "health": 3512,
+    "deflection_threshold": {
+      "physical": 24.0,
+      "energy": 19.2,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.77,
+      "energy": 1.15,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "KRIG S65 Stingray BALLISTIC",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Kruger Intergalactic",
+    "class": "Medium",
+    "health": 3512,
+    "deflection_threshold": {
+      "physical": 24.0,
+      "energy": 19.2,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.77,
+      "energy": 1.15,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
     "ship": "MISC Fortune Collector Industrial",
     "armor_name": "<= PLACEHOLDER =>",
     "manufacturer": "Musashi Industrial & Starflight Concern",
@@ -11237,7 +11327,7 @@
     },
     "hull_damage_multiplier": {
       "physical": 0.75,
-      "energy": 1.1,
+      "energy": 0.6,
       "distortion": 1.0,
       "thermal": 1.0,
       "biochemical": 1.0,
