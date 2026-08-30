@@ -28510,6 +28510,99 @@
     "cargo_scu": 12
   },
   {
+    "id": "DRAK_Command_Module_Boarded",
+    "name": "DRAK Command Module Boarded",
+    "source": "rec-auto",
+    "match": "auto-discovered",
+    "size": null,
+    "manufacturer": "Drake Interplanetary",
+    "hardpoints": [
+      {
+        "port": "hardpoint_remote_turret_top/hardpoint_class_2",
+        "parent_port": "hardpoint_remote_turret_top",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount-nested"
+      },
+      {
+        "port": "hardpoint_remote_turret_top/hardpoint_class_2",
+        "parent_port": "hardpoint_remote_turret_top",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount-nested"
+      },
+      {
+        "port": "hardpoint_weapon_left/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_left",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "M5A Cannon",
+        "default_weapon_guid": "f72ca643-b48c-4f6e-abb7-d5bc8eb261aa",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_weapon_right/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_right",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "M5A Cannon",
+        "default_weapon_guid": "f72ca643-b48c-4f6e-abb7-d5bc8eb261aa",
+        "source_detail": "mount"
+      }
+    ],
+    "components": [
+      {
+        "type": "Power Plant",
+        "name": "Fortitude",
+        "full": "Fortitude S1 Power Plant",
+        "size": 1,
+        "grade": null,
+        "class": null,
+        "count": 1
+      },
+      {
+        "type": "Cooler",
+        "name": "Thermax",
+        "full": "Thermax Ind/C S1 Cooler",
+        "size": 1,
+        "grade": "C",
+        "class": "Ind",
+        "count": 1
+      },
+      {
+        "type": "Shield Generator",
+        "name": "Palisade",
+        "full": "Palisade Ind/A S1 Shield Generator",
+        "size": 1,
+        "grade": "A",
+        "class": "Ind",
+        "count": 1
+      },
+      {
+        "type": "Quantum Drive",
+        "name": "Goliath",
+        "full": "Goliath Ind/C S1 Quantum Drive",
+        "size": 1,
+        "grade": "C",
+        "class": "Ind",
+        "count": 1
+      }
+    ],
+    "cargo_scu": 0
+  },
+  {
     "id": "DRAK_Cutlass_Black_Mission_PIR_Package",
     "name": "DRAK Cutlass Black Mission PIR Package",
     "source": "rec-auto",
@@ -29304,78 +29397,6 @@
       }
     ],
     "cargo_scu": 0
-  },
-  {
-    "id": "DRAK_Golem_Low_Fuel_TEMPORARY",
-    "name": "DRAK Golem Low Fuel TEMPORARY",
-    "source": "rec-auto",
-    "match": "auto-discovered",
-    "size": null,
-    "manufacturer": "Drake Interplanetary",
-    "hardpoints": [
-      {
-        "port": "hardpoint_weapon_left/hardpoint_class_2",
-        "parent_port": "hardpoint_weapon_left",
-        "type": "gun",
-        "size": 1,
-        "size_min": 1,
-        "size_inferred": false,
-        "default_weapon_name": "CF-117 Bulldog Repeater",
-        "default_weapon_guid": "c9c2bb19-3298-448e-a117-043e082a1c74",
-        "source_detail": "mount"
-      },
-      {
-        "port": "hardpoint_weapon_right/hardpoint_class_2",
-        "parent_port": "hardpoint_weapon_right",
-        "type": "gun",
-        "size": 1,
-        "size_min": 1,
-        "size_inferred": false,
-        "default_weapon_name": "CF-117 Bulldog Repeater",
-        "default_weapon_guid": "c9c2bb19-3298-448e-a117-043e082a1c74",
-        "source_detail": "mount"
-      }
-    ],
-    "components": [
-      {
-        "type": "Power Plant",
-        "name": "Fortitude",
-        "full": "Fortitude S1 Power Plant",
-        "size": 1,
-        "grade": null,
-        "class": null,
-        "count": 1
-      },
-      {
-        "type": "Cooler",
-        "name": "Thermax",
-        "full": "Thermax Ind/C S1 Cooler",
-        "size": 1,
-        "grade": "C",
-        "class": "Ind",
-        "count": 1
-      },
-      {
-        "type": "Shield Generator",
-        "name": "Bulwark",
-        "full": "Bulwark Ind/C S1 Shield Generator",
-        "size": 1,
-        "grade": "C",
-        "class": "Ind",
-        "count": 1
-      },
-      {
-        "type": "Quantum Drive",
-        "name": "Goliath",
-        "full": "Goliath Ind/C S1 Quantum Drive",
-        "size": 1,
-        "grade": "C",
-        "class": "Ind",
-        "count": 1
-      }
-    ],
-    "cargo_scu": 0,
-    "disabled": true
   },
   {
     "id": "DRAK_Golem_OX",
@@ -30748,14 +30769,15 @@
     "manufacturer": "Kruger Intergalactic",
     "hardpoints": [
       {
-        "port": "hardpoint_weapon_gun_centermount",
-        "parent_port": null,
+        "port": "hardpoint_weapon_gun_centermount/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_gun_centermount",
         "type": "gun",
         "size": 2,
-        "size_inferred": true,
+        "size_min": 2,
+        "size_inferred": false,
         "default_weapon_name": "Tigerstrike T-19P",
         "default_weapon_guid": "d018aa87-d395-4935-8660-af9bda648b03",
-        "source_detail": "inline-leaf"
+        "source_detail": "mount"
       },
       {
         "port": "hardpoint_wing_left/hardpoint_class_2",
@@ -30974,6 +30996,236 @@
         "size": 1,
         "grade": "C",
         "class": "Cmp",
+        "count": 1
+      }
+    ],
+    "cargo_scu": 0
+  },
+  {
+    "id": "KRIG_S65_Stingray",
+    "name": "KRIG S65 Stingray",
+    "source": "rec-auto",
+    "match": "auto-discovered",
+    "size": null,
+    "manufacturer": "Kruger Intergalactic",
+    "hardpoints": [
+      {
+        "port": "hardpoint_weapon_left/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_left",
+        "type": "gun",
+        "size": 4,
+        "size_min": 4,
+        "size_inferred": false,
+        "default_weapon_name": "Axiom L-22 Repeater",
+        "default_weapon_guid": "890880a7-afa7-41f9-bc1c-925d7958a436",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_weapon_right/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_right",
+        "type": "gun",
+        "size": 4,
+        "size_min": 4,
+        "size_inferred": false,
+        "default_weapon_name": "Axiom L-22 Repeater",
+        "default_weapon_guid": "890880a7-afa7-41f9-bc1c-925d7958a436",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_weapon_fixed_left_inner/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_fixed_left_inner",
+        "type": "gun",
+        "size": 2,
+        "size_min": 2,
+        "size_inferred": false,
+        "default_weapon_name": "Whiptail STR-E2 Repeater",
+        "default_weapon_guid": "fdac3503-07a6-48cb-9656-3a00c617cfb2",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_weapon_fixed_left_outer/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_fixed_left_outer",
+        "type": "gun",
+        "size": 2,
+        "size_min": 2,
+        "size_inferred": false,
+        "default_weapon_name": "Whiptail STR-E2 Repeater",
+        "default_weapon_guid": "fdac3503-07a6-48cb-9656-3a00c617cfb2",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_weapon_fixed_right_inner/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_fixed_right_inner",
+        "type": "gun",
+        "size": 2,
+        "size_min": 2,
+        "size_inferred": false,
+        "default_weapon_name": "Whiptail STR-E2 Repeater",
+        "default_weapon_guid": "fdac3503-07a6-48cb-9656-3a00c617cfb2",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_weapon_fixed_right_outer/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_fixed_right_outer",
+        "type": "gun",
+        "size": 2,
+        "size_min": 2,
+        "size_inferred": false,
+        "default_weapon_name": "Whiptail STR-E2 Repeater",
+        "default_weapon_guid": "fdac3503-07a6-48cb-9656-3a00c617cfb2",
+        "source_detail": "mount"
+      }
+    ],
+    "components": [
+      {
+        "type": "Power Plant",
+        "name": "LightBlossom",
+        "full": "LightBlossom Civ/C S1 Power Plant",
+        "size": 1,
+        "grade": "C",
+        "class": "Civ",
+        "count": 1
+      },
+      {
+        "type": "Cooler",
+        "name": "Frost-Star",
+        "full": "Frost-Star Civ/C S1 Cooler",
+        "size": 1,
+        "grade": "C",
+        "class": "Civ",
+        "count": 2
+      },
+      {
+        "type": "Shield Generator",
+        "name": "WEB",
+        "full": "WEB Civ/C S1 Shield Generator",
+        "size": 1,
+        "grade": "C",
+        "class": "Civ",
+        "count": 2
+      },
+      {
+        "type": "Quantum Drive",
+        "name": "Rush",
+        "full": "Rush Civ/C S1 Quantum Drive",
+        "size": 1,
+        "grade": "C",
+        "class": "Civ",
+        "count": 1
+      }
+    ],
+    "cargo_scu": 0
+  },
+  {
+    "id": "KRIG_S65_Stingray_BALLISTIC",
+    "name": "KRIG S65 Stingray BALLISTIC",
+    "source": "rec-auto",
+    "match": "auto-discovered",
+    "size": null,
+    "manufacturer": "Kruger Intergalactic",
+    "hardpoints": [
+      {
+        "port": "hardpoint_weapon_left/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_left",
+        "type": "gun",
+        "size": 4,
+        "size_min": 4,
+        "size_inferred": false,
+        "default_weapon_name": "Relentless L-21 Gatling",
+        "default_weapon_guid": "ea0217e9-cdbe-48d2-a192-1837c52130b9",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_weapon_right/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_right",
+        "type": "gun",
+        "size": 4,
+        "size_min": 4,
+        "size_inferred": false,
+        "default_weapon_name": "Relentless L-21 Gatling",
+        "default_weapon_guid": "ea0217e9-cdbe-48d2-a192-1837c52130b9",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_weapon_fixed_left_inner/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_fixed_left_inner",
+        "type": "gun",
+        "size": 2,
+        "size_min": 2,
+        "size_inferred": false,
+        "default_weapon_name": "Tigerstrike T-19P",
+        "default_weapon_guid": "d018aa87-d395-4935-8660-af9bda648b03",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_weapon_fixed_left_outer/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_fixed_left_outer",
+        "type": "gun",
+        "size": 2,
+        "size_min": 2,
+        "size_inferred": false,
+        "default_weapon_name": "Tigerstrike T-19P",
+        "default_weapon_guid": "d018aa87-d395-4935-8660-af9bda648b03",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_weapon_fixed_right_inner/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_fixed_right_inner",
+        "type": "gun",
+        "size": 2,
+        "size_min": 2,
+        "size_inferred": false,
+        "default_weapon_name": "Tigerstrike T-19P",
+        "default_weapon_guid": "d018aa87-d395-4935-8660-af9bda648b03",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_weapon_fixed_right_outer/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_fixed_right_outer",
+        "type": "gun",
+        "size": 2,
+        "size_min": 2,
+        "size_inferred": false,
+        "default_weapon_name": "Tigerstrike T-19P",
+        "default_weapon_guid": "d018aa87-d395-4935-8660-af9bda648b03",
+        "source_detail": "mount"
+      }
+    ],
+    "components": [
+      {
+        "type": "Power Plant",
+        "name": "LightBlossom",
+        "full": "LightBlossom Civ/C S1 Power Plant",
+        "size": 1,
+        "grade": "C",
+        "class": "Civ",
+        "count": 1
+      },
+      {
+        "type": "Cooler",
+        "name": "Frost-Star",
+        "full": "Frost-Star Civ/C S1 Cooler",
+        "size": 1,
+        "grade": "C",
+        "class": "Civ",
+        "count": 2
+      },
+      {
+        "type": "Shield Generator",
+        "name": "WEB",
+        "full": "WEB Civ/C S1 Shield Generator",
+        "size": 1,
+        "grade": "C",
+        "class": "Civ",
+        "count": 2
+      },
+      {
+        "type": "Quantum Drive",
+        "name": "Rush",
+        "full": "Rush Civ/C S1 Quantum Drive",
+        "size": 1,
+        "grade": "C",
+        "class": "Civ",
         "count": 1
       }
     ],
