@@ -688,6 +688,28 @@
     "internal": "KLWE_MassDriver_S1"
   },
   {
+    "name": "CF-999 \"Akuma\" Repeater",
+    "manufacturer": "Unknown",
+    "size": 1,
+    "type": "Laser Repeater",
+    "alpha": 12.0,
+    "alpha_physical": 0,
+    "alpha_energy": 12.0,
+    "alpha_distortion": 0,
+    "dps_burst": 30.0,
+    "dps_sustained_60s": 30.0,
+    "rpm": 150.0,
+    "ammo_speed": 1200.0,
+    "ammo_lifetime": 1.07,
+    "ammo_range": 1284.0,
+    "heat_per_shot": 0.0,
+    "max_heat": 100.0,
+    "cool_rate": 14.0,
+    "pellets": 1,
+    "health": 525,
+    "internal": "KLWE_LaserRepeater_S1_ATLS_NTLS"
+  },
+  {
     "name": "<= PLACEHOLDER =>",
     "manufacturer": "Broad & Rabiee",
     "size": 1,
