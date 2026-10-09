@@ -6615,6 +6615,51 @@
     }
   },
   {
+    "ship": "AEGS Avenger Stalker Display",
+    "armor_name": "Avenger Stalker Ship Armor",
+    "manufacturer": "Aegis Dynamics",
+    "class": "Medium",
+    "health": 1232,
+    "deflection_threshold": {
+      "physical": 1000000.0,
+      "energy": 1000000.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.9,
+      "energy": 1.35,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.8,
+      "energy": 0.65,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.1,
+      "em": 1.1,
+      "ir": 1.1
+    }
+  },
+  {
     "ship": "AEGS Avenger Titan Renegade",
     "armor_name": "Avenger Titan Ship Armor",
     "manufacturer": "Aegis Dynamics",
@@ -7107,6 +7152,51 @@
       "cs": 0.6,
       "em": 0.6,
       "ir": 0.6
+    }
+  },
+  {
+    "ship": "AEGS Sabre Raven EX",
+    "armor_name": "Sabre Raven Ship Armor",
+    "manufacturer": "Aegis Dynamics",
+    "class": "Medium",
+    "health": 3762,
+    "deflection_threshold": {
+      "physical": 20.0,
+      "energy": 16.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.9,
+      "energy": 1.35,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 0.72,
+      "em": 0.72,
+      "ir": 0.72
     }
   },
   {
