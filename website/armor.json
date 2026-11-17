@@ -180,51 +180,6 @@
     }
   },
   {
-    "ship": "AEGS Hammerhead",
-    "armor_name": "Hammerhead Ship Armor",
-    "manufacturer": "Aegis Dynamics",
-    "class": "Medium",
-    "health": 25740,
-    "deflection_threshold": {
-      "physical": 531.0,
-      "energy": 380.0,
-      "distortion": 0.0,
-      "thermal": 0.0,
-      "biochemical": 0.0,
-      "stun": 0.0
-    },
-    "durability_multiplier": {
-      "physical": 0.81,
-      "energy": 1.21,
-      "distortion": 1.0,
-      "thermal": 1.0,
-      "biochemical": 1.0,
-      "stun": 1.0
-    },
-    "penetration_reduction": 1.0,
-    "penetration_absorption_multiplier": {
-      "physical": 1.0,
-      "energy": 1.0,
-      "distortion": 0.0,
-      "thermal": 1.0,
-      "biochemical": 1.0,
-      "stun": 1.0
-    },
-    "hull_damage_multiplier": {
-      "physical": 0.7,
-      "energy": 0.5,
-      "distortion": 1.0,
-      "thermal": 1.0,
-      "biochemical": 1.0,
-      "stun": 1.0
-    },
-    "hull_signal_multiplier": {
-      "cs": 1.0,
-      "em": 1.0,
-      "ir": 1.0
-    }
-  },
-  {
     "ship": "AEGS Idris M",
     "armor_name": "Hammerhead Ship Armor",
     "manufacturer": "Aegis Dynamics",
@@ -274,10 +229,10 @@
     "armor_name": "Hammerhead Ship Armor",
     "manufacturer": "Aegis Dynamics",
     "class": "Medium",
-    "health": 87516,
+    "health": 72930,
     "deflection_threshold": {
-      "physical": 554.0,
-      "energy": 485.0,
+      "physical": 528.0,
+      "energy": 462.0,
       "distortion": 0.0,
       "thermal": 0.0,
       "biochemical": 0.0,
@@ -5670,51 +5625,6 @@
     }
   },
   {
-    "ship": "RSI Constellation Andromeda",
-    "armor_name": "Constellation Andromeda Ship Armor",
-    "manufacturer": "Roberts Space Industries",
-    "class": "Medium",
-    "health": 20160,
-    "deflection_threshold": {
-      "physical": 116.0,
-      "energy": 110.0,
-      "distortion": 0.0,
-      "thermal": 0.0,
-      "biochemical": 0.0,
-      "stun": 0.0
-    },
-    "durability_multiplier": {
-      "physical": 0.81,
-      "energy": 1.28,
-      "distortion": 1.0,
-      "thermal": 1.0,
-      "biochemical": 1.0,
-      "stun": 1.0
-    },
-    "penetration_reduction": 1.0,
-    "penetration_absorption_multiplier": {
-      "physical": 1.0,
-      "energy": 1.0,
-      "distortion": 0.0,
-      "thermal": 1.0,
-      "biochemical": 1.0,
-      "stun": 1.0
-    },
-    "hull_damage_multiplier": {
-      "physical": 0.75,
-      "energy": 0.6,
-      "distortion": 1.0,
-      "thermal": 1.0,
-      "biochemical": 1.0,
-      "stun": 1.0
-    },
-    "hull_signal_multiplier": {
-      "cs": 1.0,
-      "em": 1.0,
-      "ir": 1.0
-    }
-  },
-  {
     "ship": "RSI Constellation Phoenix",
     "armor_name": "Constellation Andromeda Ship Armor",
     "manufacturer": "Roberts Space Industries",
@@ -5991,8 +5901,8 @@
     "class": "Medium",
     "health": 48960,
     "deflection_threshold": {
-      "physical": 495.0,
-      "energy": 418.0,
+      "physical": 525.0,
+      "energy": 460.0,
       "distortion": 0.0,
       "thermal": 0.0,
       "biochemical": 0.0,
@@ -6979,10 +6889,10 @@
     "armor_name": "Hammerhead Ship Armor",
     "manufacturer": "Aegis Dynamics",
     "class": "Medium",
-    "health": 87516,
+    "health": 72930,
     "deflection_threshold": {
-      "physical": 554.0,
-      "energy": 485.0,
+      "physical": 528.0,
+      "energy": 462.0,
       "distortion": 0.0,
       "thermal": 0.0,
       "biochemical": 0.0,
@@ -7602,6 +7512,51 @@
       "cs": 1.13,
       "em": 1.13,
       "ir": 1.13
+    }
+  },
+  {
+    "ship": "ANVL Liberator",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Anvil Aerospace",
+    "class": "Medium",
+    "health": 38000,
+    "deflection_threshold": {
+      "physical": 450.0,
+      "energy": 380.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.86,
+      "energy": 1.22,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
     }
   },
   {
@@ -8955,6 +8910,51 @@
     }
   },
   {
+    "ship": "DRAK Caterpillar Boarded ShatteredBlade",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Drake Interplanetary",
+    "class": "Medium",
+    "health": 16830,
+    "deflection_threshold": {
+      "physical": 315.0,
+      "energy": 300.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.72,
+      "energy": 0.96,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
     "ship": "DRAK Caterpillar Pirate",
     "armor_name": "<= PLACEHOLDER =>",
     "manufacturer": "Drake Interplanetary",
@@ -9540,6 +9540,51 @@
     }
   },
   {
+    "ship": "DRAK Marauder",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Drake Interplanetary",
+    "class": "Medium",
+    "health": 4100,
+    "deflection_threshold": {
+      "physical": 22.0,
+      "energy": 12.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.08,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
     "ship": "ESPR Prowler Utility Collector Indust",
     "armor_name": "<= PLACEHOLDER =>",
     "manufacturer": "Esperia",
@@ -9627,6 +9672,51 @@
       "cs": 0.6,
       "em": 0.6,
       "ir": 0.6
+    }
+  },
+  {
+    "ship": "GAMA Hyun",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Gama",
+    "class": "Medium",
+    "health": 8500,
+    "deflection_threshold": {
+      "physical": 41.0,
+      "energy": 36.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.72,
+      "energy": 1.14,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
     }
   },
   {
@@ -11430,7 +11520,7 @@
     }
   },
   {
-    "ship": "RSI Constellation Aquila",
+    "ship": "RSI Constellation Andromeda GS",
     "armor_name": "Constellation Andromeda Ship Armor",
     "manufacturer": "Roberts Space Industries",
     "class": "Medium",
@@ -11475,22 +11565,22 @@
     }
   },
   {
-    "ship": "RSI Constellation Phoenix Emerald",
+    "ship": "RSI Constellation Andromeda GS Display",
     "armor_name": "Constellation Andromeda Ship Armor",
     "manufacturer": "Roberts Space Industries",
     "class": "Medium",
-    "health": 13440,
+    "health": 20160,
     "deflection_threshold": {
-      "physical": 116.0,
-      "energy": 110.0,
+      "physical": 1000000.0,
+      "energy": 1000000.0,
       "distortion": 0.0,
       "thermal": 0.0,
       "biochemical": 0.0,
       "stun": 0.0
     },
     "durability_multiplier": {
-      "physical": 0.86,
-      "energy": 1.35,
+      "physical": 0.81,
+      "energy": 1.28,
       "distortion": 1.0,
       "thermal": 1.0,
       "biochemical": 1.0,
@@ -11520,11 +11610,11 @@
     }
   },
   {
-    "ship": "RSI Constellation Phoenix Piano",
+    "ship": "RSI Constellation Aquila GS",
     "armor_name": "Constellation Andromeda Ship Armor",
     "manufacturer": "Roberts Space Industries",
     "class": "Medium",
-    "health": 13440,
+    "health": 20160,
     "deflection_threshold": {
       "physical": 116.0,
       "energy": 110.0,
@@ -11534,8 +11624,8 @@
       "stun": 0.0
     },
     "durability_multiplier": {
-      "physical": 0.86,
-      "energy": 1.35,
+      "physical": 0.81,
+      "energy": 1.28,
       "distortion": 1.0,
       "thermal": 1.0,
       "biochemical": 1.0,
@@ -11565,7 +11655,97 @@
     }
   },
   {
-    "ship": "RSI Constellation Taurus Military",
+    "ship": "RSI Constellation Mk5 Centaurus",
+    "armor_name": "Constellation Andromeda Ship Armor",
+    "manufacturer": "Roberts Space Industries",
+    "class": "Medium",
+    "health": 30740,
+    "deflection_threshold": {
+      "physical": 390.0,
+      "energy": 330.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.21,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "RSI Constellation Mk5 Centaurus Display",
+    "armor_name": "Constellation Andromeda Ship Armor",
+    "manufacturer": "Roberts Space Industries",
+    "class": "Medium",
+    "health": 30740,
+    "deflection_threshold": {
+      "physical": 1000000.0,
+      "energy": 1000000.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.21,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "RSI Constellation Phoenix GS",
     "armor_name": "Constellation Andromeda Ship Armor",
     "manufacturer": "Roberts Space Industries",
     "class": "Medium",
@@ -11573,6 +11753,186 @@
     "deflection_threshold": {
       "physical": 116.0,
       "energy": 110.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.28,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "RSI Constellation Phoenix GS TEMP",
+    "armor_name": "Constellation Andromeda Ship Armor",
+    "manufacturer": "Roberts Space Industries",
+    "class": "Medium",
+    "health": 13440,
+    "deflection_threshold": {
+      "physical": 116.0,
+      "energy": 110.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.28,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "RSI Constellation Taurus GS",
+    "armor_name": "Constellation Andromeda Ship Armor",
+    "manufacturer": "Roberts Space Industries",
+    "class": "Medium",
+    "health": 13440,
+    "deflection_threshold": {
+      "physical": 116.0,
+      "energy": 110.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.28,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "RSI Constellation Taurus GS Military",
+    "armor_name": "Constellation Andromeda Ship Armor",
+    "manufacturer": "Roberts Space Industries",
+    "class": "Medium",
+    "health": 13440,
+    "deflection_threshold": {
+      "physical": 116.0,
+      "energy": 110.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.28,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.6,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "RSI Galaxy",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Roberts Space Industries",
+    "class": "Medium",
+    "health": 33200,
+    "deflection_threshold": {
+      "physical": 430.0,
+      "energy": 380.0,
       "distortion": 0.0,
       "thermal": 0.0,
       "biochemical": 0.0,
@@ -11596,8 +11956,98 @@
       "stun": 1.0
     },
     "hull_damage_multiplier": {
-      "physical": 0.75,
-      "energy": 0.6,
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "RSI Galaxy TEMP Cargo",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Roberts Space Industries",
+    "class": "Medium",
+    "health": 33200,
+    "deflection_threshold": {
+      "physical": 430.0,
+      "energy": 380.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.86,
+      "energy": 1.35,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "RSI Galaxy TEMP Medical",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Roberts Space Industries",
+    "class": "Medium",
+    "health": 33200,
+    "deflection_threshold": {
+      "physical": 430.0,
+      "energy": 380.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.86,
+      "energy": 1.35,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.7,
+      "energy": 0.5,
       "distortion": 1.0,
       "thermal": 1.0,
       "biochemical": 1.0,
@@ -11751,8 +12201,8 @@
     "class": "Medium",
     "health": 48960,
     "deflection_threshold": {
-      "physical": 495.0,
-      "energy": 418.0,
+      "physical": 525.0,
+      "energy": 460.0,
       "distortion": 0.0,
       "thermal": 0.0,
       "biochemical": 0.0,
@@ -11869,6 +12319,96 @@
       "physical": 0.75,
       "energy": 0.6,
       "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "RSI Skylark",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Roberts Space Industries",
+    "class": "Medium",
+    "health": 1800,
+    "deflection_threshold": {
+      "physical": 6.0,
+      "energy": 4.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.28,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.95,
+      "distortion": 0.95,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_signal_multiplier": {
+      "cs": 1.0,
+      "em": 1.0,
+      "ir": 1.0
+    }
+  },
+  {
+    "ship": "RSI Skylark Display",
+    "armor_name": "<= PLACEHOLDER =>",
+    "manufacturer": "Roberts Space Industries",
+    "class": "Medium",
+    "health": 1800,
+    "deflection_threshold": {
+      "physical": 1000000.0,
+      "energy": 1000000.0,
+      "distortion": 0.0,
+      "thermal": 0.0,
+      "biochemical": 0.0,
+      "stun": 0.0
+    },
+    "durability_multiplier": {
+      "physical": 0.81,
+      "energy": 1.28,
+      "distortion": 1.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "penetration_reduction": 1.0,
+    "penetration_absorption_multiplier": {
+      "physical": 1.0,
+      "energy": 1.0,
+      "distortion": 0.0,
+      "thermal": 1.0,
+      "biochemical": 1.0,
+      "stun": 1.0
+    },
+    "hull_damage_multiplier": {
+      "physical": 0.75,
+      "energy": 0.95,
+      "distortion": 0.95,
       "thermal": 1.0,
       "biochemical": 1.0,
       "stun": 1.0
