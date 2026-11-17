@@ -319,314 +319,97 @@
   {
     "id": "AEGS_Hammerhead",
     "name": "AEGS Hammerhead",
-    "source": "rec",
-    "match": "exact",
-    "size": null,
+    "source": "xml",
+    "match": "xml-exact",
+    "size": 5,
     "manufacturer": "Aegis Dynamics",
     "hardpoints": [
       {
-        "port": "Turret_Rear/hardpoint_weapon_left_lower",
-        "parent_port": "Turret_Rear",
-        "type": "gun",
-        "size": 4,
-        "size_min": 4,
-        "size_inferred": false,
-        "default_weapon_name": "CF-447 Rhino Repeater",
-        "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-        "source_detail": "mount"
+        "port": "turret_rear",
+        "type": "turret",
+        "size": 5,
+        "size_min": 5,
+        "size_max": 5
       },
       {
-        "port": "Turret_Rear/hardpoint_weapon_left_upper",
-        "parent_port": "Turret_Rear",
-        "type": "gun",
-        "size": 4,
-        "size_min": 4,
-        "size_inferred": false,
-        "default_weapon_name": "CF-447 Rhino Repeater",
-        "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-        "source_detail": "mount"
+        "port": "turret_side_back_left",
+        "type": "turret",
+        "size": 5,
+        "size_min": 5,
+        "size_max": 5
       },
       {
-        "port": "Turret_Rear/hardpoint_weapon_right_lower",
-        "parent_port": "Turret_Rear",
-        "type": "gun",
-        "size": 4,
-        "size_min": 4,
-        "size_inferred": false,
-        "default_weapon_name": "CF-447 Rhino Repeater",
-        "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-        "source_detail": "mount"
+        "port": "turret_side_back_right",
+        "type": "turret",
+        "size": 5,
+        "size_min": 5,
+        "size_max": 5
       },
       {
-        "port": "Turret_Rear/hardpoint_weapon_right_upper",
-        "parent_port": "Turret_Rear",
-        "type": "gun",
-        "size": 4,
-        "size_min": 4,
-        "size_inferred": false,
-        "default_weapon_name": "CF-447 Rhino Repeater",
-        "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-        "source_detail": "mount"
+        "port": "turret_side_front_left",
+        "type": "turret",
+        "size": 5,
+        "size_min": 5,
+        "size_max": 5
       },
       {
-        "port": "Turret_Side_Back_Left/hardpoint_weapon_left_lower",
-        "parent_port": "Turret_Side_Back_Left",
-        "type": "gun",
-        "size": 4,
-        "size_min": 4,
-        "size_inferred": false,
-        "default_weapon_name": "CF-447 Rhino Repeater",
-        "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-        "source_detail": "mount"
+        "port": "turret_side_front_right",
+        "type": "turret",
+        "size": 5,
+        "size_min": 5,
+        "size_max": 5
       },
       {
-        "port": "Turret_Side_Back_Left/hardpoint_weapon_left_upper",
-        "parent_port": "Turret_Side_Back_Left",
-        "type": "gun",
-        "size": 4,
-        "size_min": 4,
-        "size_inferred": false,
-        "default_weapon_name": "CF-447 Rhino Repeater",
-        "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-        "source_detail": "mount"
+        "port": "turret_top",
+        "type": "turret",
+        "size": 5,
+        "size_min": 5,
+        "size_max": 5
       },
       {
-        "port": "Turret_Side_Back_Left/hardpoint_weapon_right_lower",
-        "parent_port": "Turret_Side_Back_Left",
-        "type": "gun",
-        "size": 4,
-        "size_min": 4,
-        "size_inferred": false,
-        "default_weapon_name": "CF-447 Rhino Repeater",
-        "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-        "source_detail": "mount"
+        "port": "turret_door_front_left",
+        "type": "turret",
+        "size": 1,
+        "size_min": 1,
+        "size_max": 1
       },
       {
-        "port": "Turret_Side_Back_Left/hardpoint_weapon_right_upper",
-        "parent_port": "Turret_Side_Back_Left",
-        "type": "gun",
-        "size": 4,
-        "size_min": 4,
-        "size_inferred": false,
-        "default_weapon_name": "CF-447 Rhino Repeater",
-        "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-        "source_detail": "mount"
+        "port": "turret_door_front_right",
+        "type": "turret",
+        "size": 1,
+        "size_min": 1,
+        "size_max": 1
       },
       {
-        "port": "Turret_Side_Back_Right/hardpoint_weapon_left_lower",
-        "parent_port": "Turret_Side_Back_Right",
-        "type": "gun",
-        "size": 4,
-        "size_min": 4,
-        "size_inferred": false,
-        "default_weapon_name": "CF-447 Rhino Repeater",
-        "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-        "source_detail": "mount"
+        "port": "turret_door_rear_left",
+        "type": "turret",
+        "size": 1,
+        "size_min": 1,
+        "size_max": 1
       },
       {
-        "port": "Turret_Side_Back_Right/hardpoint_weapon_left_upper",
-        "parent_port": "Turret_Side_Back_Right",
-        "type": "gun",
-        "size": 4,
-        "size_min": 4,
-        "size_inferred": false,
-        "default_weapon_name": "CF-447 Rhino Repeater",
-        "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-        "source_detail": "mount"
+        "port": "turret_door_rear_right",
+        "type": "turret",
+        "size": 1,
+        "size_min": 1,
+        "size_max": 1
       },
       {
-        "port": "Turret_Side_Back_Right/hardpoint_weapon_right_lower",
-        "parent_port": "Turret_Side_Back_Right",
-        "type": "gun",
-        "size": 4,
-        "size_min": 4,
-        "size_inferred": false,
-        "default_weapon_name": "CF-447 Rhino Repeater",
-        "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-        "source_detail": "mount"
+        "port": "turret_radar_side_front_left",
+        "type": "turret",
+        "size": 1,
+        "size_min": 1,
+        "size_max": 1
       },
       {
-        "port": "Turret_Side_Back_Right/hardpoint_weapon_right_upper",
-        "parent_port": "Turret_Side_Back_Right",
-        "type": "gun",
-        "size": 4,
-        "size_min": 4,
-        "size_inferred": false,
-        "default_weapon_name": "CF-447 Rhino Repeater",
-        "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-        "source_detail": "mount"
-      },
-      {
-        "port": "Turret_Side_Front_Left/hardpoint_weapon_left_lower",
-        "parent_port": "Turret_Side_Front_Left",
-        "type": "gun",
-        "size": 4,
-        "size_min": 4,
-        "size_inferred": false,
-        "default_weapon_name": "CF-447 Rhino Repeater",
-        "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-        "source_detail": "mount"
-      },
-      {
-        "port": "Turret_Side_Front_Left/hardpoint_weapon_left_upper",
-        "parent_port": "Turret_Side_Front_Left",
-        "type": "gun",
-        "size": 4,
-        "size_min": 4,
-        "size_inferred": false,
-        "default_weapon_name": "CF-447 Rhino Repeater",
-        "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-        "source_detail": "mount"
-      },
-      {
-        "port": "Turret_Side_Front_Left/hardpoint_weapon_right_lower",
-        "parent_port": "Turret_Side_Front_Left",
-        "type": "gun",
-        "size": 4,
-        "size_min": 4,
-        "size_inferred": false,
-        "default_weapon_name": "CF-447 Rhino Repeater",
-        "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-        "source_detail": "mount"
-      },
-      {
-        "port": "Turret_Side_Front_Left/hardpoint_weapon_right_upper",
-        "parent_port": "Turret_Side_Front_Left",
-        "type": "gun",
-        "size": 4,
-        "size_min": 4,
-        "size_inferred": false,
-        "default_weapon_name": "CF-447 Rhino Repeater",
-        "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-        "source_detail": "mount"
-      },
-      {
-        "port": "Turret_Side_Front_Right/hardpoint_weapon_left_lower",
-        "parent_port": "Turret_Side_Front_Right",
-        "type": "gun",
-        "size": 4,
-        "size_min": 4,
-        "size_inferred": false,
-        "default_weapon_name": "CF-447 Rhino Repeater",
-        "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-        "source_detail": "mount"
-      },
-      {
-        "port": "Turret_Side_Front_Right/hardpoint_weapon_left_upper",
-        "parent_port": "Turret_Side_Front_Right",
-        "type": "gun",
-        "size": 4,
-        "size_min": 4,
-        "size_inferred": false,
-        "default_weapon_name": "CF-447 Rhino Repeater",
-        "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-        "source_detail": "mount"
-      },
-      {
-        "port": "Turret_Side_Front_Right/hardpoint_weapon_right_lower",
-        "parent_port": "Turret_Side_Front_Right",
-        "type": "gun",
-        "size": 4,
-        "size_min": 4,
-        "size_inferred": false,
-        "default_weapon_name": "CF-447 Rhino Repeater",
-        "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-        "source_detail": "mount"
-      },
-      {
-        "port": "Turret_Side_Front_Right/hardpoint_weapon_right_upper",
-        "parent_port": "Turret_Side_Front_Right",
-        "type": "gun",
-        "size": 4,
-        "size_min": 4,
-        "size_inferred": false,
-        "default_weapon_name": "CF-447 Rhino Repeater",
-        "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-        "source_detail": "mount"
-      },
-      {
-        "port": "Turret_Top/hardpoint_weapon_left_lower",
-        "parent_port": "Turret_Top",
-        "type": "gun",
-        "size": 4,
-        "size_min": 4,
-        "size_inferred": false,
-        "default_weapon_name": "CF-447 Rhino Repeater",
-        "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-        "source_detail": "mount"
-      },
-      {
-        "port": "Turret_Top/hardpoint_weapon_left_upper",
-        "parent_port": "Turret_Top",
-        "type": "gun",
-        "size": 4,
-        "size_min": 4,
-        "size_inferred": false,
-        "default_weapon_name": "CF-447 Rhino Repeater",
-        "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-        "source_detail": "mount"
-      },
-      {
-        "port": "Turret_Top/hardpoint_weapon_right_lower",
-        "parent_port": "Turret_Top",
-        "type": "gun",
-        "size": 4,
-        "size_min": 4,
-        "size_inferred": false,
-        "default_weapon_name": "CF-447 Rhino Repeater",
-        "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-        "source_detail": "mount"
-      },
-      {
-        "port": "Turret_Top/hardpoint_weapon_right_upper",
-        "parent_port": "Turret_Top",
-        "type": "gun",
-        "size": 4,
-        "size_min": 4,
-        "size_inferred": false,
-        "default_weapon_name": "CF-447 Rhino Repeater",
-        "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-        "source_detail": "mount"
+        "port": "turret_radar_side_front_right",
+        "type": "turret",
+        "size": 1,
+        "size_min": 1,
+        "size_max": 1
       }
     ],
-    "components": [
-      {
-        "type": "Power Plant",
-        "name": "SuperDrive",
-        "full": "SuperDrive Mil/C S3 Power Plant",
-        "size": 3,
-        "grade": "C",
-        "class": "Mil",
-        "count": 2
-      },
-      {
-        "type": "Cooler",
-        "name": "Mercury",
-        "full": "Mercury Mil/C S3 Cooler",
-        "size": 3,
-        "grade": "C",
-        "class": "Mil",
-        "count": 2
-      },
-      {
-        "type": "Shield Generator",
-        "name": "Stronghold",
-        "full": "Stronghold Ind/C S3 Shield Generator",
-        "size": 3,
-        "grade": "C",
-        "class": "Ind",
-        "count": 2
-      },
-      {
-        "type": "Quantum Drive",
-        "name": "Kama",
-        "full": "Kama Ind/C S3 Quantum Drive",
-        "size": 3,
-        "grade": "C",
-        "class": "Ind",
-        "count": 1
-      }
-    ],
+    "components": [],
     "cargo_scu": 0
   },
   {
@@ -3000,8 +2783,8 @@
         "size": 2,
         "size_min": 2,
         "size_inferred": false,
-        "default_weapon_name": "SW16BR2 “Sawbuck” Repeater",
-        "default_weapon_guid": "d4ebab35-1d86-4259-82dc-cda6a7167c90",
+        "default_weapon_name": "SW16BR3 “Shredder” Repeater",
+        "default_weapon_guid": "bbfbb4b5-c26e-4bee-9d41-9679e102e860",
         "source_detail": "mount"
       },
       {
@@ -3011,8 +2794,8 @@
         "size": 2,
         "size_min": 2,
         "size_inferred": false,
-        "default_weapon_name": "SW16BR2 “Sawbuck” Repeater",
-        "default_weapon_guid": "d4ebab35-1d86-4259-82dc-cda6a7167c90",
+        "default_weapon_name": "SW16BR3 “Shredder” Repeater",
+        "default_weapon_guid": "bbfbb4b5-c26e-4bee-9d41-9679e102e860",
         "source_detail": "mount"
       },
       {
@@ -3254,8 +3037,8 @@
         "size": 2,
         "size_min": 2,
         "size_inferred": false,
-        "default_weapon_name": "SW16BR2 “Sawbuck” Repeater",
-        "default_weapon_guid": "d4ebab35-1d86-4259-82dc-cda6a7167c90",
+        "default_weapon_name": "SW16BR3 “Shredder” Repeater",
+        "default_weapon_guid": "bbfbb4b5-c26e-4bee-9d41-9679e102e860",
         "source_detail": "mount"
       },
       {
@@ -3265,8 +3048,8 @@
         "size": 2,
         "size_min": 2,
         "size_inferred": false,
-        "default_weapon_name": "SW16BR2 “Sawbuck” Repeater",
-        "default_weapon_guid": "d4ebab35-1d86-4259-82dc-cda6a7167c90",
+        "default_weapon_name": "SW16BR3 “Shredder” Repeater",
+        "default_weapon_guid": "bbfbb4b5-c26e-4bee-9d41-9679e102e860",
         "source_detail": "mount"
       },
       {
@@ -3382,8 +3165,8 @@
         "size": 2,
         "size_min": 2,
         "size_inferred": false,
-        "default_weapon_name": "Suckerpunch-L Cannon",
-        "default_weapon_guid": "70a98c94-9252-4fd3-a673-5a584339e273",
+        "default_weapon_name": "Suckerpunch-XL Cannon",
+        "default_weapon_guid": "e09590d1-13a0-4d25-ad89-3dfc18a61c4a",
         "source_detail": "mount"
       },
       {
@@ -3393,8 +3176,8 @@
         "size": 2,
         "size_min": 2,
         "size_inferred": false,
-        "default_weapon_name": "Suckerpunch-L Cannon",
-        "default_weapon_guid": "70a98c94-9252-4fd3-a673-5a584339e273",
+        "default_weapon_name": "Suckerpunch-XL Cannon",
+        "default_weapon_guid": "e09590d1-13a0-4d25-ad89-3dfc18a61c4a",
         "source_detail": "mount"
       },
       {
@@ -16786,138 +16569,120 @@
     "cargo_scu": 0
   },
   {
-    "id": "RSI_Constellation_Andromeda",
+    "id": "RSI_Constellation",
     "name": "RSI Constellation Andromeda",
-    "source": "rec",
-    "match": "exact",
-    "size": null,
+    "source": "xml",
+    "match": "xml-prefix",
+    "size": 4,
     "manufacturer": "Roberts Space Industries",
     "hardpoints": [
       {
-        "port": "hardpoint_gun_laser_bottom_left/hardpoint_class_2",
-        "parent_port": "hardpoint_gun_laser_bottom_left",
+        "port": "hardpoint_gun_laser_bottom_left",
         "type": "gun",
         "size": 5,
         "size_min": 5,
-        "size_inferred": false,
-        "default_weapon_name": "CF-557 Galdereen Repeater",
-        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
-        "source_detail": "mount"
+        "size_max": 5
       },
       {
-        "port": "hardpoint_gun_laser_bottom_right/hardpoint_class_2",
-        "parent_port": "hardpoint_gun_laser_bottom_right",
+        "port": "hardpoint_gun_laser_bottom_right",
         "type": "gun",
         "size": 5,
         "size_min": 5,
-        "size_inferred": false,
-        "default_weapon_name": "CF-557 Galdereen Repeater",
-        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
-        "source_detail": "mount"
+        "size_max": 5
       },
       {
-        "port": "hardpoint_gun_laser_top_left/hardpoint_class_2",
-        "parent_port": "hardpoint_gun_laser_top_left",
+        "port": "hardpoint_gun_laser_top_left",
         "type": "gun",
         "size": 5,
         "size_min": 5,
-        "size_inferred": false,
-        "default_weapon_name": "CF-557 Galdereen Repeater",
-        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
-        "source_detail": "mount"
+        "size_max": 5
       },
       {
-        "port": "hardpoint_gun_laser_top_right/hardpoint_class_2",
-        "parent_port": "hardpoint_gun_laser_top_right",
+        "port": "hardpoint_gun_laser_top_right",
         "type": "gun",
         "size": 5,
         "size_min": 5,
-        "size_inferred": false,
-        "default_weapon_name": "CF-557 Galdereen Repeater",
-        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
-        "source_detail": "mount"
+        "size_max": 5
       },
       {
-        "port": "hardpoint_turret_base_upper/hardpoint_weapon_left",
-        "parent_port": "hardpoint_turret_base_upper",
-        "type": "gun",
-        "size": 3,
-        "size_min": 3,
-        "size_inferred": false,
-        "default_weapon_name": "CF-337 Panther Repeater",
-        "default_weapon_guid": "klwe_laserrepeater_s3",
-        "source_detail": "mount"
+        "port": "hardpoint_missilerack_top_left_front",
+        "type": "missile",
+        "size": 5,
+        "size_min": 5,
+        "size_max": 5
       },
       {
-        "port": "hardpoint_turret_base_upper/hardpoint_weapon_right",
-        "parent_port": "hardpoint_turret_base_upper",
-        "type": "gun",
-        "size": 3,
-        "size_min": 3,
-        "size_inferred": false,
-        "default_weapon_name": "CF-337 Panther Repeater",
-        "default_weapon_guid": "klwe_laserrepeater_s3",
-        "source_detail": "mount"
+        "port": "hardpoint_missilerack_top_left_rear",
+        "type": "missile",
+        "size": 5,
+        "size_min": 5,
+        "size_max": 5
       },
       {
-        "port": "hardpoint_turret_base_lower/hardpoint_class_2",
-        "parent_port": "hardpoint_turret_base_lower",
-        "type": "gun",
-        "size": 2,
-        "size_inferred": false,
-        "default_weapon_name": "CF-337 Panther Repeater",
-        "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
+        "port": "hardpoint_missilerack_top_right_front",
+        "type": "missile",
+        "size": 5,
+        "size_min": 5,
+        "size_max": 5
       },
       {
-        "port": "hardpoint_turret_base_lower/hardpoint_class_2",
-        "parent_port": "hardpoint_turret_base_lower",
-        "type": "gun",
-        "size": 2,
-        "size_inferred": false,
-        "default_weapon_name": "CF-337 Panther Repeater",
-        "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
+        "port": "hardpoint_missilerack_top_right_rear",
+        "type": "missile",
+        "size": 5,
+        "size_min": 5,
+        "size_max": 5
+      },
+      {
+        "port": "hardpoint_missilerack_arm_body_left",
+        "type": "missile",
+        "size": 4,
+        "size_min": 4,
+        "size_max": 4
+      },
+      {
+        "port": "hardpoint_missilerack_arm_body_right",
+        "type": "missile",
+        "size": 4,
+        "size_min": 4,
+        "size_max": 4
+      },
+      {
+        "port": "hardpoint_missilerack_arm_tail_left",
+        "type": "missile",
+        "size": 4,
+        "size_min": 4,
+        "size_max": 4
+      },
+      {
+        "port": "hardpoint_missilerack_arm_tail_right",
+        "type": "missile",
+        "size": 4,
+        "size_min": 4,
+        "size_max": 4
+      },
+      {
+        "port": "hardpoint_turret_base_lower",
+        "type": "turret",
+        "size": 6,
+        "size_min": 1,
+        "size_max": 6
+      },
+      {
+        "port": "hardpoint_turret_base_upper",
+        "type": "turret",
+        "size": 6,
+        "size_min": 1,
+        "size_max": 6
+      },
+      {
+        "port": "hardpoint_turret_seataccess",
+        "type": "turret",
+        "size": 4,
+        "size_min": 1,
+        "size_max": 4
       }
     ],
-    "components": [
-      {
-        "type": "Power Plant",
-        "name": "DayBreak",
-        "full": "DayBreak Civ/C S2 Power Plant",
-        "size": 2,
-        "grade": "C",
-        "class": "Civ",
-        "count": 2
-      },
-      {
-        "type": "Cooler",
-        "name": "Frost-Star EX",
-        "full": "Frost-Star EX Civ/C S2 Cooler",
-        "size": 2,
-        "grade": "C",
-        "class": "Civ",
-        "count": 2
-      },
-      {
-        "type": "Shield Generator",
-        "name": "5CA 'Akura'",
-        "full": "5CA 'Akura' Civ/C S3 Shield Generator",
-        "size": 3,
-        "grade": "C",
-        "class": "Civ",
-        "count": 1
-      },
-      {
-        "type": "Quantum Drive",
-        "name": "Bolon",
-        "full": "Bolon Ind/C S2 Quantum Drive",
-        "size": 2,
-        "grade": "C",
-        "class": "Ind",
-        "count": 1
-      }
-    ],
+    "components": [],
     "cargo_scu": 0
   },
   {
@@ -17954,8 +17719,8 @@
       },
       {
         "type": "Shield Generator",
-        "name": "Glacis",
-        "full": "Glacis S4 Shield Generator",
+        "name": "Deterrent",
+        "full": "Deterrent S4 Shield Generator",
         "size": 4,
         "grade": null,
         "class": null,
@@ -23546,6 +23311,143 @@
     "disabled": true
   },
   {
+    "id": "ANVL_Liberator",
+    "name": "ANVL Liberator",
+    "source": "rec-auto",
+    "match": "auto-discovered",
+    "size": null,
+    "manufacturer": "Anvil Aerospace",
+    "hardpoints": [
+      {
+        "port": "hardpoint_manned_turret/hardpoint_class_2",
+        "parent_port": "hardpoint_manned_turret",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "35d956a4-8297-4327-bb05-415af9f6531a",
+        "source_detail": "mount-nested"
+      },
+      {
+        "port": "hardpoint_manned_turret/hardpoint_class_2",
+        "parent_port": "hardpoint_manned_turret",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "35d956a4-8297-4327-bb05-415af9f6531a",
+        "source_detail": "mount-nested"
+      },
+      {
+        "port": "hardpoint_remote_turret_bottom/hardpoint_class_2",
+        "parent_port": "hardpoint_remote_turret_bottom",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount-nested"
+      },
+      {
+        "port": "hardpoint_remote_turret_bottom/hardpoint_class_2",
+        "parent_port": "hardpoint_remote_turret_bottom",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount-nested"
+      },
+      {
+        "port": "hardpoint_remote_turret_top/hardpoint_class_2",
+        "parent_port": "hardpoint_remote_turret_top",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount-nested"
+      },
+      {
+        "port": "hardpoint_remote_turret_top/hardpoint_class_2",
+        "parent_port": "hardpoint_remote_turret_top",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount-nested"
+      },
+      {
+        "port": "hardpoint_PDT_01/hardpoint_turret_weapon",
+        "parent_port": "hardpoint_PDT_01",
+        "type": "gun",
+        "size": 1,
+        "size_min": 1,
+        "size_inferred": false,
+        "default_weapon_name": null,
+        "default_weapon_guid": null,
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_PDT_02/hardpoint_turret_weapon",
+        "parent_port": "hardpoint_PDT_02",
+        "type": "gun",
+        "size": 1,
+        "size_min": 1,
+        "size_inferred": false,
+        "default_weapon_name": null,
+        "default_weapon_guid": null,
+        "source_detail": "mount"
+      }
+    ],
+    "components": [
+      {
+        "type": "Power Plant",
+        "name": "SuperDrive",
+        "full": "SuperDrive Mil/C S3 Power Plant",
+        "size": 3,
+        "grade": "C",
+        "class": "Mil",
+        "count": 1
+      },
+      {
+        "type": "Cooler",
+        "name": "Mercury",
+        "full": "Mercury Mil/C S3 Cooler",
+        "size": 3,
+        "grade": "C",
+        "class": "Mil",
+        "count": 2
+      },
+      {
+        "type": "Shield Generator",
+        "name": "SureStop",
+        "full": "SureStop Mil/C S3 Shield Generator",
+        "size": 3,
+        "grade": "C",
+        "class": "Mil",
+        "count": 2
+      },
+      {
+        "type": "Quantum Drive",
+        "name": "Pontes",
+        "full": "Pontes Mil/C S3 Quantum Drive",
+        "size": 3,
+        "grade": "C",
+        "class": "Mil",
+        "count": 1
+      }
+    ],
+    "cargo_scu": 0
+  },
+  {
     "id": "ANVL_Lightning_F8_Fleetweek",
     "name": "ANVL Lightning F8 Fleetweek",
     "source": "rec-auto",
@@ -27233,6 +27135,99 @@
     "disabled": true
   },
   {
+    "id": "DRAK_Caterpillar_Boarded_ShatteredBlade",
+    "name": "DRAK Caterpillar Boarded ShatteredBlade",
+    "source": "rec-auto",
+    "match": "auto-discovered",
+    "size": null,
+    "manufacturer": "Drake Interplanetary",
+    "hardpoints": [
+      {
+        "port": "hardpoint_turret_bottom/hardpoint_weapon_left",
+        "parent_port": "hardpoint_turret_bottom",
+        "type": "gun",
+        "size": 4,
+        "size_min": 4,
+        "size_inferred": false,
+        "default_weapon_name": "CF-447 Rhino Repeater",
+        "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_turret_bottom/hardpoint_weapon_right",
+        "parent_port": "hardpoint_turret_bottom",
+        "type": "gun",
+        "size": 4,
+        "size_min": 4,
+        "size_inferred": false,
+        "default_weapon_name": "CF-447 Rhino Repeater",
+        "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_turret_top/hardpoint_weapon_left",
+        "parent_port": "hardpoint_turret_top",
+        "type": "gun",
+        "size": 4,
+        "size_min": 4,
+        "size_inferred": false,
+        "default_weapon_name": "CF-447 Rhino Repeater",
+        "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_turret_top/hardpoint_weapon_right",
+        "parent_port": "hardpoint_turret_top",
+        "type": "gun",
+        "size": 4,
+        "size_min": 4,
+        "size_inferred": false,
+        "default_weapon_name": "CF-447 Rhino Repeater",
+        "default_weapon_guid": "ecac1df2-4f6f-49df-9cce-f188d118a789",
+        "source_detail": "mount"
+      }
+    ],
+    "components": [
+      {
+        "type": "Power Plant",
+        "name": "Ginzel",
+        "full": "Ginzel Ind/C S3 Power Plant",
+        "size": 3,
+        "grade": "C",
+        "class": "Ind",
+        "count": 1
+      },
+      {
+        "type": "Cooler",
+        "name": "ThermalCore",
+        "full": "ThermalCore Ind/C S3 Cooler",
+        "size": 3,
+        "grade": "C",
+        "class": "Ind",
+        "count": 2
+      },
+      {
+        "type": "Shield Generator",
+        "name": "Stronghold",
+        "full": "Stronghold Ind/C S3 Shield Generator",
+        "size": 3,
+        "grade": "C",
+        "class": "Ind",
+        "count": 3
+      },
+      {
+        "type": "Quantum Drive",
+        "name": "Pontes",
+        "full": "Pontes Mil/C S3 Quantum Drive",
+        "size": 3,
+        "grade": "C",
+        "class": "Mil",
+        "count": 1
+      }
+    ],
+    "cargo_scu": 576
+  },
+  {
     "id": "DRAK_Caterpillar_Pirate",
     "name": "DRAK Caterpillar Pirate",
     "source": "rec-auto",
@@ -28264,6 +28259,132 @@
     "cargo_scu": 0
   },
   {
+    "id": "DRAK_Marauder",
+    "name": "DRAK Marauder",
+    "source": "rec-auto",
+    "match": "auto-discovered",
+    "size": null,
+    "manufacturer": "Drake Interplanetary",
+    "hardpoints": [
+      {
+        "port": "hardpoint_weapon_front/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_front",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_weapon_left_inner/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_left_inner",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_weapon_left_outer/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_left_outer",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_weapon_left_wing/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_left_wing",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_weapon_right_inner/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_right_inner",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_weapon_right_outer/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_right_outer",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_weapon_right_wing/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_right_wing",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount"
+      }
+    ],
+    "components": [
+      {
+        "type": "Power Plant",
+        "name": "LightBlossom",
+        "full": "LightBlossom Civ/C S1 Power Plant",
+        "size": 1,
+        "grade": "C",
+        "class": "Civ",
+        "count": 2
+      },
+      {
+        "type": "Cooler",
+        "name": "Frost-Star",
+        "full": "Frost-Star Civ/C S1 Cooler",
+        "size": 1,
+        "grade": "C",
+        "class": "Civ",
+        "count": 2
+      },
+      {
+        "type": "Shield Generator",
+        "name": "5SA 'Rhada'",
+        "full": "5SA 'Rhada' Civ/C S1 Shield Generator",
+        "size": 1,
+        "grade": "C",
+        "class": "Civ",
+        "count": 2
+      },
+      {
+        "type": "Quantum Drive",
+        "name": "Rush",
+        "full": "Rush Civ/C S1 Quantum Drive",
+        "size": 1,
+        "grade": "C",
+        "class": "Civ",
+        "count": 1
+      }
+    ],
+    "cargo_scu": 0
+  },
+  {
     "id": "ESPR_Prowler_Utility_Collector_Indust",
     "name": "ESPR Prowler Utility Collector Indust",
     "source": "rec-auto",
@@ -28413,6 +28534,99 @@
         "size": 1,
         "grade": "C",
         "class": "Sth",
+        "count": 1
+      }
+    ],
+    "cargo_scu": 0
+  },
+  {
+    "id": "GAMA_Hyun",
+    "name": "GAMA Hyun",
+    "source": "rec-auto",
+    "match": "auto-discovered",
+    "size": null,
+    "manufacturer": "Gama",
+    "hardpoints": [
+      {
+        "port": "hardpoint_weapon_Left/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_Left",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "Yeng’tu Repeater",
+        "default_weapon_guid": "a9780953-9488-4644-9b56-61464e9dd6b9",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_weapon_bottom_left/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_bottom_left",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "Yeng’tu Repeater",
+        "default_weapon_guid": "a9780953-9488-4644-9b56-61464e9dd6b9",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_weapon_bottom_right/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_bottom_right",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "Yeng’tu Repeater",
+        "default_weapon_guid": "a9780953-9488-4644-9b56-61464e9dd6b9",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_weapon_right/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_right",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "Yeng’tu Repeater",
+        "default_weapon_guid": "a9780953-9488-4644-9b56-61464e9dd6b9",
+        "source_detail": "mount"
+      }
+    ],
+    "components": [
+      {
+        "type": "Power Plant",
+        "name": "Diligence",
+        "full": "Diligence Ind/C S2 Power Plant",
+        "size": 2,
+        "grade": "C",
+        "class": "Ind",
+        "count": 1
+      },
+      {
+        "type": "Cooler",
+        "name": "CoolCore",
+        "full": "CoolCore Ind/C S2 Cooler",
+        "size": 2,
+        "grade": "C",
+        "class": "Ind",
+        "count": 2
+      },
+      {
+        "type": "Shield Generator",
+        "name": "Aspis",
+        "full": "Aspis Ind/C S2 Shield Generator",
+        "size": 2,
+        "grade": "C",
+        "class": "Ind",
+        "count": 2
+      },
+      {
+        "type": "Quantum Drive",
+        "name": "Bolon",
+        "full": "Bolon Ind/C S2 Quantum Drive",
+        "size": 2,
+        "grade": "C",
+        "class": "Ind",
         "count": 1
       }
     ],
@@ -33495,8 +33709,8 @@
     "disabled": true
   },
   {
-    "id": "RSI_Constellation_Aquila",
-    "name": "RSI Constellation Aquila",
+    "id": "RSI_Constellation_Andromeda_GS",
+    "name": "RSI Constellation Andromeda GS",
     "source": "rec-auto",
     "match": "auto-discovered",
     "size": null,
@@ -33509,8 +33723,8 @@
         "size": 5,
         "size_min": 5,
         "size_inferred": false,
-        "default_weapon_name": "M7A Cannon",
-        "default_weapon_guid": "b94c54b2-a70e-4f41-bc02-ed76be87e493",
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
         "source_detail": "mount"
       },
       {
@@ -33520,8 +33734,8 @@
         "size": 5,
         "size_min": 5,
         "size_inferred": false,
-        "default_weapon_name": "M7A Cannon",
-        "default_weapon_guid": "b94c54b2-a70e-4f41-bc02-ed76be87e493",
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
         "source_detail": "mount"
       },
       {
@@ -33531,8 +33745,8 @@
         "size": 5,
         "size_min": 5,
         "size_inferred": false,
-        "default_weapon_name": "M7A Cannon",
-        "default_weapon_guid": "b94c54b2-a70e-4f41-bc02-ed76be87e493",
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
         "source_detail": "mount"
       },
       {
@@ -33542,8 +33756,8 @@
         "size": 5,
         "size_min": 5,
         "size_inferred": false,
-        "default_weapon_name": "M7A Cannon",
-        "default_weapon_guid": "b94c54b2-a70e-4f41-bc02-ed76be87e493",
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
         "source_detail": "mount"
       },
       {
@@ -33554,7 +33768,7 @@
         "size_min": 3,
         "size_inferred": false,
         "default_weapon_name": "CF-337 Panther Repeater",
-        "default_weapon_guid": "klwe_laserrepeater_s3",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
         "source_detail": "mount"
       },
       {
@@ -33565,7 +33779,29 @@
         "size_min": 3,
         "size_inferred": false,
         "default_weapon_name": "CF-337 Panther Repeater",
-        "default_weapon_guid": "klwe_laserrepeater_s3",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_turret_base_upper/hardpoint_weapon_left",
+        "parent_port": "hardpoint_turret_base_upper",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_turret_base_upper/hardpoint_weapon_right",
+        "parent_port": "hardpoint_turret_base_upper",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
         "source_detail": "mount"
       }
     ],
@@ -33610,8 +33846,622 @@
     "cargo_scu": 0
   },
   {
-    "id": "RSI_Constellation_Phoenix_Emerald",
-    "name": "RSI Constellation Phoenix Emerald",
+    "id": "RSI_Constellation_Andromeda_GS_Display",
+    "name": "RSI Constellation Andromeda GS Display",
+    "source": "rec-auto",
+    "match": "auto-discovered",
+    "size": null,
+    "manufacturer": "Roberts Space Industries",
+    "hardpoints": [
+      {
+        "port": "hardpoint_gun_laser_bottom_left/hardpoint_class_2",
+        "parent_port": "hardpoint_gun_laser_bottom_left",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_gun_laser_bottom_right/hardpoint_class_2",
+        "parent_port": "hardpoint_gun_laser_bottom_right",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_gun_laser_top_left/hardpoint_class_2",
+        "parent_port": "hardpoint_gun_laser_top_left",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_gun_laser_top_right/hardpoint_class_2",
+        "parent_port": "hardpoint_gun_laser_top_right",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_turret_base_lower/hardpoint_weapon_left",
+        "parent_port": "hardpoint_turret_base_lower",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_turret_base_lower/hardpoint_weapon_right",
+        "parent_port": "hardpoint_turret_base_lower",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_turret_base_upper/hardpoint_weapon_left",
+        "parent_port": "hardpoint_turret_base_upper",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_turret_base_upper/hardpoint_weapon_right",
+        "parent_port": "hardpoint_turret_base_upper",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount"
+      }
+    ],
+    "components": [
+      {
+        "type": "Power Plant",
+        "name": "DayBreak",
+        "full": "DayBreak Civ/C S2 Power Plant",
+        "size": 2,
+        "grade": "C",
+        "class": "Civ",
+        "count": 2
+      },
+      {
+        "type": "Cooler",
+        "name": "Frost-Star EX",
+        "full": "Frost-Star EX Civ/C S2 Cooler",
+        "size": 2,
+        "grade": "C",
+        "class": "Civ",
+        "count": 2
+      },
+      {
+        "type": "Shield Generator",
+        "name": "5CA 'Akura'",
+        "full": "5CA 'Akura' Civ/C S3 Shield Generator",
+        "size": 3,
+        "grade": "C",
+        "class": "Civ",
+        "count": 1
+      },
+      {
+        "type": "Quantum Drive",
+        "name": "Bolon",
+        "full": "Bolon Ind/C S2 Quantum Drive",
+        "size": 2,
+        "grade": "C",
+        "class": "Ind",
+        "count": 1
+      }
+    ],
+    "cargo_scu": 0
+  },
+  {
+    "id": "RSI_Constellation_Aquila_GS",
+    "name": "RSI Constellation Aquila GS",
+    "source": "rec-auto",
+    "match": "auto-discovered",
+    "size": null,
+    "manufacturer": "Roberts Space Industries",
+    "hardpoints": [
+      {
+        "port": "hardpoint_gun_laser_bottom_left/hardpoint_class_2",
+        "parent_port": "hardpoint_gun_laser_bottom_left",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "M7A Cannon",
+        "default_weapon_guid": "b94c54b2-a70e-4f41-bc02-ed76be87e493",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_gun_laser_bottom_right/hardpoint_class_2",
+        "parent_port": "hardpoint_gun_laser_bottom_right",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "M7A Cannon",
+        "default_weapon_guid": "b94c54b2-a70e-4f41-bc02-ed76be87e493",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_gun_laser_top_left/hardpoint_class_2",
+        "parent_port": "hardpoint_gun_laser_top_left",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "M7A Cannon",
+        "default_weapon_guid": "b94c54b2-a70e-4f41-bc02-ed76be87e493",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_gun_laser_top_right/hardpoint_class_2",
+        "parent_port": "hardpoint_gun_laser_top_right",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "M7A Cannon",
+        "default_weapon_guid": "b94c54b2-a70e-4f41-bc02-ed76be87e493",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_turret_base_lower/hardpoint_weapon_left",
+        "parent_port": "hardpoint_turret_base_lower",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_turret_base_lower/hardpoint_weapon_right",
+        "parent_port": "hardpoint_turret_base_lower",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount"
+      }
+    ],
+    "components": [
+      {
+        "type": "Power Plant",
+        "name": "DayBreak",
+        "full": "DayBreak Civ/C S2 Power Plant",
+        "size": 2,
+        "grade": "C",
+        "class": "Civ",
+        "count": 2
+      },
+      {
+        "type": "Cooler",
+        "name": "Frost-Star EX",
+        "full": "Frost-Star EX Civ/C S2 Cooler",
+        "size": 2,
+        "grade": "C",
+        "class": "Civ",
+        "count": 2
+      },
+      {
+        "type": "Shield Generator",
+        "name": "5CA 'Akura'",
+        "full": "5CA 'Akura' Civ/C S3 Shield Generator",
+        "size": 3,
+        "grade": "C",
+        "class": "Civ",
+        "count": 1
+      },
+      {
+        "type": "Quantum Drive",
+        "name": "Bolon",
+        "full": "Bolon Ind/C S2 Quantum Drive",
+        "size": 2,
+        "grade": "C",
+        "class": "Ind",
+        "count": 1
+      }
+    ],
+    "cargo_scu": 0
+  },
+  {
+    "id": "RSI_Constellation_Mk5_Centaurus",
+    "name": "RSI Constellation Mk5 Centaurus",
+    "source": "rec-auto",
+    "match": "auto-discovered",
+    "size": null,
+    "manufacturer": "Roberts Space Industries",
+    "hardpoints": [
+      {
+        "port": "hardpoint_gun_s5_body_left/hardpoint_class_2",
+        "parent_port": "hardpoint_gun_s5_body_left",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_gun_s5_body_right/hardpoint_class_2",
+        "parent_port": "hardpoint_gun_s5_body_right",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_gun_s5_front_left/hardpoint_class_2",
+        "parent_port": "hardpoint_gun_s5_front_left",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_gun_s5_front_right/hardpoint_class_2",
+        "parent_port": "hardpoint_gun_s5_front_right",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_turret_lower/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_lower",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount-nested"
+      },
+      {
+        "port": "hardpoint_turret_lower/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_lower",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount-nested"
+      },
+      {
+        "port": "hardpoint_turret_lower/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_lower",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount-nested"
+      },
+      {
+        "port": "hardpoint_turret_lower/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_lower",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount-nested"
+      },
+      {
+        "port": "hardpoint_turret_upper/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_upper",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount-nested"
+      },
+      {
+        "port": "hardpoint_turret_upper/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_upper",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount-nested"
+      },
+      {
+        "port": "hardpoint_turret_upper/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_upper",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount-nested"
+      },
+      {
+        "port": "hardpoint_turret_upper/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_upper",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount-nested"
+      }
+    ],
+    "components": [
+      {
+        "type": "Power Plant",
+        "name": "Sedulity",
+        "full": "Sedulity Ind/B S2 Power Plant",
+        "size": 2,
+        "grade": "B",
+        "class": "Ind",
+        "count": 2
+      },
+      {
+        "type": "Cooler",
+        "name": "Snowfall",
+        "full": "Snowfall Ind/B S2 Cooler",
+        "size": 2,
+        "grade": "B",
+        "class": "Ind",
+        "count": 2
+      },
+      {
+        "type": "Shield Generator",
+        "name": "5CA 'Akura'",
+        "full": "5CA 'Akura' Civ/C S3 Shield Generator",
+        "size": 3,
+        "grade": "C",
+        "class": "Civ",
+        "count": 2
+      },
+      {
+        "type": "Quantum Drive",
+        "name": "Khaos",
+        "full": "Khaos Civ/C S2 Quantum Drive",
+        "size": 2,
+        "grade": "C",
+        "class": "Civ",
+        "count": 1
+      }
+    ],
+    "cargo_scu": 0
+  },
+  {
+    "id": "RSI_Constellation_Mk5_Centaurus_Display",
+    "name": "RSI Constellation Mk5 Centaurus Display",
+    "source": "rec-auto",
+    "match": "auto-discovered",
+    "size": null,
+    "manufacturer": "Roberts Space Industries",
+    "hardpoints": [
+      {
+        "port": "hardpoint_gun_s5_body_left/hardpoint_class_2",
+        "parent_port": "hardpoint_gun_s5_body_left",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_gun_s5_body_right/hardpoint_class_2",
+        "parent_port": "hardpoint_gun_s5_body_right",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_gun_s5_front_left/hardpoint_class_2",
+        "parent_port": "hardpoint_gun_s5_front_left",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_gun_s5_front_right/hardpoint_class_2",
+        "parent_port": "hardpoint_gun_s5_front_right",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_turret_lower/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_lower",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount-nested"
+      },
+      {
+        "port": "hardpoint_turret_lower/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_lower",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount-nested"
+      },
+      {
+        "port": "hardpoint_turret_lower/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_lower",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount-nested"
+      },
+      {
+        "port": "hardpoint_turret_lower/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_lower",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount-nested"
+      },
+      {
+        "port": "hardpoint_turret_upper/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_upper",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount-nested"
+      },
+      {
+        "port": "hardpoint_turret_upper/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_upper",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount-nested"
+      },
+      {
+        "port": "hardpoint_turret_upper/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_upper",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount-nested"
+      },
+      {
+        "port": "hardpoint_turret_upper/hardpoint_class_2",
+        "parent_port": "hardpoint_turret_upper",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount-nested"
+      }
+    ],
+    "components": [
+      {
+        "type": "Power Plant",
+        "name": "Sedulity",
+        "full": "Sedulity Ind/B S2 Power Plant",
+        "size": 2,
+        "grade": "B",
+        "class": "Ind",
+        "count": 2
+      },
+      {
+        "type": "Cooler",
+        "name": "Snowfall",
+        "full": "Snowfall Ind/B S2 Cooler",
+        "size": 2,
+        "grade": "B",
+        "class": "Ind",
+        "count": 2
+      },
+      {
+        "type": "Shield Generator",
+        "name": "5CA 'Akura'",
+        "full": "5CA 'Akura' Civ/C S3 Shield Generator",
+        "size": 3,
+        "grade": "C",
+        "class": "Civ",
+        "count": 2
+      },
+      {
+        "type": "Quantum Drive",
+        "name": "Khaos",
+        "full": "Khaos Civ/C S2 Quantum Drive",
+        "size": 2,
+        "grade": "C",
+        "class": "Civ",
+        "count": 1
+      }
+    ],
+    "cargo_scu": 0
+  },
+  {
+    "id": "RSI_Constellation_Phoenix_GS",
+    "name": "RSI Constellation Phoenix GS",
     "source": "rec-auto",
     "match": "auto-discovered",
     "size": null,
@@ -33669,7 +34519,7 @@
         "size_min": 3,
         "size_inferred": false,
         "default_weapon_name": "CF-337 Panther Repeater",
-        "default_weapon_guid": "klwe_laserrepeater_s3",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
         "source_detail": "mount"
       },
       {
@@ -33680,7 +34530,7 @@
         "size_min": 3,
         "size_inferred": false,
         "default_weapon_name": "CF-337 Panther Repeater",
-        "default_weapon_guid": "klwe_laserrepeater_s3",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
         "source_detail": "mount"
       },
       {
@@ -33691,7 +34541,7 @@
         "size_min": 3,
         "size_inferred": false,
         "default_weapon_name": "CF-337 Panther Repeater",
-        "default_weapon_guid": "klwe_laserrepeater_s3",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
         "source_detail": "mount"
       },
       {
@@ -33702,7 +34552,7 @@
         "size_min": 3,
         "size_inferred": false,
         "default_weapon_name": "CF-337 Panther Repeater",
-        "default_weapon_guid": "klwe_laserrepeater_s3",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
         "source_detail": "mount"
       },
       {
@@ -33758,8 +34608,8 @@
     "cargo_scu": 0
   },
   {
-    "id": "RSI_Constellation_Phoenix_Piano",
-    "name": "RSI Constellation Phoenix Piano",
+    "id": "RSI_Constellation_Phoenix_GS_TEMP",
+    "name": "RSI Constellation Phoenix GS TEMP",
     "source": "rec-auto",
     "match": "auto-discovered",
     "size": null,
@@ -33817,7 +34667,7 @@
         "size_min": 3,
         "size_inferred": false,
         "default_weapon_name": "CF-337 Panther Repeater",
-        "default_weapon_guid": "klwe_laserrepeater_s3",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
         "source_detail": "mount"
       },
       {
@@ -33828,7 +34678,7 @@
         "size_min": 3,
         "size_inferred": false,
         "default_weapon_name": "CF-337 Panther Repeater",
-        "default_weapon_guid": "klwe_laserrepeater_s3",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
         "source_detail": "mount"
       },
       {
@@ -33839,7 +34689,7 @@
         "size_min": 3,
         "size_inferred": false,
         "default_weapon_name": "CF-337 Panther Repeater",
-        "default_weapon_guid": "klwe_laserrepeater_s3",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
         "source_detail": "mount"
       },
       {
@@ -33850,7 +34700,7 @@
         "size_min": 3,
         "size_inferred": false,
         "default_weapon_name": "CF-337 Panther Repeater",
-        "default_weapon_guid": "klwe_laserrepeater_s3",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
         "source_detail": "mount"
       },
       {
@@ -33903,12 +34753,11 @@
         "count": 1
       }
     ],
-    "cargo_scu": 0,
-    "disabled": true
+    "cargo_scu": 0
   },
   {
-    "id": "RSI_Constellation_Taurus_Military",
-    "name": "RSI Constellation Taurus Military",
+    "id": "RSI_Constellation_Taurus_GS",
+    "name": "RSI Constellation Taurus GS",
     "source": "rec-auto",
     "match": "auto-discovered",
     "size": null,
@@ -33966,7 +34815,7 @@
         "size_min": 3,
         "size_inferred": false,
         "default_weapon_name": "CF-337 Panther Repeater",
-        "default_weapon_guid": "klwe_laserrepeater_s3",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
         "source_detail": "mount"
       },
       {
@@ -33977,7 +34826,7 @@
         "size_min": 3,
         "size_inferred": false,
         "default_weapon_name": "CF-337 Panther Repeater",
-        "default_weapon_guid": "klwe_laserrepeater_s3",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
         "source_detail": "mount"
       },
       {
@@ -33985,20 +34834,159 @@
         "parent_port": "hardpoint_turret_base_lower",
         "type": "gun",
         "size": 2,
-        "size_inferred": true,
+        "size_min": 2,
+        "size_inferred": false,
         "default_weapon_name": "SureGrip S2 Tractor Beam",
         "default_weapon_guid": "8c16ee3d-78fb-4fef-a369-b3d42952ec33",
-        "source_detail": "inline-fallback"
+        "source_detail": "mount"
       },
       {
         "port": "hardpoint_turret_base_lower/hardpoint_weapon_right",
         "parent_port": "hardpoint_turret_base_lower",
         "type": "gun",
-        "size": null,
+        "size": 2,
+        "size_min": 2,
         "size_inferred": false,
         "default_weapon_name": null,
         "default_weapon_guid": null,
-        "source_detail": "inline-fallback"
+        "source_detail": "mount"
+      }
+    ],
+    "components": [
+      {
+        "type": "Power Plant",
+        "name": "Diligence",
+        "full": "Diligence Ind/C S2 Power Plant",
+        "size": 2,
+        "grade": "C",
+        "class": "Ind",
+        "count": 2
+      },
+      {
+        "type": "Cooler",
+        "name": "CoolCore",
+        "full": "CoolCore Ind/C S2 Cooler",
+        "size": 2,
+        "grade": "C",
+        "class": "Ind",
+        "count": 2
+      },
+      {
+        "type": "Shield Generator",
+        "name": "Stronghold",
+        "full": "Stronghold Ind/C S3 Shield Generator",
+        "size": 3,
+        "grade": "C",
+        "class": "Ind",
+        "count": 1
+      },
+      {
+        "type": "Quantum Drive",
+        "name": "Bolon",
+        "full": "Bolon Ind/C S2 Quantum Drive",
+        "size": 2,
+        "grade": "C",
+        "class": "Ind",
+        "count": 1
+      }
+    ],
+    "cargo_scu": 6
+  },
+  {
+    "id": "RSI_Constellation_Taurus_GS_Military",
+    "name": "RSI Constellation Taurus GS Military",
+    "source": "rec-auto",
+    "match": "auto-discovered",
+    "size": null,
+    "manufacturer": "Roberts Space Industries",
+    "hardpoints": [
+      {
+        "port": "hardpoint_gun_laser_bottom_left/hardpoint_class_2",
+        "parent_port": "hardpoint_gun_laser_bottom_left",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_gun_laser_bottom_right/hardpoint_class_2",
+        "parent_port": "hardpoint_gun_laser_bottom_right",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_gun_laser_top_left/hardpoint_class_2",
+        "parent_port": "hardpoint_gun_laser_top_left",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_gun_laser_top_right/hardpoint_class_2",
+        "parent_port": "hardpoint_gun_laser_top_right",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_turret_base_upper/hardpoint_weapon_left",
+        "parent_port": "hardpoint_turret_base_upper",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_turret_base_upper/hardpoint_weapon_right",
+        "parent_port": "hardpoint_turret_base_upper",
+        "type": "gun",
+        "size": 3,
+        "size_min": 3,
+        "size_inferred": false,
+        "default_weapon_name": "CF-337 Panther Repeater",
+        "default_weapon_guid": "bd13235d-1261-4b71-b32f-aed1a8beb526",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_turret_base_lower/hardpoint_weapon_left",
+        "parent_port": "hardpoint_turret_base_lower",
+        "type": "gun",
+        "size": 2,
+        "size_min": 2,
+        "size_inferred": false,
+        "default_weapon_name": "SureGrip S2 Tractor Beam",
+        "default_weapon_guid": "8c16ee3d-78fb-4fef-a369-b3d42952ec33",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_turret_base_lower/hardpoint_weapon_right",
+        "parent_port": "hardpoint_turret_base_lower",
+        "type": "gun",
+        "size": 2,
+        "size_min": 2,
+        "size_inferred": false,
+        "default_weapon_name": null,
+        "default_weapon_guid": null,
+        "source_detail": "mount"
       }
     ],
     "components": [
@@ -34040,6 +35028,351 @@
       }
     ],
     "cargo_scu": 6
+  },
+  {
+    "id": "RSI_Galaxy",
+    "name": "RSI Galaxy",
+    "source": "rec-auto",
+    "match": "auto-discovered",
+    "size": null,
+    "manufacturer": "Roberts Space Industries",
+    "hardpoints": [
+      {
+        "port": "hardpoint_remote_turret_front/hardpoint_gimbal_left",
+        "parent_port": "hardpoint_remote_turret_front",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_remote_turret_front/hardpoint_gimbal_right",
+        "parent_port": "hardpoint_remote_turret_front",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_remote_turret_left/hardpoint_gimbal_left",
+        "parent_port": "hardpoint_remote_turret_left",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_remote_turret_left/hardpoint_gimbal_right",
+        "parent_port": "hardpoint_remote_turret_left",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_remote_turret_right/hardpoint_gimbal_left",
+        "parent_port": "hardpoint_remote_turret_right",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_remote_turret_right/hardpoint_gimbal_right",
+        "parent_port": "hardpoint_remote_turret_right",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      }
+    ],
+    "components": [
+      {
+        "type": "Power Plant",
+        "name": "NewDawn",
+        "full": "NewDawn Civ/C S3 Power Plant",
+        "size": 3,
+        "grade": "C",
+        "class": "Civ",
+        "count": 2
+      },
+      {
+        "type": "Cooler",
+        "name": "Frost-Star XL",
+        "full": "Frost-Star XL Civ/C S3 Cooler",
+        "size": 3,
+        "grade": "C",
+        "class": "Civ",
+        "count": 2
+      },
+      {
+        "type": "Shield Generator",
+        "name": "5CA 'Akura'",
+        "full": "5CA 'Akura' Civ/C S3 Shield Generator",
+        "size": 3,
+        "grade": "C",
+        "class": "Civ",
+        "count": 2
+      },
+      {
+        "type": "Quantum Drive",
+        "name": "Wanderer",
+        "full": "Wanderer Civ/C S3 Quantum Drive",
+        "size": 3,
+        "grade": "C",
+        "class": "Civ",
+        "count": 1
+      }
+    ],
+    "cargo_scu": 0
+  },
+  {
+    "id": "RSI_Galaxy_TEMP_Cargo",
+    "name": "RSI Galaxy TEMP Cargo",
+    "source": "rec-auto",
+    "match": "auto-discovered",
+    "size": null,
+    "manufacturer": "Roberts Space Industries",
+    "hardpoints": [
+      {
+        "port": "hardpoint_remote_turret_front/hardpoint_gimbal_left",
+        "parent_port": "hardpoint_remote_turret_front",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_remote_turret_front/hardpoint_gimbal_right",
+        "parent_port": "hardpoint_remote_turret_front",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_remote_turret_left/hardpoint_gimbal_left",
+        "parent_port": "hardpoint_remote_turret_left",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_remote_turret_left/hardpoint_gimbal_right",
+        "parent_port": "hardpoint_remote_turret_left",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_remote_turret_right/hardpoint_gimbal_left",
+        "parent_port": "hardpoint_remote_turret_right",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_remote_turret_right/hardpoint_gimbal_right",
+        "parent_port": "hardpoint_remote_turret_right",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      }
+    ],
+    "components": [
+      {
+        "type": "Power Plant",
+        "name": "NewDawn",
+        "full": "NewDawn Civ/C S3 Power Plant",
+        "size": 3,
+        "grade": "C",
+        "class": "Civ",
+        "count": 2
+      },
+      {
+        "type": "Cooler",
+        "name": "Frost-Star XL",
+        "full": "Frost-Star XL Civ/C S3 Cooler",
+        "size": 3,
+        "grade": "C",
+        "class": "Civ",
+        "count": 2
+      },
+      {
+        "type": "Shield Generator",
+        "name": "5CA 'Akura'",
+        "full": "5CA 'Akura' Civ/C S3 Shield Generator",
+        "size": 3,
+        "grade": "C",
+        "class": "Civ",
+        "count": 2
+      },
+      {
+        "type": "Quantum Drive",
+        "name": "Wanderer",
+        "full": "Wanderer Civ/C S3 Quantum Drive",
+        "size": 3,
+        "grade": "C",
+        "class": "Civ",
+        "count": 1
+      }
+    ],
+    "cargo_scu": 0
+  },
+  {
+    "id": "RSI_Galaxy_TEMP_Medical",
+    "name": "RSI Galaxy TEMP Medical",
+    "source": "rec-auto",
+    "match": "auto-discovered",
+    "size": null,
+    "manufacturer": "Roberts Space Industries",
+    "hardpoints": [
+      {
+        "port": "hardpoint_remote_turret_front/hardpoint_gimbal_left",
+        "parent_port": "hardpoint_remote_turret_front",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_remote_turret_front/hardpoint_gimbal_right",
+        "parent_port": "hardpoint_remote_turret_front",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_remote_turret_left/hardpoint_gimbal_left",
+        "parent_port": "hardpoint_remote_turret_left",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_remote_turret_left/hardpoint_gimbal_right",
+        "parent_port": "hardpoint_remote_turret_left",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_remote_turret_right/hardpoint_gimbal_left",
+        "parent_port": "hardpoint_remote_turret_right",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_remote_turret_right/hardpoint_gimbal_right",
+        "parent_port": "hardpoint_remote_turret_right",
+        "type": "gun",
+        "size": 5,
+        "size_min": 5,
+        "size_inferred": false,
+        "default_weapon_name": "CF-557 Galdereen Repeater",
+        "default_weapon_guid": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
+        "source_detail": "mount"
+      }
+    ],
+    "components": [
+      {
+        "type": "Power Plant",
+        "name": "NewDawn",
+        "full": "NewDawn Civ/C S3 Power Plant",
+        "size": 3,
+        "grade": "C",
+        "class": "Civ",
+        "count": 2
+      },
+      {
+        "type": "Cooler",
+        "name": "Frost-Star XL",
+        "full": "Frost-Star XL Civ/C S3 Cooler",
+        "size": 3,
+        "grade": "C",
+        "class": "Civ",
+        "count": 2
+      },
+      {
+        "type": "Shield Generator",
+        "name": "5CA 'Akura'",
+        "full": "5CA 'Akura' Civ/C S3 Shield Generator",
+        "size": 3,
+        "grade": "C",
+        "class": "Civ",
+        "count": 2
+      },
+      {
+        "type": "Quantum Drive",
+        "name": "Wanderer",
+        "full": "Wanderer Civ/C S3 Quantum Drive",
+        "size": 3,
+        "grade": "C",
+        "class": "Civ",
+        "count": 1
+      }
+    ],
+    "cargo_scu": 0
   },
   {
     "id": "RSI_Meteor_Collector_Military",
@@ -34637,8 +35970,8 @@
       },
       {
         "type": "Shield Generator",
-        "name": "Glacis",
-        "full": "Glacis S4 Shield Generator",
+        "name": "Deterrent",
+        "full": "Deterrent S4 Shield Generator",
         "size": 4,
         "grade": null,
         "class": null,
@@ -34882,6 +36215,152 @@
         "grade": "A",
         "class": "Sth",
         "count": 1
+      }
+    ],
+    "cargo_scu": 0
+  },
+  {
+    "id": "RSI_Skylark",
+    "name": "RSI Skylark",
+    "source": "rec-auto",
+    "match": "auto-discovered",
+    "size": null,
+    "manufacturer": "Roberts Space Industries",
+    "hardpoints": [
+      {
+        "port": "hardpoint_weapon_bottom/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_bottom",
+        "type": "gun",
+        "size": 2,
+        "size_min": 2,
+        "size_inferred": false,
+        "default_weapon_name": "CF-227 Badger Repeater",
+        "default_weapon_guid": "5453a817-dfd4-4143-aa11-840ca428540c",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_weapon_left/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_left",
+        "type": "gun",
+        "size": 2,
+        "size_min": 2,
+        "size_inferred": false,
+        "default_weapon_name": "CF-227 Badger Repeater",
+        "default_weapon_guid": "5453a817-dfd4-4143-aa11-840ca428540c",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_weapon_right/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_right",
+        "type": "gun",
+        "size": 2,
+        "size_min": 2,
+        "size_inferred": false,
+        "default_weapon_name": "CF-227 Badger Repeater",
+        "default_weapon_guid": "5453a817-dfd4-4143-aa11-840ca428540c",
+        "source_detail": "mount"
+      }
+    ],
+    "components": [
+      {
+        "type": "Power Plant",
+        "name": "PowerBolt",
+        "full": "PowerBolt Civ/C S1 Power Plant",
+        "size": 1,
+        "grade": "C",
+        "class": "Civ",
+        "count": 1
+      },
+      {
+        "type": "Cooler",
+        "name": "Frost-Star",
+        "full": "Frost-Star Civ/C S1 Cooler",
+        "size": 1,
+        "grade": "C",
+        "class": "Civ",
+        "count": 2
+      },
+      {
+        "type": "Shield Generator",
+        "name": "5SA 'Rhada'",
+        "full": "5SA 'Rhada' Civ/C S1 Shield Generator",
+        "size": 1,
+        "grade": "C",
+        "class": "Civ",
+        "count": 2
+      }
+    ],
+    "cargo_scu": 0
+  },
+  {
+    "id": "RSI_Skylark_Display",
+    "name": "RSI Skylark Display",
+    "source": "rec-auto",
+    "match": "auto-discovered",
+    "size": null,
+    "manufacturer": "Roberts Space Industries",
+    "hardpoints": [
+      {
+        "port": "hardpoint_weapon_bottom/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_bottom",
+        "type": "gun",
+        "size": 2,
+        "size_min": 2,
+        "size_inferred": false,
+        "default_weapon_name": "CF-227 Badger Repeater",
+        "default_weapon_guid": "5453a817-dfd4-4143-aa11-840ca428540c",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_weapon_left/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_left",
+        "type": "gun",
+        "size": 2,
+        "size_min": 2,
+        "size_inferred": false,
+        "default_weapon_name": "CF-227 Badger Repeater",
+        "default_weapon_guid": "5453a817-dfd4-4143-aa11-840ca428540c",
+        "source_detail": "mount"
+      },
+      {
+        "port": "hardpoint_weapon_right/hardpoint_class_2",
+        "parent_port": "hardpoint_weapon_right",
+        "type": "gun",
+        "size": 2,
+        "size_min": 2,
+        "size_inferred": false,
+        "default_weapon_name": "CF-227 Badger Repeater",
+        "default_weapon_guid": "5453a817-dfd4-4143-aa11-840ca428540c",
+        "source_detail": "mount"
+      }
+    ],
+    "components": [
+      {
+        "type": "Power Plant",
+        "name": "PowerBolt",
+        "full": "PowerBolt Civ/C S1 Power Plant",
+        "size": 1,
+        "grade": "C",
+        "class": "Civ",
+        "count": 1
+      },
+      {
+        "type": "Cooler",
+        "name": "Frost-Star",
+        "full": "Frost-Star Civ/C S1 Cooler",
+        "size": 1,
+        "grade": "C",
+        "class": "Civ",
+        "count": 2
+      },
+      {
+        "type": "Shield Generator",
+        "name": "5SA 'Rhada'",
+        "full": "5SA 'Rhada' Civ/C S1 Shield Generator",
+        "size": 1,
+        "grade": "C",
+        "class": "Civ",
+        "count": 2
       }
     ],
     "cargo_scu": 0
